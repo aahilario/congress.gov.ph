@@ -1,0 +1,104 @@
+/* CSS Document */
+.carousel {
+    /* background-image: url(images/white_wall_hash.png); */
+    padding: 5px;
+}
+
+.carousel a {
+    text-decoration: none;
+}
+
+.carousel img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.carousel p {
+    padding-right: 15px;
+}
+
+.photoCaption {
+    margin-top: 0px !important;
+    clear: both;
+}
+
+.photoCaption {
+    @media (min-width: 768px) { 
+        clear: both;
+    }
+}
+
+.photoCaption a {
+    font-size: 1.10em;
+    margin: .70em 0 .70em 0;
+    font-weight: 500;
+}
+
+.carousel-indicators {
+   bottom: -20px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: 0;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: #999;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    /* For IE8 and earlier */
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: darksalmon;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.hide-bullets {
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+
+
+

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>HRMS ONLINE REQUEST</title>
+  <!-- <link href="file:///C|/wamp/www/default.css" rel="stylesheet" type="text/css" /> -->
+  <style type="text/css">
+    .style1 {
+      font-size: 40px;
+      color: #006666;
+    }
+
+    input.check_box {
+      border: 2px;
+      width: 2.0em;
+      height: 2.0em;
+    }
+
+    input.check_box2 {
+      border: 2px dotted #00f;
+      width: 2em;
+      height: 2em;
+    }
+
+    input.radio {
+      width: 3em;
+      height: 3em;
+      color: #00f;
+      background-color: #ddd
+    }
+
+    .style2 {
+      font-size: 26px
+    }
+
+    .style4 {
+      font-size: 18px
+    }
+  </style>
+
+  <script language="JavaScript">
+    /* var counter = 0; */
+
+    function sendAway() {
+      document.index.code.focus();
+      /* document.myForm.counter.value = counter++; */
+    }
+  </script>
+</head>
+
+<body onLoad="sendAway()">
+
+
+  <form name="index" method="post" action="request_form3.php">
+    <!--<form name="index" method="post" action="request_form1.php">-->
+    <input type="hidden" name="action" value="">
+
+    <table border="1" cellspacing="2" cellpadding="5" width="95%" bgcolor="#6699FF">
+
+
+      <tr>
+        <!--<td width="95%" height="175" colspan=2 align='center'> <img src="images/logo.jpg" height="133" width="147" style="float:left; "/> <span class="style1">HRMS ONLINE REQUEST</span></td> -->
+        <td width="95%" height="175" colspan=2 align='center'> <input class="button1" type="image" src="images/logo.jpg" height="133" width="147" style="float:left;" name="submit" value="Submit_image"> <span class="style1">HRMS ONLINE REQUEST</span></td>
+      </tr>
+
+
+      <!-- <tr bgcolor="#6699FF">
+        <td width="95%" height="60" colspan=2 align='left'></td>
+      </tr> -->
+
+      <tr bgcolor="#CCCCCC">
+        <td width="25%" height="50">Employee ID No.</td>
+        <td width="75%">
+          <input class="textbox1" type="text" size=5 name="code" value="" autocomplete="off" />
+
+        </td>
+      </tr>
+      <tr>
+        <td width="25%" height="50" bgcolor="#CCCCCC">Birth Date</td>
+        <td width="75%" bgcolor="#CCCCCC">
+          <input class="textbox2" type="text" size=10 name="birth1" value="" autocomplete="off">&nbsp&nbsp&nbsp&nbsp&nbsp (mm-dd-yyyy)
+      </tr>
+
+      <tr bgcolor="#6699FF">
+        <td colspan="2" bgcolor="#999999">
+          <div align="center">
+            <input class="button1" type="submit" name="submit" value="Submit">
+            &nbsp;
+            <input class="button1" type="submit" name="submit" value="Cancel">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+
+</body>
+
+</html>
