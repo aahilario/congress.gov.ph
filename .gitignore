@@ -1,0 +1,5 @@
+lisdata.current
+lisdata.exclude
+lisdata.keep
+lisdata.pack.sh
+*.tmp
