@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta property="og:image" content="http://www.congress.gov.ph/images/seal.png" />
+  <meta property="og:description" content="House of Representatives Committee Schedule" />
+  <meta property="og:title" content="House of Representatives Committee Schedule" />
+  <meta property="og:url"content="http://www.congress.gov.ph/commsched/" />
+  <title>House of Representatives</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="../images/ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../images/ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../images/ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../images/ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../images/ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../images/ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../images/ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../images/ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../images/ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../images/ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/ico/favicon-16x16.png">
+<link rel="manifest" href="../images/ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- Bootstrap Core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Custom CSS -->
+<link href="../css/custom.css" rel="stylesheet">
+</head>
+<body>
+<!-- Back to Top -->
+<a href="#" class="back-to-top">Back to Top</a>
+<div class="container-fluid">
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar-sm navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
+      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
+			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
+            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
+			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#">SITE MAP</a></li> -->
+        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>    
+
+    <!-- Banner -->
+    <div class="jumbotron jumbotronTransp">
+        <!-- <div class="container text-left"> -->
+            <a href="../">
+            <h2><img src="../css/images/congress3rd.png" class="img-responsive" /></h2>
+            </a>
+        <!-- </div> -->
+    </div>
+        
+    <!-- Lower Navigation -->
+    <nav class="navbar navbar-default navbar-sm">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
+            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
+            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+          </ul>
+        </li>
+        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+	<!--
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/billdraftingcontest2018">Bill Drafting Contest 2018</a></li>
+            <li><a href="http://congress.gov.ph/events/docs/onehouseinternship2018.pdf" title="One House Internship Program 2018" target="_blank">One House Internship Program 2018</a></li>          </ul>
+        </li>
+	-->
+
+        <!--
+        <li><a href="#">CONTACT US</a></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Footer -->
+    <nav class="navbar navbar-default navbar-sm navbar-fixed-bottom navbar-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooterBar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myFooterBar">
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+            <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
+	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
+                    <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
+		    <li><a href="http://senate.gov.ph/" target="_blank" title="Philippine Senate">Senate of the Philippines</li>
+                    <!-- <li><a href="http://hreplib.congress.gov.ph" target="_blank" title="House of Representatives Legislative Library website">Legislative Library Online Catalog</a></li> -->
+                    <li><a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><abbr title="Priority Development Assistance Fund">PDAF</abbr>, <abbr title="Department of Budget and Management">DBM</abbr> Website</a></li>
+                    <!-- <li><a href="http://www.bsp.gov.ph/bspnotes/demonetization-0.asp" target="_blank" title="BSP Demonetization of the OLD BANKNOTE SERIES"><abbr title="Bangko Sentral ng Pilipinas">BSP</abbr> Old Bank Notes Demonetization</a></li> -->
+                    <li><a href="http://www.pagasa.dost.gov.ph/#maincontents" target="_blank" title="DOST PAGASA Weather Advisory"><abbr title="The Philippine Atmospheric, Geophysical and Astronomical Services Administration">PAGASA</abbr> Weather Advisory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://mail.congress.gov.ph" target="_blank">WEBMail</a></li>
+        </ul>
+    </div>
+  </div>
+</nav></div> 
+
+<!-- Page Content -->
+<a id="content"></a>
+<div class="container-fluid">
+    <div class="row section">
+        <div class="col-md-8">
+            <ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li></ol>            
+
+
+<h4>COMMITTEE MEETINGS</h4>
+<p class="text-warning">SOURCE: Committee Management Support Service I</p>
+<hr />
+<h4>WEEKLY SCHEDULE <a href="print_weekly.php?page=1" target="_blank" title="Print preview for this week's meetings" class="text-info"><img src="../images/print.png"></a></h4>
+<p class="text-warning">Unless otherwise indicated, all committee meeting venues are located at the House of Representatives Complex.</p>
+
+<form name='select_week' method='post' action='' class='form-inline pull-right' role='form'><div class='form-group input-group'><div class='input-group-addon input-sm'>Select Week</div><select name='page' class='form-control input-sm'><option value='1' SELECTED>221</option><option value='2'>220</option><option value='3'>219</option><option value='4'>218</option><option value='5'>217</option><option value='6'>216</option><option value='7'>215</option><option value='8'>214</option><option value='9'>213</option><option value='10'>212</option><option value='11'>211</option><option value='12'>210</option><option value='13'>209</option><option value='14'>208</option><option value='15'>207</option><option value='16'>206</option><option value='17'>205</option><option value='18'>204</option><option value='19'>203</option><option value='20'>202</option><option value='21'>201</option><option value='22'>200</option><option value='23'>199</option><option value='24'>198</option><option value='25'>197</option><option value='26'>196</option><option value='27'>195</option><option value='28'>194</option><option value='29'>193</option><option value='30'>192</option><option value='31'>191</option><option value='32'>190</option><option value='33'>189</option><option value='34'>188</option><option value='35'>187</option><option value='36'>186</option><option value='37'>185</option><option value='38'>184</option><option value='39'>183</option><option value='40'>182</option><option value='41'>181</option><option value='42'>180</option><option value='43'>179</option><option value='44'>178</option><option value='45'>177</option><option value='46'>176</option><option value='47'>175</option><option value='48'>174</option><option value='49'>173</option><option value='50'>172</option><option value='51'>171</option><option value='52'>170</option><option value='53'>169</option><option value='54'>168</option><option value='55'>167</option><option value='56'>166</option><option value='57'>165</option><option value='58'>164</option><option value='59'>163</option><option value='60'>162</option><option value='61'>161</option><option value='62'>160</option><option value='63'>159</option><option value='64'>158</option><option value='65'>157</option><option value='66'>156</option><option value='67'>155</option><option value='68'>154</option><option value='69'>153</option><option value='70'>152</option><option value='71'>151</option><option value='72'>150</option><option value='73'>149</option><option value='74'>148</option><option value='75'>147</option><option value='76'>146</option><option value='77'>145</option><option value='78'>144</option><option value='79'>143</option><option value='80'>142</option><option value='81'>141</option><option value='82'>140</option><option value='83'>139</option><option value='84'>138</option><option value='85'>137</option><option value='86'>136</option><option value='87'>135</option><option value='88'>134</option><option value='89'>133</option><option value='90'>132</option><option value='91'>131</option><option value='92'>130</option><option value='93'>129</option><option value='94'>128</option><option value='95'>127</option><option value='96'>126</option><option value='97'>125</option><option value='98'>124</option><option value='99'>123</option><option value='100'>122</option><option value='101'>121</option><option value='102'>120</option><option value='103'>119</option><option value='104'>118</option><option value='105'>117</option><option value='106'>116</option><option value='107'>115</option><option value='108'>114</option><option value='109'>113</option><option value='110'>112</option><option value='111'>111</option><option value='112'>110</option><option value='113'>109</option><option value='114'>108</option><option value='115'>107</option><option value='116'>106</option><option value='117'>105</option><option value='118'>104</option><option value='119'>103</option><option value='120'>102</option><option value='121'>101</option><option value='122'>100</option><option value='123'>99</option><option value='124'>98</option><option value='125'>97</option><option value='126'>96</option><option value='127'>95</option><option value='128'>94</option><option value='129'>93</option><option value='130'>92</option><option value='131'>91</option><option value='132'>90</option><option value='133'>89</option><option value='134'>88</option><option value='135'>87</option><option value='136'>86</option><option value='137'>85</option><option value='138'>84</option><option value='139'>83</option><option value='140'>82</option><option value='141'>81</option><option value='142'>80</option><option value='143'>79</option><option value='144'>78</option><option value='145'>77</option><option value='146'>76</option><option value='147'>75</option><option value='148'>74</option><option value='149'>73</option><option value='150'>72</option><option value='151'>71</option><option value='152'>70</option><option value='153'>69</option><option value='154'>68</option><option value='155'>67</option><option value='156'>66</option><option value='157'>65</option><option value='158'>64</option><option value='159'>63</option><option value='160'>62</option><option value='161'>61</option><option value='162'>60</option><option value='163'>59</option><option value='164'>58</option><option value='165'>57</option><option value='166'>56</option><option value='167'>55</option><option value='168'>54</option><option value='169'>53</option><option value='170'>52</option><option value='171'>51</option><option value='172'>50</option><option value='173'>49</option><option value='174'>48</option><option value='175'>47</option><option value='176'>46</option><option value='177'>45</option><option value='178'>44</option><option value='179'>43</option><option value='180'>42</option><option value='181'>41</option><option value='182'>40</option><option value='183'>39</option><option value='184'>38</option><option value='185'>37</option><option value='186'>36</option><option value='187'>35</option><option value='188'>34</option><option value='189'>33</option><option value='190'>32</option><option value='191'>31</option><option value='192'>30</option><option value='193'>29</option><option value='194'>28</option><option value='195'>27</option><option value='196'>26</option><option value='197'>25</option><option value='198'>24</option><option value='199'>23</option><option value='200'>22</option><option value='201'>21</option><option value='202'>20</option><option value='203'>19</option><option value='204'>18</option><option value='205'>17</option><option value='206'>16</option><option value='207'>15</option><option value='208'>14</option><option value='209'>13</option><option value='210'>12</option><option value='211'>11</option><option value='212'>10</option><option value='213'>9</option><option value='214'>8</option><option value='215'>7</option><option value='216'>6</option><option value='217'>5</option><option value='218'>4</option><option value='219'>3</option><option value='220'>2</option><option value='221'>1</option></select><span class='input-group-btn'><input class='btn btn-default input-sm' type='submit' value='Go' style='padding-top:4px; font-size: 12px;' /></span></div></form><div class='clearfix'>&nbsp;</div><br /><table class='table table-condensed table-bordered table-responsive'><tbody><tr class='info'><th colspan='3'>15-JUNE-2020 &bull; MONDAY</th></tr><tr class='bg-warning'><td colspan='2' width='60%'>Committee/Sub-Committee</td><td nowrap>Time and Venue</td></tr><tr><td colspan='2'>NORTH LUZON GROWTH QUADRANGLE<br /><a href='#11653' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>09:30 AM<br />Virtual Meeting via Zoom (To be livestreamed on the official Facebook page of the HRep)</td></tr><tr id='11653' class='collapse' style='border-top: none !important;'><td colspan='3'>Briefing by the Department of Health (DOH) on plans and programs implemented in North Luzon in response to COVID-19 and 2021 budget proposals for Regions I &amp; II and the Cordillera Administrative Region</td></tr><tr><td colspan='2'>LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY<br /><a href='#11657' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>01:00 PM<br />HRep Session Hall and Virtual Meeting via Zoom (To be livestreamed on the official Facebook pages of the HRep and of Speaker Alan Peter Cayetano)</td></tr><tr id='11657' class='collapse' style='border-top: none !important;'><td colspan='3'>HBs 6694 &amp; 6901 – Granting ABS-CBN Corporation (formerly ABS-CBN Broadcasting Corporation) a franchise to construct, install, operate and maintain radio and television broadcasting stations in the Philippines (Reps. Rufus Rodriguez and Ron Salo)<br />
+<br />
+HBs 676, 3521, 3713, 3947, 4305, 5608, 5705, 5753, 6052, 6138 &amp; 6293 – Renewing for another 25 years the franchise granted to ABS-CBN Corporation under RA 7966 (Rep. Micaela Violago, Deputy Speaker Rose Marie ‘Baby’ Arenas, Reps. Joy Myra Tambunting, Sol Aragones, Deputy Speakers Vilma Santos-Recto and Aurelio ‘Dong’ Gonzales Jr., Reps. Rufus Rodriguez, Josephine Ramirez-Sato, Carlos Isagani Zarate, Mark Go, and Deputy Speaker Loren Legarda)<br />
+<br />
+HR 639 – Urging the Committee on Legislative Franchises to report out without further delay for plenary action a consolidated version of eight pending bills proposing for the renewal for another 25 years of the legislative franchise of ABS-CBN Corporation (Rep. Edcel Lagman)<br />
+<br />
+HR 839 - Condemning the issuance by the National Telecommunications Commission (NTC) of a cease and desist order against ABS-CBN in wanton disregard of its commitment to both Houses of Congress to grant the broadcasting network a provisional authority to operate pending renewal of its franchise (Rep. Lawrence 'Law' Fortun)<br />
+<br />
+HR 846 – Calling on the appropriate House committees to investigate and file criminal cases as warranted against the Commissioners and officers of the NTC and the Solicitor General and such other officials and individuals for perjury and for violation of the Code of Conduct and Ethical Standards for Public Officials and Employees and the Anti-Graft and Corrupt Practices Act and other applicable laws (Rep. Michael Defensor)<br />
+<br />
+HR 853 – Inquiry into the probable violations of ABS-CBN Corporation of its legislative franchise under RA 7966 (Deputy Speaker Paolo Duterte)<br />
+<br />
+HR 863 - Urging the House of Representatives, through the Committee on Legislative Franchises, to admonish the NTC on its failure to comply with their commitment under oath and to conduct an inquiry, in aid of legislation, on the same and on possible measures to be taken on the matter (Rep. Edgar Mary Sarmiento)<br />
+<br />
+Show cause order issued by the Committee on Legislative Franchises to the NTC to explain why it should not be held in contempt<br />
+<br />
+Continuation of the interpellation by House Members:<br />
+<br />
+A. On the constitutional issues against ABS-CBN's franchise:<br />
+<br />
+• Whether or not the acquisition of ABS-CBN by the Lopez family after the EDSA Revolution was pursuant to the Constitution; and<br />
+<br />
+• Whether or not the ABS-CBN's application violates the 50-year constitutional limitation for a franchise<br />
+<br />
+B. On the alleged violations of RA 7966 or the ABS-CBN franchise using multiple channels in one franchise without NTC permit:<br />
+<br />
+• Whether or not ABS-CBN violated the terms of its franchise by offering its TV plus boxes for a one-time fee but using the free-to-air signal granted through its franchise and at no cost to it;<br />
+<br />
+• Whether or not ABS-CBN violated the terms of its franchise by offering Pay-per-View (PPV) in its TV plus boxes channels using the free-to-air signal granted through its franchise and at no cost to it;<br />
+<br />
+• Whether or not the bills filed for the ABS-CBN franchise application containing ‘multiple channels’ is an implicit admission of the violation of its previous franchise provision of  ‘one franchise, one channel’ provision</td></tr><tr class='info'><th colspan='3'>16-JUNE-2020 &bull; TUESDAY</th></tr><tr class='bg-warning'><td colspan='2' width='60%'>Committee/Sub-Committee</td><td nowrap>Time and Venue</td></tr><tr><td colspan='2'>METRO MANILA DEVELOPMENT<br /><a href='#11654' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>09:30 AM<br />HRep Conference Rooms 1&amp;2 and Virtual Meeting via Zoom</td></tr><tr id='11654' class='collapse' style='border-top: none !important;'><td colspan='3'>Assessment of the current public transport situation in Metro Manila</td></tr><tr><td colspan='2'>JOINT CONGRESSIONAL OVERSIGHT COMMITTEE ON UNIVERSAL HEALTH CARE (UHC)<br /><a href='#11655' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>01:00 PM<br />Virtual Meeting via Zoom (To be livestreamed on the official Facebook page of the HRep)</td></tr><tr id='11655' class='collapse' style='border-top: none !important;'><td colspan='3'>Organizational Meeting<br />
+<br />
+Report of the Department of Health (DOH) and Philippine Health Insurance Corporation (PhilHealth) on the implementation of RA 11223, otherwise known as the UHC Act <br />
+<br />
+• New premium contribution schedule under the UHC, particularly the increased premium rates for overseas Filipino workers (OFWs)<br />
+• Proposed solutions/actions to address issues and concerns relative to the implementation of the UHC</td></tr><tr class='info'><th colspan='3'>17-JUNE-2020 &bull; WEDNESDAY</th></tr><tr class='bg-warning'><td colspan='2' width='60%'>Committee/Sub-Committee</td><td nowrap>Time and Venue</td></tr><tr><td colspan='2'>AGRICULTURE AND FOOD<br /><a href='#11659' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>09:00 AM<br />Virtual Meeting via Zoom</td></tr><tr id='11659' class='collapse' style='border-top: none !important;'><td colspan='3'>HB 3393 - Promoting the production, processing, marketing, and distribution of Philippine mango, mandating the creation of a framework for development plan, providing funds therefor (Rep. Sharon Garin)</td></tr><tr><td colspan='2'>AGRICULTURE AND FOOD jt. w/ FOOD SECURITY<br /><a href='#11658' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>09:00 AM<br />Virtual Meeting via Zoom</td></tr><tr id='11658' class='collapse' style='border-top: none !important;'><td colspan='3'>Substitute Bill to HBs 284, 855, 2119, 3412, 4081 &amp; 5640 - Promoting integrated urban agriculture in urban areas nationwide to address food security and appropriating funds therefor (Reps. Estrellita Suansing, Michael Edgar Aglipay, Deputy Speaker Michael Romero Ph.D., Reps. Francisco &quot;Kiko&quot; Benitez, Christopher V.P. De Venecia, and Ruth Mariano-Hernandez)</td></tr><tr><td colspan='2'>HOUSING AND URBAN DEVELOPMENT<br /><a href='#11656' data-toggle='collapse' title='click to view Agenda' class='text-danger'><span class='glyphicon glyphicon-option-vertical'></span>Agenda</a></td><td>01:00 PM<br />Virtual Meeting via Zoom (To be livestreamed on the official Facebook page of the HRep)</td></tr><tr id='11656' class='collapse' style='border-top: none !important;'><td colspan='3'>Briefing by the Department of Human Settlements and Urban Development (DHSUD) on RA 11469, otherwise known as the Bayanihan to Heal as One Act and EO 114 or the law institutionalizing the Balik Probinsya, Bagong Pag-Asa Program</td></tr></tbody></table><hr /><p class='text-primary text-right'>Last Updated: 13-June-2020, 02:19:30 PM</p>            <div class="clearfix">&nbsp;</div>
+        </div>
+
+        <div class="col-md-4">
+            <a name="cal"></a>
+<div class="panel panel-info">
+    <div class="panel-heading"><a href="../commsched">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
+    <div class="panel-body" style="padding: 4px; margin-bottom: -30px;">
+        
+
+<SCRIPT LANGUAGE="JavaScript">    location.href='http://congress.gov.ph/content/'; </SCRIPT><table class="table table-responsive table-condensed" style="border-top: none;">
+<tr>
+<td align="center">
+<table class="table table-bordered table-responsive table-condensed">
+<tr align="center" class="info">
+<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="./?month=10&year=1887#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>NOVEMBER 1887<a href="./?month=12&year=1887#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
+</tr>
+<tr class="text-warning">
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>M</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>T</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>W</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>T</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>F</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
+</tr>
+<tr><td></td><td></td><td align='center' valign='middle' height='20px' >1</td><td align='center' valign='middle' height='20px' >2</td><td align='center' valign='middle' height='20px' >3</td><td align='center' valign='middle' height='20px' >4</td><td align='center' valign='middle' height='20px' >5</td></tr><tr><td align='center' valign='middle' height='20px' >6</td><td align='center' valign='middle' height='20px' >7</td><td align='center' valign='middle' height='20px' >8</td><td align='center' valign='middle' height='20px' >9</td><td align='center' valign='middle' height='20px' >10</td><td align='center' valign='middle' height='20px' >11</td><td align='center' valign='middle' height='20px' >12</td></tr><tr><td align='center' valign='middle' height='20px' >13</td><td align='center' valign='middle' height='20px' >14</td><td align='center' valign='middle' height='20px' >15</td><td align='center' valign='middle' height='20px' >16</td><td align='center' valign='middle' height='20px' >17</td><td align='center' valign='middle' height='20px' >18</td><td align='center' valign='middle' height='20px' >19</td></tr><tr><td align='center' valign='middle' height='20px' >20</td><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px' >22</td><td align='center' valign='middle' height='20px' >23</td><td align='center' valign='middle' height='20px' >24</td><td align='center' valign='middle' height='20px' >25</td><td align='center' valign='middle' height='20px' >26</td></tr><tr><td align='center' valign='middle' height='20px' >27</td><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px' >29</td><td align='center' valign='middle' height='20px' >30</td></table>
+</td>
+</tr>
+</table>    </div>
+    <div class="clearfix">&nbsp;</div>
+</div><ul class="list-group">
+  <li class="list-group-item list-group-item-info">RELATED LINKS</li>
+  <a href="../members" class="list-group-item">House Members</a>
+  <a href="../committees" class="list-group-item">House Committees</a>
+  <a href="../committees/?v=reports" class="list-group-item">Committee Reports</a>
+  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
+  <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
+  <a href="../legisdocs/?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
+  <a href="../legisdocs/?v=ra" class="list-group-item">Republic Acts</a>
+  <a href="../legisdocs/?v=journals" class="list-group-item">House Journals</a>
+  <a href="../legisdocs/?v=cr" class="list-group-item">Congressional Record</a>
+  <a href="../legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="../legisdocs/?v=sb" class="list-group-item">Session Bulletin</a>
+  <a href="../legisdocs/?v=ob" class="list-group-item">Order of Business</a>
+  <li class="list-group-item list-group-item-info">MEDIA</li>
+  <a href="../press" class="list-group-item">Press Releases</a>
+  <a href="../photojournal" class="list-group-item">Photo Journals</a>
+  <a href="../streaming" class="list-group-item">Video Streaming</a>
+</ul>        </div>
+    </div>
+</div>
+<div class="clearfix">&nbsp;</div>    
+<!-- Session Calendar Modal -->
+<!-- Modal -->
+<div id="sessionCalendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGISLATIVE CALENDAR<br /><small class="text-warning">EIGHTEENTH CONGRESS, FIRST REGULAR SESSON</small></h4>
+      </div>
+      <div class="modal-body">
+        <p>Adopted from House Concurrent Resolution No. 3</p>
+        <p>Introduced by Rep. Ferdinand Martin G. Romualdez and Rep. Bienvenido M. Abante, Jr.</p>
+        <p><strong>CONCURRENT RESOLUTION PROVIDING FOR THE LEGISLATIVE CALENDAR FOR THE FIRST REGULAR SESSION OF THE
+            EIGHTEENTH CONGRESS OF THE PHILIPPINES</strong>.</p>
+        <p>RESOLVED BY THE HOUSE OF REPRESENTATIVES, THE SENATE CONCURRING, That the Legislative Calendar for the
+          First Regular Session of the Eighteenth Congress of the Philippines shall be as follows:</p>
+
+        <div class="clearfix">&nbsp;</div>
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+              <td width="1">1.</td>
+              <td>Commencement of Session</td>
+              <td>July 22, 2019 - October 4, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">2.</td>
+              <td>Adjournment of Session</td>
+              <td>October 5, 2019 - November 3, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">3.</td>
+              <td>Resumption of Session</td>
+              <td>November 4, 2019 - December 20, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">4.</td>
+              <td>Adjournment of Session</td>
+              <td>December 21, 2019 - January 19, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">5.</td>
+              <td>Resumption of Session</td>
+              <td>January 20, 2020 - March 13, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">6.</td>
+              <td>Adjournment of Session</td>
+              <td>March 14, 2020 - May 3, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">7.</td>
+              <td>Resumption of Session</td>
+              <td>May 4, 2020 - June 5, 2020</td>
+            </tr>
+            <tr align="center">
+              <td style="font-style:italic" colspan="3">(sine die adjournment)</td>
+            </tr>
+            <tr>
+              <td width="1">8.</td>
+              <td>Adjournment of Session</td>
+              <td>June 6, 2020 - July 26, 2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>    
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script type="text/javascript">
+        // create the back to top button
+        $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+        var amountScrolled = 50;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > amountScrolled) {
+                $('a.back-to-top').fadeIn('slow');
+            } else {
+                $('a.back-to-top').fadeOut('slow');
+            }
+        });
+
+        $('a.back-to-top, a.simple-back-to-top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    </script>
+</body>
+</html>
