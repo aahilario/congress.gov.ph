@@ -43,7 +43,7 @@
 
 <body>
 	<!-- Back to Top -->
-	<a href="#" class="back-to-top">Back to Top</a>
+	<a href="search.php?id=bernos-j&amp;pg=billsco#" class="back-to-top">Back to Top</a>
 	<div class="container-fluid">
 		<!-- Top Navigation -->
 		<nav class="navbar navbar-default navbar-sm navbar-top">
@@ -51,47 +51,47 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
-      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+      <a class="navbar-brand visible-xs-block" href="../index.html">House of Representatives</a></div>
     <div class="collapse navbar-collapse" id="myNavbar1">
       <ul class="nav navbar-nav">
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li><a href="../members">ALL Representatives</a></li>
+            <li><a href="../members?v=district">District Representatives</a></li>
+            <li><a href="../members?v=region">House Members by Region</a></li>
+            <li><a href="../members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
-            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <li><a href="../leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="../profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
-			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+			<li><a href="../roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#">COMMITTEES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
-            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li><a href="../committees/index.html?v=standing">Standing Committees</a></li>
+            <li><a href="../committees/index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+            <li><a href="../commsched">Committee Meetings</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li><a href="../legisdocs/index.html?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="../legisdocs/index.html?v=ra">Republic Acts</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
-			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+            <li><a href="../legisdocs/index.html?v=journals">House Journals</a></li>
+            <li><a href="../legisdocs/index.html?v=cr">Congressional Record</a></li>
+            <li><a href="../legisdocs/index.html?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="../legisdocs/index.html?v=sb">Session Bulletin</a></li>
+            <li><a href="../legisdocs/index.html?v=ob">Order of Business</a></li>
+			<li><a href="../committees/index.html?v=reports">Committee Reports</a></li>
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="../legis.1" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="../search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -103,7 +103,7 @@
 		<!-- Banner -->
 		<div class="jumbotron jumbotronTransp">
 			<!-- <div class="container text-left"> -->
-			<a href="../">
+			<a href="../index.html">
 				<h2><img src="../css/images/congress.png" class="img-responsive" /></h2>
 			</a>
 			<!-- </div> -->
@@ -117,37 +117,37 @@
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
     <div class="collapse navbar-collapse" id="myNavbar2">
       <ul class="nav navbar-nav">
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#">ABOUT US <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li><a href="../about/index.html?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="../about/index.html?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="../about/index.html?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="../about/index.html?about=mission" title="Mission and Vision">Mission Statement</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+            <li><a href="../about/index.html?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="../about/index.html?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="../about/index.html?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="../about/index.html?about=offices">House Secretariat</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li><a href="../download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="search.php?id=bernos-j&amp;pg=billsco#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="../legisinfo/index.html?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+            <li><a href="../legisinfo/index.html?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="../legisinfo/index.html?v=researchers" title="Information for Researchers">For Researchers</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=bernos-j&amp;pg=billsco#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
-            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
-            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+            <li><a href="../photojournal">Photo Journals</a></li>
+            <li><a href="../press">Press Releases</a></li>
+            <li><a href="../streaming">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+        <li><a href="../download.1">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -174,11 +174,11 @@
             <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
         </ul>
         <ul class="nav navbar-nav navbar-right">
-		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+		<li><a href="../sitemap">SITE MAP</a></li>
             <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
-	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+	    <li><a href="../bids">INVITATION TO BID</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <a href="search.php?id=bernos-j&amp;pg=billsco#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
                     <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
@@ -198,10 +198,10 @@
 	<!-- Page Content -->
 	<a id="content"></a>
 	<div class="container-fluid">
-		<img src="../css/images/ajax-loader.gif" id="loading-indicator" style="display:none" />
+		<img src="http://congress.gov.ph/css/images/ajax-loader.gif" id="loading-indicator" style="display:none" />
 		<div class="row section">
 			<div class="col-md-8">
-				<ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/members">House Members</a></li></ol>				<!-- <img src="../images/email_hor.gif" width="16" height="16" border="0" alt="Send email" style="float:left;" />&nbsp;<a href="#" onClick="pop_Window('../contact/popform.php?re=sendemail&to=member&id=I098')" title="contact form opens in a new window" class="sm_link_bill">Send email</a>&nbsp;  -->
+				<ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../members">House Members</a></li></ol>				<!-- <img src="../images/email_hor.gif" width="16" height="16" border="0" alt="Send email" style="float:left;" />&nbsp;<a href="#" onClick="pop_Window('../contact/popform.php?re=sendemail&to=member&id=I098')" title="contact form opens in a new window" class="sm_link_bill">Send email</a>&nbsp;  -->
 <h4>HOUSE MEMBERS</h4>
 <hr />
 <img src='images/18th/bernos-j.jpg' alt='Hon. Bernos, Joseph Sto. Niño B.' title='Hon. Bernos, Joseph Sto. Niño B.' class='img-thumbnail img-responsive pull-left img-margin' width='145px' height='100px' /><p class="text-warning pull-right">
@@ -231,13 +231,13 @@
 </ul> -->
 <ul class="nav nav-tabs">
 	<li >
-		<a href="search.php?id=bernos-j&pg=billsmain#tab">PRINCIPAL AUTHORED BILLS</a>
+		<a href="search.php?id=bernos-j&amp;pg=billsmain#tab">PRINCIPAL AUTHORED BILLS</a>
 	</li>
 	<li class="active">
-		<a href="search.php?id=bernos-j&pg=billsco#tab">CO-AUTHORED BILLS</a>
+		<a href="search.php?id=bernos-j&amp;pg=billsco#tab">CO-AUTHORED BILLS</a>
 	</li>
 	<li >
-		<a href="search.php?id=bernos-j&pg=commem#tab">COMMITTEE MEMBERSHIP</a>
+		<a href="search.php?id=bernos-j&amp;pg=commem#tab">COMMITTEE MEMBERSHIP</a>
 	</li>
 
 
@@ -246,10 +246,10 @@
 <div class="clearfix">&nbsp;</div>
   <h4>HOUSE MEASURES CO-AUTHORED <small class="badge bg-badge-info">6</small></h4>
   <div class="panel panel-default">
-    <div class='panel-heading'><span class='text-muted text-muted-size'>HB00047</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00047'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00047.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT POSTPONING THE MAY 2020 BARANGAY AND SANGGUNIANG KABATAAN ELECTIONS, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9164, AS AMENDED, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0537" class="font-weight-normal">SUFFRAGE AND ELECTORAL REFORMS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB04933</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11462 enacted on 2019-12-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB04816</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB04816'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB04816.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-09-25</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REGULATING THE TRADE OF ELECTRONIC NICOTINE AND NON-NICOTINE DELIVERY SYSTEMS (ENDS/ENNDS) AND HEATED TOBACCO PRODUCTS (HTPs), PARTICULARLY, THE MANUFACTURING, USE, SALE, PACKAGING, DISTRIBUTION, AND COMMUNICATIONS THEREOF AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-09-30</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0539" class="font-weight-normal">TRADE AND INDUSTRY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on TRADE AND INDUSTRY since 2019-09-30</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06623</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06623'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06623.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-04-27</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES AND REGULATIONS FOR THE NEW NORMAL
+    <div class='panel-heading'><span class='text-muted text-muted-size'>HB00047</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HB00047'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00047.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT POSTPONING THE MAY 2020 BARANGAY AND SANGGUNIANG KABATAAN ELECTIONS, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9164, AS AMENDED, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0537" class="font-weight-normal">SUFFRAGE AND ELECTORAL REFORMS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB04933</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11462 enacted on 2019-12-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB04816</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HB04816'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB04816.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-09-25</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REGULATING THE TRADE OF ELECTRONIC NICOTINE AND NON-NICOTINE DELIVERY SYSTEMS (ENDS/ENNDS) AND HEATED TOBACCO PRODUCTS (HTPs), PARTICULARLY, THE MANUFACTURING, USE, SALE, PACKAGING, DISTRIBUTION, AND COMMUNICATIONS THEREOF AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-09-30</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0539" class="font-weight-normal">TRADE AND INDUSTRY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on TRADE AND INDUSTRY since 2019-09-30</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06623</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HB06623'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06623.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-04-27</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES AND REGULATIONS FOR THE NEW NORMAL
 FOR THE WORKPLACE AND PUBLIC SPACES AND INSTITUTING PENALTIES
 FOR VIOLATIONS THEREOF 
-</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-04</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06864</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06709</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06709'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06709.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A COVID-19 UNEMPLOYMENT REDUCTION ECONOMIC STIMULUS (CURES) FUND AND INSTITUTING MECHANISMS FOR THE IMPLEMENTATION THEREOF AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06920</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved by the House on 2020-06-05, transmitted to the Senate on 2020-06-08 and received by the Senate on 2020-06-08</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06864</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06864'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/first_18/CR00332.pdf" target="_blank" class="mr-1">[Committee Report]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES, REGULATIONS, AND PUBLIC HEALTH SAFEGUARDS FOR THE BETTER NORMAL IN THE WORKPLACE, PUBLIC PLACES AND COMMUNITIES TOWARD A SUSTAINABLE RECOVERY FROM COVID-19 PANDEMIC</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0532" class="font-weight-normal">RULES</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2020-06-04</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00102</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00102'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00102.pdf" target="_blank" class="mr-1">[Text As Filed]</a><a href="../legisdocs/second_18/HR00102.pdf" target="_blank" class="mr-1">[Adapted Resolution/RBH]</a><span class='text-warning'>Journal #3</span></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">A RESOLUTION CONGRATULATING AND COMMENDING SENATOR EMMANUEL "MANNY" PACQUIAO FOR SUCCESSFULLY GAINING THE WORLD BOXING ASSOCIATION (WBA) WELTERWEIGHT CHAMPIONSHIP TITLE, TRIUMPHING OVER KEITH "ONE TIME" THURMAN ON JULY 21, 2019 AT THE MGM GRAND GARDEN ARENA IN LAS VEGAS, NEVADA</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=" class="font-weight-normal"></a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Adopted as Resolution No. HR00003 on 2019-07-24</span></p></div>  </div>
+</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-04</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06864</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06709</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HB06709'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06709.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A COVID-19 UNEMPLOYMENT REDUCTION ECONOMIC STIMULUS (CURES) FUND AND INSTITUTING MECHANISMS FOR THE IMPLEMENTATION THEREOF AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06920</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved by the House on 2020-06-05, transmitted to the Senate on 2020-06-08 and received by the Senate on 2020-06-08</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06864</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HB06864'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/first_18/CR00332.pdf" target="_blank" class="mr-1">[Committee Report]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES, REGULATIONS, AND PUBLIC HEALTH SAFEGUARDS FOR THE BETTER NORMAL IN THE WORKPLACE, PUBLIC PLACES AND COMMUNITIES TOWARD A SUSTAINABLE RECOVERY FROM COVID-19 PANDEMIC</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0532" class="font-weight-normal">RULES</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2020-06-04</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00102</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='search.php?id=bernos-j&amp;pg=billsco#HistoryModal' data-toggle='modal' data-id='#HR00102'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00102.pdf" target="_blank" class="mr-1">[Text As Filed]</a><a href="../legisdocs/second_18/HR00102.pdf" target="_blank" class="mr-1">[Adapted Resolution/RBH]</a><span class='text-warning'>Journal #3</span></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">A RESOLUTION CONGRATULATING AND COMMENDING SENATOR EMMANUEL "MANNY" PACQUIAO FOR SUCCESSFULLY GAINING THE WORLD BOXING ASSOCIATION (WBA) WELTERWEIGHT CHAMPIONSHIP TITLE, TRIUMPHING OVER KEITH "ONE TIME" THURMAN ON JULY 21, 2019 AT THE MGM GRAND GARDEN ARENA IN LAS VEGAS, NEVADA</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=" class="font-weight-normal"></a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Adopted as Resolution No. HR00003 on 2019-07-24</span></p></div>  </div>
 
 <!-- Modal Bill History -->
 <div class="modal fade" id="HistoryModal" role="dialog">
@@ -300,19 +300,19 @@ FOR VIOLATIONS THEREOF
 </ul><ul class="list-group">
   <li class="list-group-item list-group-item-info">RELATED LINKS</li>
   <a href="../members" class="list-group-item">House Members</a>
-  <a href="../committees" class="list-group-item">House Committees</a>
-  <a href="../committees/?v=reports" class="list-group-item">Committee Reports</a>
+  <a href="../committees.1" class="list-group-item">House Committees</a>
+  <a href="../committees/index.html?v=reports" class="list-group-item">Committee Reports</a>
   <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
   <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
   <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
   <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
-  <a href="../legisdocs/?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
-  <a href="../legisdocs/?v=ra" class="list-group-item">Republic Acts</a>
-  <a href="../legisdocs/?v=journals" class="list-group-item">House Journals</a>
-  <a href="../legisdocs/?v=cr" class="list-group-item">Congressional Record</a>
-  <a href="../legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
-  <a href="../legisdocs/?v=sb" class="list-group-item">Session Bulletin</a>
-  <a href="../legisdocs/?v=ob" class="list-group-item">Order of Business</a>
+  <a href="../legisdocs/index.html?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
+  <a href="../legisdocs/index.html?v=ra" class="list-group-item">Republic Acts</a>
+  <a href="../legisdocs/index.html?v=journals" class="list-group-item">House Journals</a>
+  <a href="../legisdocs/index.html?v=cr" class="list-group-item">Congressional Record</a>
+  <a href="../legisdocs/index.html?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="../legisdocs/index.html?v=sb" class="list-group-item">Session Bulletin</a>
+  <a href="../legisdocs/index.html?v=ob" class="list-group-item">Order of Business</a>
   <li class="list-group-item list-group-item-info">MEDIA</li>
   <a href="../press" class="list-group-item">Press Releases</a>
   <a href="../photojournal" class="list-group-item">Photo Journals</a>
@@ -419,7 +419,7 @@ FOR VIOLATIONS THEREOF
 	</script>
 	<script type="text/javascript">
 		// create the back to top button
-		$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+		$('body').prepend('<a href="search.php?id=bernos-j&amp;pg=billsco#" class="back-to-top">Back to Top</a>');
 
 		var amountScrolled = 50;
 
