@@ -37,7 +37,11 @@ case "$1" in
         git gc
         echo "Garbage collection done."
       else
-        read -t 5 -p "Enter 'U' to unpack additional .tar.xz files" NONCE
+        if [ -z $UNTARXZ ]; then
+          read -t 5 -p "Enter 'U' to unpack additional .tar.xz files" NONCE
+        else
+          NONCE="U"
+        fi
         if [ "$NONCE" == "U" ]; then
           $0 untarxz
         fi
