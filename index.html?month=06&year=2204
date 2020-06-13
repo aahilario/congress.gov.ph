@@ -49,7 +49,7 @@
 
 <body>
   <!-- Back to Top -->
-  <a href="#" class="back-to-top">Back to Top</a>
+  <a href="index.html?month=06&amp;year=2204#" class="back-to-top">Back to Top</a>
   <div class="container-fluid">
     <!-- Top Navigation -->
     <nav class="navbar navbar-default navbar-sm navbar-top">
@@ -57,47 +57,47 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
-      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+      <a class="navbar-brand visible-xs-block" href="index.html">House of Representatives</a></div>
     <div class="collapse navbar-collapse" id="myNavbar1">
       <ul class="nav navbar-nav">
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li><a href="members">ALL Representatives</a></li>
+            <li><a href="members?v=district">District Representatives</a></li>
+            <li><a href="members?v=region">House Members by Region</a></li>
+            <li><a href="members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
-            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <li><a href="leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
-			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+			<li><a href="roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#">COMMITTEES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
-            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li><a href="committees/index.html?v=standing">Standing Committees</a></li>
+            <li><a href="committees/index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+            <li><a href="commsched">Committee Meetings</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li><a href="legisdocs/index.html?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="legisdocs/index.html?v=ra">Republic Acts</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
-			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+            <li><a href="legisdocs/index.html?v=journals">House Journals</a></li>
+            <li><a href="legisdocs/index.html?v=cr">Congressional Record</a></li>
+            <li><a href="legisdocs/index.html?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="legisdocs/index.html?v=sb">Session Bulletin</a></li>
+            <li><a href="legisdocs/index.html?v=ob">Order of Business</a></li>
+			<li><a href="committees/index.html?v=reports">Committee Reports</a></li>
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="legis.1" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -108,7 +108,7 @@
 </nav>    <!-- Banner -->
     <div class="jumbotron jumbotronTransp">
       <!-- <div class="container text-left"> -->
-      <a href="./">
+      <a href="index.html">
         <h2><img src="css/images/congress.png" class="img-responsive" /></h2>
       </a>
       <!-- </div> -->
@@ -121,37 +121,37 @@
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
     <div class="collapse navbar-collapse" id="myNavbar2">
       <ul class="nav navbar-nav">
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#">ABOUT US <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li><a href="about/index.html?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="about/index.html?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="about/index.html?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="about/index.html?about=mission" title="Mission and Vision">Mission Statement</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+            <li><a href="about/index.html?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="about/index.html?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="about/index.html?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="about/index.html?about=offices">House Secretariat</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li><a href="download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="index.html?month=06&amp;year=2204#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="legisinfo/index.html?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+            <li><a href="legisinfo/index.html?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="legisinfo/index.html?v=researchers" title="Information for Researchers">For Researchers</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=06&amp;year=2204#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
-            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
-            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+            <li><a href="photojournal">Photo Journals</a></li>
+            <li><a href="press">Press Releases</a></li>
+            <li><a href="streaming">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+        <li><a href="download.1">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -178,11 +178,11 @@
             <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
         </ul>
         <ul class="nav navbar-nav navbar-right">
-		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+		<li><a href="sitemap">SITE MAP</a></li>
             <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
-	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+	    <li><a href="bids">INVITATION TO BID</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <a href="index.html?month=06&amp;year=2204#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
                     <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
@@ -204,9 +204,9 @@
       
       <div class="col-md-4" id="slider-thumbs">
         <div class="panel panel-info">
-	<div class="panel-heading"><a href="search/">SITE SEARCH</a> &raquo;</div>
+	<div class="panel-heading"><a href="search">SITE SEARCH</a> &raquo;</div>
 	<div class="panel-body" style="padding: 8px !important;">
-		<form method="post" action="http://congress.gov.ph/search/" role="form">
+		<form method="post" action="search" role="form">
 			<div class="input-group">
 				<span class="input-group-btn">
 					<button class="btn btn-default input-sm" type="submit" style="padding: 3px 8px 4px 12px;"><span class="glyphicon glyphicon-search"></span></button>
@@ -219,7 +219,7 @@
 
 
 <div class="panel panel-info">
-  <div class="panel-heading"><a href="photojournal/">PHOTO JOURNALS</a> &raquo;</div>
+  <div class="panel-heading"><a href="photojournal">PHOTO JOURNALS</a> &raquo;</div>
   <div class="panel-body">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
       <!-- Indicators -->
@@ -243,20 +243,20 @@
 <!-- THUMBNAILS -->
 <!-- <ul class="hide-bullets">
     </ul> --><div class="panel panel-info">
-    <div class="panel-heading text-cener"><a href="legis/">LEGISLATIVE INFORMATION SYSTEM</a></div>
+    <div class="panel-heading text-cener"><a href="legis.1">LEGISLATIVE INFORMATION SYSTEM</a></div>
     <div class="panel-body">
-        <p>The <abbr title="Legislative Information System"><a href="legis/">LEGIS</a></abbr> is a search-based system that allows access, retrieve, or save structured bills information and status as well as download full texts of Bills, and Resolutions, its Authorship, Committee Referrals, and Nature of Bills from the 8th Congress to the present 18th Congress.</p>
+        <p>The <abbr title="Legislative Information System"><a href="legis.1">LEGIS</a></abbr> is a search-based system that allows access, retrieve, or save structured bills information and status as well as download full texts of Bills, and Resolutions, its Authorship, Committee Referrals, and Nature of Bills from the 8th Congress to the present 18th Congress.</p>
     </div>
 </div>      </div>
       <div class="col-md-4">
         
 
 <ul class="list-group">
-    <a href="press/" class="list-group-item list-group-item-info">PRESS RELEASES &raquo;</a>
+    <a href="press" class="list-group-item list-group-item-info">PRESS RELEASES &raquo;</a>
     <a href='press/details.php?pressid=11894' class='list-group-item'><span class='text-primary'>Proposed &quot;CURES Act of 2020&quot; approved</span><br /><span class='list-group-item-text text-warning'>27-May-2020, 10:37:06 AM</span></a><a href='press/details.php?pressid=11893' class='list-group-item'><span class='text-primary'>DCC approves PESA, FIST and &quot;Anti-COVID-19 Related Anti-Discrimination&quot; Bills</span><br /><span class='list-group-item-text text-warning'>27-May-2020, 10:35:53 AM</span></a><a href='press/details.php?pressid=11892' class='list-group-item'><span class='text-primary'>House acts on precarious conditions of stranded OFWs in COVID-19 quarantine facilities</span><br /><span class='list-group-item-text text-warning'>24-May-2020, 07:18:31 PM</span></a><a href='press/details.php?pressid=11891' class='list-group-item'><span class='text-primary'>P5B funding for assistance programs of OFWs affected by COVID-19 pandemic approved</span><br /><span class='list-group-item-text text-warning'>23-May-2020, 07:11:39 AM</span></a></ul>
 <a name="cal"></a>
 <div class="panel panel-info">
-    <div class="panel-heading text-center"><a href="commsched/">COMMITTEE MEETINGS</a></div>
+    <div class="panel-heading text-center"><a href="commsched">COMMITTEE MEETINGS</a></div>
     <div class="panel-body" style="padding: 4px; margin-bottom: -30px;">
         
 
@@ -265,7 +265,7 @@
 <td align="center">
 <table class="table table-bordered table-responsive table-condensed">
 <tr align="center" class="info">
-<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="./?month=05&year=2204#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>JUNE 2204<a href="./?month=07&year=2204#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
+<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="index.html?month=05&amp;year=2204#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>JUNE 2204<a href="index.html?month=07&amp;year=2204#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
 </tr>
 <tr class="text-warning">
 <td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
@@ -282,16 +282,16 @@
 </table>    </div>
     <div class="clearfix">&nbsp;</div>
 </div><ul class="list-group">
-    <a href="streaming/" class="list-group-item list-group-item-info">SITE STREAMING &raquo;</a>
+    <a href="streaming" class="list-group-item list-group-item-info">SITE STREAMING &raquo;</a>
     
 
-    <a href="streaming/?id=521" class="list-group-item"><span class="text-primary">Plenary Session</span><br />
+    <a href="streaming/index.html?id=521" class="list-group-item"><span class="text-primary">Plenary Session</span><br />
     <!-- <span class="list-group-item-text text-warning">Live webcast of today's session at the House of Representatives plenary hall.</span></a> -->
     <span class="list-group-item-text">18th CONGRESS 1st REGULAR SESSION #59 Part 5</span><br />
 	<span class="list-group-item-text text-warning">05-June-2020</span></a>
     
 
-<a href='streaming/?id=526' class='list-group-item'><span class='text-primary'>Committee on Legislative Franchises
+<a href='streaming/index.html?id=526' class='list-group-item'><span class='text-primary'>Committee on Legislative Franchises
 Committee on Good Government and Public Accountability</span><br /><span class='list-group-item-text'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability Day 5</span><br /><span class='list-group-item-text text-warning'>11-June-2020</span></a>
 
 
@@ -305,25 +305,25 @@ Committee on Good Government and Public Accountability</span><br /><span class='
   </a>
 </ul><ul class="list-group">
   <li class="list-group-item list-group-item-info">ANNOUNCEMENTS</li>
-  <a href="" class="list-group-item">
+  <a href="index.html?month=06&amp;year=2204" class="list-group-item">
   <span>The weekly <strong>Calendar of Committee Meetings</strong> and the 
   <strong>Committee Daily Bulletin</strong> will not be distributed to the offices of the House 
   Members,   Secretariat Officials, and other persons in our mailing list in line with the Guidelines on the 
   Operations of the House of Representatives amid the Covid-19 pandemic. These publications will be available 
   in the House of Representatives website.</span></a>
-  <a href="commsched/" class="list-group-item">Calendar Committee Meetings</a>
-  <a href="legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="commsched" class="list-group-item">Calendar Committee Meetings</a>
+  <a href="legisdocs/index.html?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
 </ul><ul class="list-group">
-  <a href="download/" class="list-group-item list-group-item-info">DOWNLOAD CENTER &raquo;</a>
+  <a href="download.1" class="list-group-item list-group-item-info">DOWNLOAD CENTER &raquo;</a>
   <a href="download/docs/guidelines.operations.covid19.pdf" target="_blank" title="HREP Guidelines on Operations Amid  the COVID-19 Pandemic" class="list-group-item"><span class="text-primary">HREP Guidelines on Operations Amid  the COVID-19 Pandemic</span></a>
   <!-- <a href="download/docs/hrep.gsuite.manual.pdf" target="_blank" title="G-Suite Package Manual" class="list-group-item"><span class="text-primary">G-Suite Package Manual</span></a> -->
-  <a href="online/" target="_blank" title="House Employees Online Request" class="list-group-item"><span class="text-primary">House Employees Online Request</span></a>
+  <a href="online/index.html" target="_blank" title="House Employees Online Request" class="list-group-item"><span class="text-primary">House Employees Online Request</span></a>
   <a href="download/forms/health.declaration.pdf" target="_blank" title="Health Declaration Form" class="list-group-item"><span class="text-primary">Health Declaration Form</span></a>
   <a href="download/docs/cocolife.reminders.mecq.pdf" target="_blank" title="COCOLIFE Members reminders during MECQ" class="list-group-item"><span class="text-primary">COCOLIFE Members reminders during MECQ</span></a>
   <!-- <a href="download/docs/advisory-budget-2019.pdf" class="list-group-item" target="_blank"><span class="text-primary">Advisory on Plenary Budget Hearing</span></a> -->
   <!-- <a href="download/#salnform" class="list-group-item" title="Form and guidelines on filing the SALN form for CY2018"><strong><span class="text-primary">Filing of <abbr title="Statement of Assets, Liabilities, and Net Worth">SALN</abbr>'s Form for CY 2018 -->
   <!--(For House Members, Officers, and Employees of the House of Representatives) </span></strong></a> -->
-  <a href="download/#saln" class="list-group-item"><span class="text-primary">House Members <abbr title="Statement of Assets, Liabilities, and Net Worth">SALN</abbr></span></a>
+  <a href="download.1#saln" class="list-group-item"><span class="text-primary">House Members <abbr title="Statement of Assets, Liabilities, and Net Worth">SALN</abbr></span></a>
   <a href="download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Rules 16th Congress Final - Adopted for 17th Congress with amendments" class="list-group-item"><span class="text-primary">House Rules</span></a>
   <a href="download/docs/hrep.impeachment.rules.pdf" target="_blank" class="list-group-item"><span class="text-primary">Rules of Procedure in Impeachment Proceedings</span></a>
   <a href="download/docs/hrep.inquiries.rules.pdf" target="_blank" title="Rules of Procedure Governing Inquiries in Aid of Legislation" class="list-group-item"><span class="text-primary">Rules of Procedure Governing Inquiries in Aid of Legislation</span></a>
@@ -332,7 +332,7 @@ Committee on Good Government and Public Accountability</span><br /><span class='
   <!-- <a href="download/#measuresprocessed" class="list-group-item"><span class="text-primary">Statistical Data on Measures Processed</span></a> -->
   <!-- <a href="download/#legrep" class="list-group-item"><span class="text-primary">Legislative Performance Report</span></a> -->
   <!-- <a href="download/#accomplishment" title="Performance Report of the House of Representatives" class="list-group-item"><span class="text-primary">Accomplishment Reports</span></a> -->
-  <a href="download/#adminreq" class="list-group-item"><span class="text-primary">Administrative Requirements</span></a>
+  <a href="download.1#adminreq" class="list-group-item"><span class="text-primary">Administrative Requirements</span></a>
   <!-- <a href="download/#attform" class="list-group-item"><span class="text-primary">Attendance Forms</span></a> -->
   <a href="roster/roster-legislators.pdf" class="list-group-item" target="_blank"><span class="text-primary">Roster of Philippine Legislators (1907 - 2019)</span></a>
 </ul><ul class="list-group">
@@ -357,7 +357,7 @@ Committee on Good Government and Public Accountability</span><br /><span class='
 	<a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><img src="images/ext-dbm.png" width="75" height="75" style="margin-bottom:15px; margin-right: 3px;" /></a>
     <a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><img src="images/ext-cpbrd.png" width="80" height="75" style="margin-right:3px;" /></a>
 	<a href="https://www.pids.gov.ph/" target="_blank" title="Philippine Institute for Development Studies"><img src="images/ext-pids.png" width="80" height="75" style="margin-bottom:15px; margin-right:3px;" /></a>
-    <a href="transparency/" title="House of Representatives Transparency"><img src="images/ext-transparency.png" width="75" height="75" style="margin-bottom:15px;margin-right:3px;" /></a>
+    <a href="transparency.1" title="House of Representatives Transparency"><img src="images/ext-transparency.png" width="75" height="75" style="margin-bottom:15px;margin-right:3px;" /></a>
 </p>
 
       </div>
@@ -487,7 +487,7 @@ Committee on Good Government and Public Accountability</span><br /><span class='
   </script>
   <script type="text/javascript">
     // create the back to top button
-    $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+    $('body').prepend('<a href="index.html?month=06&amp;year=2204#" class="back-to-top">Back to Top</a>');
     var amountScrolled = 50;
     $(window).scroll(function() {
       if ($(window).scrollTop() > amountScrolled) {

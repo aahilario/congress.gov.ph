@@ -29,7 +29,7 @@
 
     <body>
         <!-- Back to Top -->
-        <a href="#" class="back-to-top">Back to Top</a>
+        <a href="index.html?about=officials#" class="back-to-top">Back to Top</a>
         <div class="container-fluid">
             <!-- Top Navigation -->
             <nav class="navbar navbar-default navbar-sm navbar-top">
@@ -37,47 +37,47 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
-      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+      <a class="navbar-brand visible-xs-block" href="../index.html">House of Representatives</a></div>
     <div class="collapse navbar-collapse" id="myNavbar1">
       <ul class="nav navbar-nav">
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
-            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li><a href="../members">ALL Representatives</a></li>
+            <li><a href="../members?v=district">District Representatives</a></li>
+            <li><a href="../members?v=region">House Members by Region</a></li>
+            <li><a href="../members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
-            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <li><a href="../leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="../profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
-			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+			<li><a href="../roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#">COMMITTEES <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
-            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li><a href="../committees/index.html?v=standing">Standing Committees</a></li>
+            <li><a href="../committees/index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+            <li><a href="../commsched">Committee Meetings</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li><a href="../legisdocs/index.html?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="../legisdocs/index.html?v=ra">Republic Acts</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
-            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
-			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+            <li><a href="../legisdocs/index.html?v=journals">House Journals</a></li>
+            <li><a href="../legisdocs/index.html?v=cr">Congressional Record</a></li>
+            <li><a href="../legisdocs/index.html?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="../legisdocs/index.html?v=sb">Session Bulletin</a></li>
+            <li><a href="../legisdocs/index.html?v=ob">Order of Business</a></li>
+			<li><a href="../committees/index.html?v=reports">Committee Reports</a></li>
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="../legis.1" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="../search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -89,7 +89,7 @@
                 <!-- Banner -->
                 <div class="jumbotron jumbotronTransp">
                     <!-- <div class="container text-left"> -->
-                    <a href="../">
+                    <a href="../index.html">
                         <h2><img src="../css/images/congress3rd.png" class="img-responsive" /></h2>
                     </a>
                     <!-- </div> -->
@@ -103,37 +103,37 @@
       <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
     <div class="collapse navbar-collapse" id="myNavbar2">
       <ul class="nav navbar-nav">
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#">ABOUT US <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li><a href="index.html?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="index.html?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="index.html?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="index.html?about=mission" title="Mission and Vision">Mission Statement</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
-            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+            <li><a href="index.html?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="index.html?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="index.html?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="index.html?about=offices">House Secretariat</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li><a href="../download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="index.html?about=officials#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="../legisinfo/index.html?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
-            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+            <li><a href="../legisinfo/index.html?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="../legisinfo/index.html?v=researchers" title="Information for Researchers">For Researchers</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=officials#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
-            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
-            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+            <li><a href="../photojournal">Photo Journals</a></li>
+            <li><a href="../press">Press Releases</a></li>
+            <li><a href="../streaming">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+        <li><a href="../download.1">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -160,11 +160,11 @@
             <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
         </ul>
         <ul class="nav navbar-nav navbar-right">
-		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+		<li><a href="../sitemap">SITE MAP</a></li>
             <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
-	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+	    <li><a href="../bids">INVITATION TO BID</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <a href="index.html?about=officials#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
                 <ul class="dropdown-menu">
                     <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
                     <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
@@ -186,13 +186,13 @@
         <div class="container-fluid">
             <div class="row section">
                 <div class="col-md-8">
-                    <ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/about">About Us</a></li></ol>                    <h4>ABOUT US</h4>
+                    <ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../about.1">About Us</a></li></ol>                    <h4>ABOUT US</h4>
                     <hr />
                     <h4>HOUSE OF REPRESENTATIVES OFFICIALS</h4>
 <br />
 <p>The Officials of the House of Representatives are the Speaker, the Deputy Speakers, the Secretary General and the Sergeant-at-Arms, who are elected by a majority vote of all the Members at the commencement of each Congress; the Majority and Minority Leaders, who are elected in a party caucus of the ruling party and the minority party, respectively. </p>
 <p>More specifically, they perform the following functions:</p>
-<p>The <a href="../leaders/?l=speaker">Speaker</a> is the fourth highest official in the Philippine government. He:</p>
+<p>The <a href="../leaders/index.html?l=speaker">Speaker</a> is the fourth highest official in the Philippine government. He:</p>
 <ul>
     <li>Presides over the sessions;</li>
     <li>Decides on all questions of order, subject to appeal by any Member;</li>
@@ -200,19 +200,19 @@
     <li>Appoints, suspends, dismisses or disciplines House personnel; and</li>
     <li>Exercises administrative functions.</li>
 </ul>
-<p>The <a href="../leaders/?l=deputy">Deputy Speakers</a>:</p>
+<p>The <a href="../leaders/index.html?l=deputy">Deputy Speakers</a>:</p>
 <ul>
     <li>Assumes the duties and powers of the Speaker when he is absent or incapacitated. </li>
 </ul>
-<p>The <a href="../leaders/?l=majority">Majority Leader</a>:</p>
+<p>The <a href="../leaders/index.html?l=majority">Majority Leader</a>:</p>
 <ul>
     <li>The Majority Leader is elected in a party caucus of the majority ruling party. His primary function, aside from being the spokesman of the majority party, is to direct the deliberations on the floor.</li>
 </ul>
-<p>The <a href="../leaders/?l=minority">Minority Leader</a>:</p>
+<p>The <a href="../leaders/index.html?l=minority">Minority Leader</a>:</p>
 <ul>
     <li>The Minority Leader is the acknowledged spokesman of the minority party in the House. But it does not necessarily follow that he is also the leader of the party because the minority party in the House may be composed of one or more political groupings.</li>
 </ul>
-<p>The <a href="?about=secgen" title="About the Secretary General" class="title-news">Secretary General</a>:</p>
+<p>The <a href="index.html?about=secgen" title="About the Secretary General" class="title-news">Secretary General</a>:</p>
 <ul>
     <li>Carries out and enforces orders and decisions of the House;</li>
     <li>Keeps the Journal of each session;</li>
@@ -222,7 +222,7 @@
     <li>Acts as the custodian of the property and records of the House and all other government property in its premises;</li>
     <li>Subject to the supervision and control of the Speaker, the Secretary General is the immediate chief of the personnel of the House and is responsible for the faithful and proper performance of their official duties. </li>
 </ul>
-<p>The <a href="?about=saa" title="About the Sergeant-at-Arms" class="title-news">Sergeant-at-Arms</a>:</p>
+<p>The <a href="index.html?about=saa" title="About the Sergeant-at-Arms" class="title-news">Sergeant-at-Arms</a>:</p>
 <ul>
     <li>Maintains order in the House of Representatives Building Complex;</li>
     <li>Enforces House Rules;</li>
@@ -234,13 +234,13 @@
                 <div class="col-md-4">
                     <ul class="list-group">
     <li class="list-group-item list-group-item-info">PAGE LINKS</li>
-    <a href="../about/?about=mandate" class="list-group-item">Constitutional Mandate</a>
-    <a href="../about/?about=history" title="Brief History of the Philippine Congress" class="list-group-item">Legislative History</a>
-    <a href="../about/?about=symbols" title="Symbols of Power and Authority" class="list-group-item">National Symbols</a>
-    <a href="../about/?about=officials" title="The Officials of the House of Representatives" class="list-group-item">House Officials</a>
-    <a href="../about/?about=offices" class="list-group-item">House Secretariat</a>
-    <a href="../about/?about=directory" class="list-group-item">House Secretariat Directory</a>
-    <a href="../about/?about=mission" title="Mission and Vision" class="list-group-item">Mission Statement</a>    
+    <a href="index.html?about=mandate" class="list-group-item">Constitutional Mandate</a>
+    <a href="index.html?about=history" title="Brief History of the Philippine Congress" class="list-group-item">Legislative History</a>
+    <a href="index.html?about=symbols" title="Symbols of Power and Authority" class="list-group-item">National Symbols</a>
+    <a href="index.html?about=officials" title="The Officials of the House of Representatives" class="list-group-item">House Officials</a>
+    <a href="index.html?about=offices" class="list-group-item">House Secretariat</a>
+    <a href="index.html?about=directory" class="list-group-item">House Secretariat Directory</a>
+    <a href="index.html?about=mission" title="Mission and Vision" class="list-group-item">Mission Statement</a>    
 </ul>
                                        </div>
             </div>
@@ -329,7 +329,7 @@
         </script>
         <script type="text/javascript">
             // create the back to top button
-            $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+            $('body').prepend('<a href="index.html?about=officials#" class="back-to-top">Back to Top</a>');
 
             var amountScrolled = 50;
 

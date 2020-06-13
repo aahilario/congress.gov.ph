@@ -47,7 +47,7 @@
 	</script>
 	<script type="text/javascript">
 		// create the back to top button
-		$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+		$('body').prepend('<a href="view_pl_print.php#" class="back-to-top">Back to Top</a>');
 
 		var amountScrolled = 50;
 

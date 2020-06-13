@@ -33,7 +33,7 @@
 
   <div class="container-fluid">
     <div class="clearfix">&nbsp;</div>
-    <div class="text-center"><a href="./" title="Committee Meetings page"><img src="../images/seal.colored.png" /></a></div>
+    <div class="text-center"><a href="../commsched" title="Committee Meetings page"><img src="../images/seal.colored.png" /></a></div>
     <h4 class='text-center'>COMMITTEE AFFAIRS DEPARTMENT<br /><small>CALENDAR OF COMMITTEE MEETINGS</small><br /><small>15-June-2020 to 17-June-2020</small></h4>
           <!-- <p class="text-center">Unless otherwise indicated, all committee meeting venues are 
 	located at the House of Representatives Complex</p> -->
@@ -170,9 +170,9 @@ Report of the Department of Health (DOH) and Philippine Health Insurance Corpora
   <div class="clearfix">&nbsp;</div>
 
   <!-- jQuery -->
-  <script src="js/jquery.min.js"></script>
+  <script src="http://congress.gov.ph/commsched/js/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="http://congress.gov.ph/commsched/js/bootstrap.min.js"></script>
 </body>
 
 </html>

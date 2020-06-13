@@ -31,7 +31,7 @@ case "$1" in
       rm -f lisdata.exclude
       touch lisdata.exclude
       $0 pack-path
-      sleep 5
+      # sleep 5
       if [ ! -z $DO_GC ]; then
         echo "Garbage collection..."
         git gc
@@ -50,7 +50,44 @@ case "$1" in
     done
     ;;
   untarxz)
-    clear ; SIZELIMIT=20000000; SUM=0; PREVSUM=0; L=1 ; while [ $L -lt 30 ]; do SUMPART=""; PACKSIZE=$(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L | tr '\n' '\0' | du -c --files0-from=- | tail -n1 | tr '\t' ' ' | tr -s ' ' | sed -r -e 's@^([0-9]{1,}) .*$@\1@g'); for F in $(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L); do if [ ! -f "$F" ]; then continue; fi; S=$(echo $(tar -vtf "$F" | tr '\t' ' ' | tr -s ' ' | sed -r -e 's@^([^ ]{1,}) ([^ ]{1,}) ([0-9]{1,}) .*@\3+@g')); SUMPART="${S}${SUMPART}"; done ; SUM=$(echo $SUMPART | sed -r -e 's@\+$@@g' | bc); echo "$L: Packed size $PACKSIZE --> $SUM"; if [ $PREVSUM -eq 0 ]; then PREVSUM=$SUM ; fi ; if [ $SUM -gt $SIZELIMIT ]; then break; PREVSUM=$SUM; fi ; ((L++)); done ; echo "Unpacking $L for $PREVSUM < $SIZELIMIT" ; while [ $L -gt 0 ]; do for F in $(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L | tail -n1); do echo "Unpacking and removing $F"; tar -vxf "$F" && rm -fv "$F" ;  done; ((L--)); done ; echo ; git status | grep -v '\.tar\.xz$' ; echo ; df -m
+    clear 
+    SIZELIMIT=20000000
+    SUM=0
+    PREVSUM=0
+    L=1 
+    while [ $L -lt 30 ]; do
+      SUMPART=""
+      PACKSIZE=$(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L | tr '\n' '\0' | du -c --files0-from=- | tail -n1 | tr '\t' ' ' | tr -s ' ' | sed -r -e 's@^([0-9]{1,}) .*$@\1@g')
+      for F in $(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L); do
+        if [ ! -f "$F" ]
+          then continue
+        fi
+        S=$(echo $(tar -vtf "$F" | tr '\t' ' ' | tr -s ' ' | sed -r -e 's@^([^ ]{1,}) ([^ ]{1,}) ([0-9]{1,}) .*@\3+@g'))
+        SUMPART="${S}${SUMPART}"
+      done 
+      SUM=$(echo $SUMPART | sed -r -e 's@\+$@@g' | bc)
+      echo "$L: Packed size $PACKSIZE --> $SUM"
+      if [ $PREVSUM -eq 0 ]; then
+        PREVSUM=$SUM 
+      fi 
+      if [ $SUM -gt $SIZELIMIT ]; then
+        break
+      fi 
+      PREVSUM=$SUM
+      ((L++))
+    done 
+    echo "Unpacking $L for $PREVSUM < $SIZELIMIT" 
+    while [ $L -gt 0 ]; do 
+      for F in $(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L | tail -n1); do
+        echo "Unpacking and removing $F"
+        tar -vxf "$F" && rm -fv "$F" 
+      done
+      ((L--))
+    done 
+    echo 
+    git status | grep -v '\.tar\.xz$' 
+    echo 
+    df -m
     ;;
   pack-path)
     PACKLIMIT=50
