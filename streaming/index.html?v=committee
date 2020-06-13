@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>House of Representatives</title>
+<link rel="shortcut icon" href="../images/ico/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+<!-- Bootstrap Core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Custom CSS -->
+<link href="../css/custom.css" rel="stylesheet">
+<script language="JavaScript">
+    <!--
+    function MM_jumpMenu(targ, selObj, restore) { //v3.0
+            eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'");
+        if (restore) selObj.selectedIndex = 0;
+    }
+    //-->
+</script>
+<body>
+<!-- Back to Top -->
+<a href="#" class="back-to-top">Back to Top</a>
+<div class="container-fluid">
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar-sm navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
+      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
+			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
+            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
+			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#">SITE MAP</a></li> -->
+        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>    
+
+    <!-- Banner -->
+    <div class="jumbotron jumbotronTransp">
+        <!-- <div class="container text-left"> -->
+            <a href="../">
+            <h2><img src="../css/images/congress3rd.png" class="img-responsive" /></h2>
+            </a>
+        <!-- </div> -->
+    </div>
+        
+    <!-- Lower Navigation -->
+    <nav class="navbar navbar-default navbar-sm">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
+            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
+            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+          </ul>
+        </li>
+        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+	<!--
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/billdraftingcontest2018">Bill Drafting Contest 2018</a></li>
+            <li><a href="http://congress.gov.ph/events/docs/onehouseinternship2018.pdf" title="One House Internship Program 2018" target="_blank">One House Internship Program 2018</a></li>          </ul>
+        </li>
+	-->
+
+        <!--
+        <li><a href="#">CONTACT US</a></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Footer -->
+    <nav class="navbar navbar-default navbar-sm navbar-fixed-bottom navbar-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooterBar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myFooterBar">
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+            <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
+	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
+                    <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
+		    <li><a href="http://senate.gov.ph/" target="_blank" title="Philippine Senate">Senate of the Philippines</li>
+                    <!-- <li><a href="http://hreplib.congress.gov.ph" target="_blank" title="House of Representatives Legislative Library website">Legislative Library Online Catalog</a></li> -->
+                    <li><a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><abbr title="Priority Development Assistance Fund">PDAF</abbr>, <abbr title="Department of Budget and Management">DBM</abbr> Website</a></li>
+                    <!-- <li><a href="http://www.bsp.gov.ph/bspnotes/demonetization-0.asp" target="_blank" title="BSP Demonetization of the OLD BANKNOTE SERIES"><abbr title="Bangko Sentral ng Pilipinas">BSP</abbr> Old Bank Notes Demonetization</a></li> -->
+                    <li><a href="http://www.pagasa.dost.gov.ph/#maincontents" target="_blank" title="DOST PAGASA Weather Advisory"><abbr title="The Philippine Atmospheric, Geophysical and Astronomical Services Administration">PAGASA</abbr> Weather Advisory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://mail.congress.gov.ph" target="_blank">WEBMail</a></li>
+        </ul>
+    </div>
+  </div>
+</nav></div> 
+
+<!-- Page Content -->
+<a id="content"></a>
+<div class="container-fluid">
+    <div class="row section">
+        <div class="col-md-8">
+            <ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/streaming">Video Streaming</a></li></ol>            <h4>VIDEO STREAMING</h4>
+<hr />
+<ul class='nav nav-tabs'><li class=''><a href='../streaming/?v=plenary'>Plenary Hall</a></li><li class='active'><a href='../streaming/?v=committee'>Committee Hearings</a></li></ul>
+
+<div class="clearfix">&nbsp;</div>  
+<table class="table table-condensed table-bordered table-responsive table-striped table-hover">
+     <tbody>
+         <tr><td width='1'>1.</td><td><a href='../streaming/?id=526'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability Day 5</a></td><td align='right' nowrap>11-June-2020</td></tr><tr><td width='1'>2.</td><td><a href='../streaming/?id=527'>COMMITTEE ON TRADE AND INDUSTRY Videoconference via ZOOM Part 2</a></td><td align='right' nowrap>11-June-2020</td></tr><tr><td width='1'>3.</td><td><a href='../streaming/?id=525'>COMMITTEE ON TRADE AND INDUSTRY Videoconference via ZOOM Part 1</a></td><td align='right' nowrap>11-June-2020</td></tr><tr><td width='1'>4.</td><td><a href='../streaming/?id=524'>COMMITTEE ON MICRO, SMALL &amp; MEDIUM ENTERPRISE DEVELOPMENT meeting via zoom</a></td><td align='right' nowrap>10-June-2020</td></tr><tr><td width='1'>5.</td><td><a href='../streaming/?id=523'>Good Government and Public Accountability Agenda: House Resolution Numbered 879 and 882</a></td><td align='right' nowrap>09-June-2020</td></tr><tr><td width='1'>6.</td><td><a href='../streaming/?id=522'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability Day 4</a></td><td align='right' nowrap>08-June-2020</td></tr><tr><td width='1'>7.</td><td><a href='../streaming/?id=518'>COMMITTEE ON ENERGY Videoconference via ZOOM</a></td><td align='right' nowrap>04-June-2020</td></tr><tr><td width='1'>8.</td><td><a href='../streaming/?id=519'>Committee on Labor and Employment (Sub-Committee on Labor Standards)</a></td><td align='right' nowrap>04-June-2020</td></tr><tr><td width='1'>9.</td><td><a href='../streaming/?id=520'>Committee on Labor and Employment (Sub-Committee on Labor Standards)</a></td><td align='right' nowrap>04-June-2020</td></tr><tr><td width='1'>10.</td><td><a href='../streaming/?id=516'>SPECIAL COMMITTEE ON CLIMATE CHANGE Videoconference via ZOOM</a></td><td align='right' nowrap>04-June-2020</td></tr><tr><td width='1'>11.</td><td><a href='../streaming/?id=512'>Good Government and Public Accountability zoom meeting</a></td><td align='right' nowrap>03-June-2020</td></tr><tr><td width='1'>12.</td><td><a href='../streaming/?id=511'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability Day 3</a></td><td align='right' nowrap>03-June-2020</td></tr><tr><td width='1'>13.</td><td><a href='../streaming/?id=513'>Committee on Metro Manila Development joint with the Committee on Basic Education and Culture</a></td><td align='right' nowrap>03-June-2020</td></tr><tr><td width='1'>14.</td><td><a href='../streaming/?id=506'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability Day 2</a></td><td align='right' nowrap>01-June-2020</td></tr><tr><td width='1'>15.</td><td><a href='../streaming/?id=508'>Committee On Transportation Zoom Meeting</a></td><td align='right' nowrap>28-May-2020</td></tr><tr><td width='1'>16.</td><td><a href='../streaming/?id=503'>Defeat Covid-19 Ad Hoc Committee Zoom Meeting</a></td><td align='right' nowrap>28-May-2020</td></tr><tr><td width='1'>17.</td><td><a href='../streaming/?id=504'>COMMITTEE ON HEALTH Videoconference via ZOOM</a></td><td align='right' nowrap>28-May-2020</td></tr><tr><td width='1'>18.</td><td><a href='../streaming/?id=502'>Committee on Labor and Employment Zoom Meeting</a></td><td align='right' nowrap>27-May-2020</td></tr><tr><td width='1'>19.</td><td><a href='../streaming/?id=500'>Regular Meeting of the Good Government and Public Accountability</a></td><td align='right' nowrap>27-May-2020</td></tr><tr><td width='1'>20.</td><td><a href='../streaming/?id=501'>COMMITTEE MEETING OF ENERGY Videoconference via ZOOM</a></td><td align='right' nowrap>27-May-2020</td></tr><tr><td width='1'>21.</td><td><a href='../streaming/?id=497'>Comm on Legislative Franchises Joint with Comm on Good Government and Public Accountability</a></td><td align='right' nowrap>26-May-2020</td></tr><tr><td width='1'>22.</td><td><a href='../streaming/?id=496'>DEFEAT COVID-19 (DCC) AD HOC COMMITTEE (DCC) MEETING</a></td><td align='right' nowrap>26-May-2020</td></tr><tr><td width='1'>23.</td><td><a href='../streaming/?id=495'>Social Amelioration Cluster Zoom Meeting</a></td><td align='right' nowrap>26-May-2020</td></tr><tr><td width='1'>24.</td><td><a href='../streaming/?id=494'>COMMITTEE ON HEALTH : BRIEFING ON THE CURRENT COVID-19 SITUATION IN THE PHILIPPINES Part 2</a></td><td align='right' nowrap>21-May-2020</td></tr><tr><td width='1'>25.</td><td><a href='../streaming/?id=493'>COMMITTEE ON HEALTH : BRIEFING ON THE CURRENT COVID-19 SITUATION IN THE PHILIPPINES</a></td><td align='right' nowrap>21-May-2020</td></tr><tr><td width='1'>26.</td><td><a href='../streaming/?id=491'>HEALTH AND COVID-19 RESPONSE CLUSTER OF THE DEFEAT COVID-19 AD-HOC COMMITTEE (DCC) Part 2</a></td><td align='right' nowrap>20-May-2020</td></tr><tr><td width='1'>27.</td><td><a href='../streaming/?id=488'>HEALTH AND COVID-19 RESPONSE CLUSTER OF THE DEFEAT COVID-19 AD-HOC COMMITTEE (DCC) Part 1</a></td><td align='right' nowrap>20-May-2020</td></tr><tr><td width='1'>28.</td><td><a href='../streaming/?id=490'>Committee on Basic Education Zoom Meeting</a></td><td align='right' nowrap>20-May-2020</td></tr><tr><td width='1'>29.</td><td><a href='../streaming/?id=485'>Deputy Speaker and Antique Congresswoman Loren Legarda chairs the hearing on the New Normal Bill</a></td><td align='right' nowrap>18-May-2020</td></tr><tr><td width='1'>30.</td><td><a href='../streaming/?id=484'>Joint Committee Meeting of the Committee on Basic Education &amp; Culture &amp; the Committee on Higher &amp; Technical Education</a></td><td align='right' nowrap>14-May-2020</td></tr><tr><td width='1'>31.</td><td><a href='../streaming/?id=483'>Committee on Energy: Update on the actions taken since the start of ECQ Part 3</a></td><td align='right' nowrap>13-May-2020</td></tr><tr><td width='1'>32.</td><td><a href='../streaming/?id=482'>Committee on Energy: Update on the actions taken since the start of ECQ Part 2</a></td><td align='right' nowrap>13-May-2020</td></tr><tr><td width='1'>33.</td><td><a href='../streaming/?id=481'>Committee on the Welfare of Children ZOOM MEETING</a></td><td align='right' nowrap>13-May-2020</td></tr><tr><td width='1'>34.</td><td><a href='../streaming/?id=489'>Press Conference of House Speaker Alan Peter “Compañero” S. Cayetano</a></td><td align='right' nowrap>16-March-2020</td></tr><tr><td width='1'>35.</td><td><a href='../streaming/?id=471'>Press Conference of House Health Committee Chairperson Rep. Angelina &quot;Helen&quot; Tan, M.D.</a></td><td align='right' nowrap>11-March-2020</td></tr><tr><td width='1'>36.</td><td><a href='../streaming/?id=469'>Committee on Legislative Franchises deliberation on ABS-CBN Franchise Renewal</a></td><td align='right' nowrap>10-March-2020</td></tr><tr><td width='1'>37.</td><td><a href='../streaming/?id=455'>PRESSCON of House Ways and Means Committee Chairman Rep. Joey Salceda</a></td><td align='right' nowrap>05-February-2020</td></tr><tr><td width='1'>38.</td><td><a href='../streaming/?id=454'>PRESSCON of House Health Committee Chairperson Rep. Angelina &quot;Helen&quot; Tan, M.D.</a></td><td align='right' nowrap>05-February-2020</td></tr><tr><td width='1'>39.</td><td><a href='../streaming/?id=441'>Joint Hearing of the Committees on Good Government and Public Accountability, and Public Accounts, on the Water Concession Agreements</a></td><td align='right' nowrap>11-December-2019</td></tr><tr><td width='1'>40.</td><td><a href='../streaming/?id=424'>Committee On Transportation Hearing       - LRT2 Santolan Station Incident and Resumption of Operations Presentation. - Traffic Management Plan During Transport Crisis.</a></td><td align='right' nowrap>09-October-2019</td></tr><tr><td width='1'>41.</td><td><a href='../streaming/?id=421'>UGNAYAN SA BATASAN, MAJORITY Press Conference</a></td><td align='right' nowrap>01-October-2019</td></tr><tr><td width='1'>42.</td><td><a href='../streaming/?id=418'>COMMITTEE ON HEALTH Hearing</a></td><td align='right' nowrap>30-September-2019</td></tr><tr><td width='1'>43.</td><td><a href='../streaming/?id=412'>Joint Committee on Government Reorganization and Overseas Workers Affairs Hearing on the creation of the Department of Overseas Filipino Workers (OFW) (Day2)</a></td><td align='right' nowrap>18-September-2019</td></tr><tr><td width='1'>44.</td><td><a href='../streaming/?id=409'>Joint Committee on Government Reorganization and Overseas Workers Affairs Hearing on the creation of the Department of Overseas Filipino Workers (OFW)</a></td><td align='right' nowrap>17-September-2019</td></tr><tr><td width='1'>45.</td><td><a href='../streaming/?id=402'>Committee on Appropriations Hearing</a></td><td align='right' nowrap>09-September-2019</td></tr><tr><td width='1'>46.</td><td><a href='../streaming/?id=401'>Budget Briefing of the Committee on Appropriations ( Department Of Agriculture )</a></td><td align='right' nowrap>06-September-2019</td></tr><tr><td width='1'>47.</td><td><a href='../streaming/?id=400'>Budget Briefing of the Committee on Appropriations ( DENR )</a></td><td align='right' nowrap>06-September-2019</td></tr><tr><td width='1'>48.</td><td><a href='../streaming/?id=399'>Budget Briefing of the Committee on Appropriations ( DOJ )</a></td><td align='right' nowrap>05-September-2019</td></tr><tr><td width='1'>49.</td><td><a href='../streaming/?id=398'>Budget Briefing of the Committee on Appropriations ( DOTr )</a></td><td align='right' nowrap>05-September-2019</td></tr><tr><td width='1'>50.</td><td><a href='../streaming/?id=397'>Budget Briefing of the Committee on Appropriations ( DFA )</a></td><td align='right' nowrap>04-September-2019</td></tr><tr><td width='1'>51.</td><td><a href='../streaming/?id=394'>Budget Briefing of the Committee on Appropriations ( DepEd )</a></td><td align='right' nowrap>03-September-2019</td></tr><tr><td width='1'>52.</td><td><a href='../streaming/?id=392'>Budget Briefing of the Committee on Appropriations ( DILG )</a></td><td align='right' nowrap>02-September-2019</td></tr><tr><td width='1'>53.</td><td><a href='../streaming/?id=391'>Budget Briefing of the Committee on Appropriations ( DOST )</a></td><td align='right' nowrap>02-September-2019</td></tr><tr><td width='1'>54.</td><td><a href='../streaming/?id=390'>Budget Briefing of the Committee on Appropriations ( TESDA )</a></td><td align='right' nowrap>29-August-2019</td></tr><tr><td width='1'>55.</td><td><a href='../streaming/?id=388'>Budget Briefing of the Committee on Appropriations (Department Of Health) Part 2</a></td><td align='right' nowrap>28-August-2019</td></tr><tr><td width='1'>56.</td><td><a href='../streaming/?id=387'>Budget Briefing of the Committee on Appropriations (Department Of Health)</a></td><td align='right' nowrap>28-August-2019</td></tr><tr><td width='1'>57.</td><td><a href='../streaming/?id=385'>Budget Briefing of the Committee on Appropriations - Department Of Energy</a></td><td align='right' nowrap>27-August-2019</td></tr><tr><td width='1'>58.</td><td><a href='../streaming/?id=384'>Budget Briefing of  the Committee on Appropriations - Philippine Charity Sweepstakes Office</a></td><td align='right' nowrap>23-August-2019</td></tr><tr><td width='1'>59.</td><td><a href='../streaming/?id=383'>Budget Briefing of the Committee on Appropriations - Development Budget Coordination Committee</a></td><td align='right' nowrap>22-August-2019</td></tr><tr><td width='1'>60.</td><td><a href='../streaming/?id=381'>DBM Submission of the National Expenditure Program for FY 2020</a></td><td align='right' nowrap>20-August-2019</td></tr><tr><td width='1'>61.</td><td><a href='../streaming/?id=380'>Department of Finance Press Briefing</a></td><td align='right' nowrap>15-August-2019</td></tr><tr><td width='1'>62.</td><td><a href='../streaming/?id=377'>House of Representatives Majority Press Conference</a></td><td align='right' nowrap>06-August-2019</td></tr><tr><td width='1'>63.</td><td><a href='../streaming/?id=366'>Press Conference On SONA 2019 Preparation</a></td><td align='right' nowrap>11-July-2019</td></tr><tr><td width='1'>64.</td><td><a href='../streaming/?id=365'>Joint meeting of the Committees on Public Works and Highways and Natural resources</a></td><td align='right' nowrap>25-June-2019</td></tr><tr><td width='1'>65.</td><td><a href='../streaming/?id=361'>Committee Meeting on Natural Resources Re: Forest Management in Region 3 with Emphasis on Efforts at Curbing illegal logging Activities</a></td><td align='right' nowrap>29-May-2019</td></tr><tr><td width='1'>66.</td><td><a href='../streaming/?id=360'>Committee Meeting on Government Enterprises and Privatization RE: GSIS Investment</a></td><td align='right' nowrap>29-May-2019</td></tr><tr><td width='1'>67.</td><td><a href='../streaming/?id=353'>Press con of The Minority</a></td><td align='right' nowrap>20-March-2019</td></tr><tr><td width='1'>68.</td><td><a href='../streaming/?id=352'>Committee on Metro Manila Development Hearing on Metro Manila Water Crisis (Part 2)</a></td><td align='right' nowrap>18-March-2019</td></tr><tr><td width='1'>69.</td><td><a href='../streaming/?id=351'>Committee on Metro Manila Development Hearing on Metro Manila Water Crisis</a></td><td align='right' nowrap>18-March-2019</td></tr><tr><td width='1'>70.</td><td><a href='../streaming/?id=350'>Press Conference of Rep. Fredenil &quot;Fred&quot; H. Castro, Majority Leader and Rep. Rodante D. Marcoleta, Senior Deputy Majority Leader</a></td><td align='right' nowrap>13-March-2019</td></tr><tr><td width='1'>71.</td><td><a href='../streaming/?id=349'>Press Conference of Rep. Danilo E. Suarez, (3rd District, Quezon) Minority Leader</a></td><td align='right' nowrap>12-March-2019</td></tr><tr><td width='1'>72.</td><td><a href='../streaming/?id=348'>Press Conference of Rep. Rolando Andaya Jr. (1st District, Camarines Sur), Chairman of the House Committee on Appropriations</a></td><td align='right' nowrap>11-March-2019</td></tr><tr><td width='1'>73.</td><td><a href='../streaming/?id=347'>Press Conference of Rep. Anthony Bravo</a></td><td align='right' nowrap>11-March-2019</td></tr><tr><td width='1'>74.</td><td><a href='../streaming/?id=344'>COMMITTEE ON APPROPRIATIONS HEARING ON THE ANOMALOUS PRACTICES OF DBM (Part 2)</a></td><td align='right' nowrap>08-February-2019</td></tr><tr><td width='1'>75.</td><td><a href='../streaming/?id=342'>COMMITTEE ON APPROPRIATIONS HEARING ON THE ANOMALOUS PRACTICES OF DBM</a></td><td align='right' nowrap>06-February-2019</td></tr><tr><td width='1'>76.</td><td><a href='../streaming/?id=334'>PRESS CONFERENCE ON THE BUDGET OF THE DEPARTMENT OF HEALTH IN THE 2019 GAA (HON. JOSE ANTONIO &quot;KUYA JONATHAN&quot; SY-ALVARADO)</a></td><td align='right' nowrap>28-January-2019</td></tr><tr><td width='1'>77.</td><td><a href='../streaming/?id=284'>Deliberation On The Consolidated Complaint for Impeachment Against Seven (7) Associate Justices Of The Supreme Court</a></td><td align='right' nowrap>11-September-2018</td></tr><tr><td width='1'>78.</td><td><a href='../streaming/?id=281'>Committee on Transportation hearing RE: Aircraft Stranding Incident at NAIA (Part 2)</a></td><td align='right' nowrap>05-September-2018</td></tr><tr><td width='1'>79.</td><td><a href='../streaming/?id=280'>Committee on Transportation hearing RE: Aircraft Stranding Incident at NAIA (Part 1)</a></td><td align='right' nowrap>05-September-2018</td></tr><tr><td width='1'>80.</td><td><a href='../streaming/?id=279'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>04-September-2018</td></tr><tr><td width='1'>81.</td><td><a href='../streaming/?id=277'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>04-September-2018</td></tr><tr><td width='1'>82.</td><td><a href='../streaming/?id=276'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>04-September-2018</td></tr><tr><td width='1'>83.</td><td><a href='../streaming/?id=275'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>04-September-2018</td></tr><tr><td width='1'>84.</td><td><a href='../streaming/?id=274'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 5)</a></td><td align='right' nowrap>03-September-2018</td></tr><tr><td width='1'>85.</td><td><a href='../streaming/?id=272'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>03-September-2018</td></tr><tr><td width='1'>86.</td><td><a href='../streaming/?id=273'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>03-September-2018</td></tr><tr><td width='1'>87.</td><td><a href='../streaming/?id=270'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>03-September-2018</td></tr><tr><td width='1'>88.</td><td><a href='../streaming/?id=269'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>03-September-2018</td></tr><tr><td width='1'>89.</td><td><a href='../streaming/?id=268'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>90.</td><td><a href='../streaming/?id=267'>Committee on Dangerous Drugs : Continuation of Committee hearing on 2.4B shabu (Part 4)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>91.</td><td><a href='../streaming/?id=266'>Committee on Dangerous Drugs : Continuation of Committee hearing on 2.4B shabu (Part 3)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>92.</td><td><a href='../streaming/?id=265'>Committee on Dangerous Drugs : Continuation of Committee hearing on 2.4B shabu (Part 2)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>93.</td><td><a href='../streaming/?id=264'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>94.</td><td><a href='../streaming/?id=263'>Committee on Dangerous Drugs : Continuation of Committee hearing on 2.4B shabu (Part 1)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>95.</td><td><a href='../streaming/?id=262'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>30-August-2018</td></tr><tr><td width='1'>96.</td><td><a href='../streaming/?id=261'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>29-August-2018</td></tr><tr><td width='1'>97.</td><td><a href='../streaming/?id=260'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>29-August-2018</td></tr><tr><td width='1'>98.</td><td><a href='../streaming/?id=258'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>29-August-2018</td></tr><tr><td width='1'>99.</td><td><a href='../streaming/?id=257'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>29-August-2018</td></tr><tr><td width='1'>100.</td><td><a href='../streaming/?id=256'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>28-August-2018</td></tr><tr><td width='1'>101.</td><td><a href='../streaming/?id=255'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>28-August-2018</td></tr><tr><td width='1'>102.</td><td><a href='../streaming/?id=254'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>28-August-2018</td></tr><tr><td width='1'>103.</td><td><a href='../streaming/?id=250'>Committee on Dangerous Drugs, Consideration of Substitute Bill Amending RA 4200 &quot;An Act to Prohibit and Penalize Wire Tapping&quot; (Part 3)</a></td><td align='right' nowrap>14-August-2018</td></tr><tr><td width='1'>104.</td><td><a href='../streaming/?id=249'>Committee on Dangerous Drugs, Consideration of Substitute Bill Amending RA 4200 &quot;An Act to Prohibit and Penalize Wire Tapping&quot; (Part 2)</a></td><td align='right' nowrap>14-August-2018</td></tr><tr><td width='1'>105.</td><td><a href='../streaming/?id=248'>Committee on Dangerous Drugs, Consideration of Substitute Bill Amending RA 4200 &quot;An Act to Prohibit and Penalize Wire Tapping&quot; (Part 1)</a></td><td align='right' nowrap>14-August-2018</td></tr><tr><td width='1'>106.</td><td><a href='../streaming/?id=247'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>09-August-2018</td></tr><tr><td width='1'>107.</td><td><a href='../streaming/?id=246'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>09-August-2018</td></tr><tr><td width='1'>108.</td><td><a href='../streaming/?id=245'>Budget briefings/hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>09-August-2018</td></tr><tr><td width='1'>109.</td><td><a href='../streaming/?id=244'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>08-August-2018</td></tr><tr><td width='1'>110.</td><td><a href='../streaming/?id=242'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>08-August-2018</td></tr><tr><td width='1'>111.</td><td><a href='../streaming/?id=241'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>08-August-2018</td></tr><tr><td width='1'>112.</td><td><a href='../streaming/?id=240'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>07-August-2018</td></tr><tr><td width='1'>113.</td><td><a href='../streaming/?id=238'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>07-August-2018</td></tr><tr><td width='1'>114.</td><td><a href='../streaming/?id=237'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>07-August-2018</td></tr><tr><td width='1'>115.</td><td><a href='../streaming/?id=236'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>07-August-2018</td></tr><tr><td width='1'>116.</td><td><a href='../streaming/?id=235'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>06-August-2018</td></tr><tr><td width='1'>117.</td><td><a href='../streaming/?id=233'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>06-August-2018</td></tr><tr><td width='1'>118.</td><td><a href='../streaming/?id=232'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>06-August-2018</td></tr><tr><td width='1'>119.</td><td><a href='../streaming/?id=231'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>02-August-2018</td></tr><tr><td width='1'>120.</td><td><a href='../streaming/?id=230'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>02-August-2018</td></tr><tr><td width='1'>121.</td><td><a href='../streaming/?id=229'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>02-August-2018</td></tr><tr><td width='1'>122.</td><td><a href='../streaming/?id=228'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>02-August-2018</td></tr><tr><td width='1'>123.</td><td><a href='../streaming/?id=227'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 5)</a></td><td align='right' nowrap>01-August-2018</td></tr><tr><td width='1'>124.</td><td><a href='../streaming/?id=224'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 4)</a></td><td align='right' nowrap>01-August-2018</td></tr><tr><td width='1'>125.</td><td><a href='../streaming/?id=223'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>01-August-2018</td></tr><tr><td width='1'>126.</td><td><a href='../streaming/?id=222'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>01-August-2018</td></tr><tr><td width='1'>127.</td><td><a href='../streaming/?id=221'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>01-August-2018</td></tr><tr><td width='1'>128.</td><td><a href='../streaming/?id=220'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 3)</a></td><td align='right' nowrap>31-July-2018</td></tr><tr><td width='1'>129.</td><td><a href='../streaming/?id=218'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 2)</a></td><td align='right' nowrap>31-July-2018</td></tr><tr><td width='1'>130.</td><td><a href='../streaming/?id=217'>Budget Briefings/Hearings of the Committee on Appropriations for the FY 2019 proposed budget (Part 1)</a></td><td align='right' nowrap>31-July-2018</td></tr><tr><td width='1'>131.</td><td><a href='../streaming/?id=150'>Investigation on House Resolution No. 456 authored by Cong. Seth Frederick Jalosjos Part 4</a></td><td align='right' nowrap>26-September-2017</td></tr><tr><td width='1'>132.</td><td><a href='../streaming/?id=148'>House hearing on alleged misuse of Ilocos Norte tobacco funds</a></td><td align='right' nowrap>25-September-2017</td></tr><tr><td width='1'>133.</td><td><a href='../streaming/?id=136'>Investigation on House Resolution No. 456 authored by Cong. Seth Frederick Jalosjos Part 3</a></td><td align='right' nowrap>31-August-2017</td></tr><tr><td width='1'>134.</td><td><a href='../streaming/?id=117'>Resorts World Manila Investigation</a></td><td align='right' nowrap>21-June-2017</td></tr><tr><td width='1'>135.</td><td><a href='../streaming/?id=98'>2nd Hearing on Illegal Drug Trading in Zamboanga Del Norte HR #456 authored by Cong. Seth Jalosjos</a></td><td align='right' nowrap>13-March-2017</td></tr><tr><td width='1'>136.</td><td><a href='../streaming/?id=85'>Investigation on House Resolution No. 456 authored by Cong. Seth Frederick Jalosjos</a></td><td align='right' nowrap>09-February-2017</td></tr><tr><td width='1'>137.</td><td><a href='../streaming/?id=64'>The Proliferation of Drugs Syndicates at the National Bilibid Prison with Ronnie Palisoc Dayan</a></td><td align='right' nowrap>24-November-2016</td></tr><tr><td width='1'>138.</td><td><a href='../streaming/?id=49'>The Proliferation of Drugs Syndicates at the National Bilibid Prison - Day 4</a></td><td align='right' nowrap>10-October-2016</td></tr><tr><td width='1'>139.</td><td><a href='../streaming/?id=48'>The Proliferation of Drugs Syndicates at the National Bilibid Prison - Day 3</a></td><td align='right' nowrap>06-October-2016</td></tr><tr><td width='1'>140.</td><td><a href='../streaming/?id=38'>The Proliferation of Drugs Syndicates at the National Bilibid Prison - Day 2</a></td><td align='right' nowrap>21-September-2016</td></tr><tr><td width='1'>141.</td><td><a href='../streaming/?id=37'>The Proliferation of Drugs Syndicates at the National Bilibid Prison - Day 1</a></td><td align='right' nowrap>20-September-2016</td></tr><tr><td width='1'>142.</td><td><a href='../streaming/?id=515'>SPECIAL COMMITTEE ON CLIMATE CHANGE Videoconference via ZOOM</a></td><td align='right' nowrap></td></tr>     </tbody>
+</table>
+         
+
+
+             <div class="clearfix">&nbsp;</div> 
+        </div>
+
+        <div class="col-md-4">
+            <ul class="list-group">
+  <li class="list-group-item list-group-item-info">RELATED LINKS</li>
+  <a href="../members" class="list-group-item">House Members</a>
+  <a href="../committees" class="list-group-item">House Committees</a>
+  <a href="../committees/?v=reports" class="list-group-item">Committee Reports</a>
+  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
+  <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
+  <a href="../legisdocs/?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
+  <a href="../legisdocs/?v=ra" class="list-group-item">Republic Acts</a>
+  <a href="../legisdocs/?v=journals" class="list-group-item">House Journals</a>
+  <a href="../legisdocs/?v=cr" class="list-group-item">Congressional Record</a>
+  <a href="../legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="../legisdocs/?v=sb" class="list-group-item">Session Bulletin</a>
+  <a href="../legisdocs/?v=ob" class="list-group-item">Order of Business</a>
+  <li class="list-group-item list-group-item-info">MEDIA</li>
+  <a href="../press" class="list-group-item">Press Releases</a>
+  <a href="../photojournal" class="list-group-item">Photo Journals</a>
+  <a href="../streaming" class="list-group-item">Video Streaming</a>
+</ul>        </div>
+    </div>
+</div>
+<div class="clearfix">&nbsp;</div>    
+<!-- Session Calendar Modal -->
+<!-- Modal -->
+<div id="sessionCalendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGISLATIVE CALENDAR<br /><small class="text-warning">EIGHTEENTH CONGRESS, FIRST REGULAR SESSON</small></h4>
+      </div>
+      <div class="modal-body">
+        <p>Adopted from House Concurrent Resolution No. 3</p>
+        <p>Introduced by Rep. Ferdinand Martin G. Romualdez and Rep. Bienvenido M. Abante, Jr.</p>
+        <p><strong>CONCURRENT RESOLUTION PROVIDING FOR THE LEGISLATIVE CALENDAR FOR THE FIRST REGULAR SESSION OF THE
+            EIGHTEENTH CONGRESS OF THE PHILIPPINES</strong>.</p>
+        <p>RESOLVED BY THE HOUSE OF REPRESENTATIVES, THE SENATE CONCURRING, That the Legislative Calendar for the
+          First Regular Session of the Eighteenth Congress of the Philippines shall be as follows:</p>
+
+        <div class="clearfix">&nbsp;</div>
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+              <td width="1">1.</td>
+              <td>Commencement of Session</td>
+              <td>July 22, 2019 - October 4, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">2.</td>
+              <td>Adjournment of Session</td>
+              <td>October 5, 2019 - November 3, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">3.</td>
+              <td>Resumption of Session</td>
+              <td>November 4, 2019 - December 20, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">4.</td>
+              <td>Adjournment of Session</td>
+              <td>December 21, 2019 - January 19, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">5.</td>
+              <td>Resumption of Session</td>
+              <td>January 20, 2020 - March 13, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">6.</td>
+              <td>Adjournment of Session</td>
+              <td>March 14, 2020 - May 3, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">7.</td>
+              <td>Resumption of Session</td>
+              <td>May 4, 2020 - June 5, 2020</td>
+            </tr>
+            <tr align="center">
+              <td style="font-style:italic" colspan="3">(sine die adjournment)</td>
+            </tr>
+            <tr>
+              <td width="1">8.</td>
+              <td>Adjournment of Session</td>
+              <td>June 6, 2020 - July 26, 2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div><!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script type="text/javascript">
+        // create the back to top button
+        $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+        var amountScrolled = 50;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > amountScrolled) {
+                $('a.back-to-top').fadeIn('slow');
+            } else {
+                $('a.back-to-top').fadeOut('slow');
+            }
+        });
+
+        $('a.back-to-top, a.simple-back-to-top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    </script>
+</body>
+</html>
