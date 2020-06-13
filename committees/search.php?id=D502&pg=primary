@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>House of Representatives</title>
+<link rel="shortcut icon" href="../images/ico/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+<!-- Bootstrap Core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Custom CSS -->
+<link href="../css/custom.css" rel="stylesheet">
+</head>
+<body>
+<!-- Back to Top -->
+<a href="#" class="back-to-top">Back to Top</a>
+<div class="container-fluid">
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-default navbar-sm navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
+      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
+			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
+            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
+			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#">SITE MAP</a></li> -->
+        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>    
+
+    <!-- Banner -->
+    <div class="jumbotron jumbotronTransp">
+        <!-- <div class="container text-left"> -->
+            <a href="../">
+            <h2><img src="../css/images/congress3rd.png" class="img-responsive" /></h2>
+            </a>
+        <!-- </div> -->
+    </div>
+        
+    <!-- Lower Navigation -->
+    <nav class="navbar navbar-default navbar-sm">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
+            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
+            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+          </ul>
+        </li>
+        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+	<!--
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/billdraftingcontest2018">Bill Drafting Contest 2018</a></li>
+            <li><a href="http://congress.gov.ph/events/docs/onehouseinternship2018.pdf" title="One House Internship Program 2018" target="_blank">One House Internship Program 2018</a></li>          </ul>
+        </li>
+	-->
+
+        <!--
+        <li><a href="#">CONTACT US</a></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- Footer -->
+    <nav class="navbar navbar-default navbar-sm navbar-fixed-bottom navbar-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooterBar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myFooterBar">
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+            <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
+	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
+                    <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
+		    <li><a href="http://senate.gov.ph/" target="_blank" title="Philippine Senate">Senate of the Philippines</li>
+                    <!-- <li><a href="http://hreplib.congress.gov.ph" target="_blank" title="House of Representatives Legislative Library website">Legislative Library Online Catalog</a></li> -->
+                    <li><a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><abbr title="Priority Development Assistance Fund">PDAF</abbr>, <abbr title="Department of Budget and Management">DBM</abbr> Website</a></li>
+                    <!-- <li><a href="http://www.bsp.gov.ph/bspnotes/demonetization-0.asp" target="_blank" title="BSP Demonetization of the OLD BANKNOTE SERIES"><abbr title="Bangko Sentral ng Pilipinas">BSP</abbr> Old Bank Notes Demonetization</a></li> -->
+                    <li><a href="http://www.pagasa.dost.gov.ph/#maincontents" target="_blank" title="DOST PAGASA Weather Advisory"><abbr title="The Philippine Atmospheric, Geophysical and Astronomical Services Administration">PAGASA</abbr> Weather Advisory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://mail.congress.gov.ph" target="_blank">WEBMail</a></li>
+        </ul>
+    </div>
+  </div>
+</nav></div> 
+
+<!-- Page Content -->
+<a id="content"></a>
+<div class="container-fluid">
+    <div class="row section">
+        <div class="col-md-8">
+            <ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/committees">House Committees</a></li></ol>            
+<h4>HOUSE COMMITTEES</h4>
+<hr />
+<h4><span class="text-primary">DANGEROUS DRUGS</span></h4>
+<div class="clearfix">&nbsp;</div>
+
+<p><strong>JURISDICTION: </strong>All matters directly and principally relating to illegal or prohibited drugs, controlled precursors and essential chemicals, the production, manufacture, use and trafficking thereof, as well as the rehabilitation and treatment of drug dependents.</p><p><strong>CHAIRPERSON :</strong></p><img src='../members/images/18th/barbers-a.jpg' alt='Hon. Barbers, Robert Ace S.' title='Hon. Barbers, Robert Ace S.' 
+        class='img-thumbnail img-responsive pull-left img-margin' width='145px' height='100px' /><h5><a href='../members/search.php?id=barbers-a' title='More info about our CHAIRPERSON'>Barbers, Robert Ace S.</a></h5><p>District Representative<br />Surigao del Norte, 2nd District<br /></p><div class='clearfix'>&nbsp;</div><p><strong>MEMBERS : </strong>45 Members</p><p><strong>COMMITTEE OFFICE : </strong></p><blockquote class='block-ital-sm'><p>3/F RVM Building, House of Representatives, Quezon City<br />Telephone no. 951-4346<br />Committee Secretary: Mr. Virgilio M. San Diego, Jr. (Acting)<br /></p></blockquote><p class="text-warning">SOURCE: Committee on Rules (Committee Membership) : BIS (Bills Referred) : Committee Affairs Department (Schedule of Meetings) : Engineering Division (Committees' Location/Telephone) : <abbr title="Information and Communication Technology Service">ICTS</abbr> (Website Maintenance)</p>
+<hr />
+<!-- Tab Pills for Roster, Bills Referred, Schedule of Meetings, Related Articles  -->
+<a name="tab"></a>
+<ul class="nav nav-tabs">
+    <li ><a href="search.php?id=D502&pg=roster#tab">Committee Members</a></li>
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bills Referred <span class="caret"></span></a>
+    <ul class="dropdown-menu dropdown-menu-items">
+      <li class=" active"><a href="search.php?id=D502&pg=primary#tab">Primay Referral</a>
+      </li>
+      <li class=""><a href="search.php?id=D502&pg=secondary#tab">Secondary Referral</a></li>
+    </ul>
+  </li>
+  <li ><a href="search.php?id=D502&pg=sched#tab">Schedule of Meetings</a></li>
+  <!-- <li ><a href="search.php?id=D502&pg=related">Related Articles and Documents</a></li> -->
+</ul>
+
+
+<div class="clearfix">&nbsp;</div>
+  <h4>PRIMARY REFFERED HOUSE BILLS <small class="badge bg-badge-info">44</small></h4>
+  <div class="panel panel-default">
+    <div class='panel-heading'><span class='text-muted text-muted-size'>HB00068</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00068'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00068.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING DRUG PREVENTION AND CONTROL, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, AS AMENDED, OTHERWISE KNOWN AS THE ꞌCOMPREHENSIVE DANGEROUS DRUGS ACT OF 2002ꞌ</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=barbers-a" class="font-weight-normal mr-2">BARBERS, ROBERT ACE S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00073</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00073'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00073.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTING THE MAGNA CARTA OF BENEFITS FOR THE OFFICERS AND PERSONNEL OF THE PHILIPPINE DRUG ENFORCEMENT AGENCY</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=barbers-a" class="font-weight-normal mr-2">BARBERS, ROBERT ACE S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00368</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00368'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00368.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ADOPTING THE HIGHER PRESCRIBED PENALTY, INCLUDING DEATH, OF THE NATIONAL LAW OF AN ALIEN FOUND GUILTY OF TRAFFICKING DANGEROUS DRUGS AND OTHER SIMILAR SUBSTANCES, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, OTHERWISE KNOWN AS THE ꞌCOMPREHENSIVE DANGEROUS DRUGS ACT OF 2002ꞌ </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=yap-v" class="font-weight-normal mr-2">YAP, VICTOR A.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00533</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00533'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00533.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT MANDATING THE ESTABLISHMENT OF A REHABILITATION CENTER FOR ILLEGAL DRUGS USERS IN EVERY PROVINCE OF THE PHILIPPINES, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=paduano-j" class="font-weight-normal mr-2">PADUANO, JOSEPH STEPHEN S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00629</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00629'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00629.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING THE DAVAO ORIENTAL DRUG ABUSE TREATMENT AND REHABILITATION CENTER, APPROPRIATING FUNDS THEREFOR AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=almario-j" class="font-weight-normal mr-2">ALMARIO, JOEL MAYO Z.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00742</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00742'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00742.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING CERTAIN PROVISIONS OF REPUBLIC ACT 9165 OTHERWISE KNOWN AS THE 'COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002'</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=biazon-rr" class="font-weight-normal mr-2">BIAZON, ROZZANO RUFINO B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00896</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00896'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00896.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE IMMEDIATE DESTRUCTION OF THE CONFISCATED, SEIZED AND/OR SURRENDERED DANGEROUS DRUGS, PLANT SOURCES OF DANGEROUS DRUGS, AND CONTROLLED PRECURSORS AND ESSENTIAL CHEMICALS, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, AS AMENDED</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=marino-m" class="font-weight-normal mr-2">MARI&Ntilde;O, MARIO VITTORIO &quot;MARVEY&quot; A.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00929</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00929'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/hb00929.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-02</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE ESTABLISHMENT OF A DRUG REHABILITATION CENTER IN EVERY REGION OF THE COUNTRY AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=cabochan-m" class="font-weight-normal mr-2">CABOCHAN, MANUEL III. D.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01308</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01308'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01308.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-03</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A DRUG REHABILITATION CENTER IN THE MUNICIPALITY OF LIBMANAN, IN THE PROVINCE OF CAMARINES SUR, TO BE KNOWN AS THE CAMARINES SUR DRUG REHABILITATION CENTER AND ALLOCATING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=villafuerte-l" class="font-weight-normal mr-2">VILLAFUERTE, LUIS RAYMUND &quot;LRAY&quot; JR F.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01351</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01351'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01351.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-03</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING SECTIONS 23 AND 24 OF REPUBLIC ACT NO. 9165, ALSO KNOWN AS THE COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002 BY RESTORING PLEA BARGAINING AND PROBATION LAWS</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=castelo-p" class="font-weight-normal mr-2">CASTELO, PRECIOUS HIPOLITO</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01547</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01547'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01547.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE LEGAL PROCEDURE IN THE DISPOSITION AND REHABILITATION OF DRUG DEPENDENTS AND/OR DRUG PUSHERS OR DEALERS WHO VOLUNTARILY SURRENDER, AMENDING FOR THE PURPOSE RA 9165, AS AMENDED</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=garbin-a" class="font-weight-normal mr-2">GARBIN, ALFREDO JR. A.</a>2. <a href="../members/search.php?id=co-e" class="font-weight-normal mr-2">CO, ELIZALDY S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01548</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01548'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01548.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE DISPOSITION OF CONFISCATED, SEIZED, AND/OR SURRENDERED DANGEROUS DRUGS, PLANT SOURCES OF DANGEROUS DRUGS, CONTROLLED PRECURSORS AND ESSENTIAL CHEMICALS, INSTRUMENTS/PARAPHERNALIA AMENDING FOR THE PURPOSE RA 9165 AS AMENDED BY RA 10640</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=garbin-a" class="font-weight-normal mr-2">GARBIN, ALFREDO JR. A.</a>2. <a href="../members/search.php?id=co-e" class="font-weight-normal mr-2">CO, ELIZALDY S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01549</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01549'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01549.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE ESTABLISHMENT OF DRUG REHABILITATION CENTERS IN EVERY LEGISLATIVE DISTRICT OF THE COUNTRY, UNDER THE SUPERVISION OF THE DEPARTMENT OF HEALTH, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=garbin-a" class="font-weight-normal mr-2">GARBIN, ALFREDO JR. A.</a>2. <a href="../members/search.php?id=co-e" class="font-weight-normal mr-2">CO, ELIZALDY S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01572</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01572'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01572.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE ESTABLISHMENT OF A DRUG REHABILITATION CENTER IN EVERY REGION AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=abu-r" class="font-weight-normal mr-2">ABU, RANEO &quot;RANIE&quot; E.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01949</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01949'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01949.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-10</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AUTHORIZING WIRE TAPPING IN CASES INVOLVING VIOLATIONS OF REPUBLIC ACT NO. 9165, OTHERWISE KNOWN AS THE ꞌCOMPREHENSIVE DANGEROUS DRUGS ACT OF 2002ꞌ, AMENDING FOR THE PURPOSE SECTION 3 OF REPUBLIC ACT NO. 4200, ENTITLED ꞌAN ACT TO PROHIBIT AND PENALIZE WIRE TAPPING AND OTHER RELATED VIOLATIONS OF THE PRIVACY OF COMMUNICATION, AND FOR OTHER PURPOSESꞌ</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=cabochan-m" class="font-weight-normal mr-2">CABOCHAN, MANUEL III. D.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02046</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02046'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02046.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT MANDATING DANGEROUS DRUGS COURTS TO STRICTLY ENFORCE THE PROVISIONS OF REPUBLIC ACT 9165 OR THE COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002 AND TO EFFECT A REDUCTION OF DRUG-RELATED CASES, DECLOGGING OF THE SAME COURTꞌS DOCKETS, AND STREAMLINING THE FIVE PILLARS OF THE CRIMINAL JUSTICE SYSTEM</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=castelo-p" class="font-weight-normal mr-2">CASTELO, PRECIOUS HIPOLITO</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-29</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02248</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02248'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02248.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-17</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT GRANTING HAZARD PAY TO ELIGIBLE PDEA PERSONNEL</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=cabochan-m" class="font-weight-normal mr-2">CABOCHAN, MANUEL III. D.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-29</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02599</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02599'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02599.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING CERTAIN SECTION OF REPUBLIC ACT NO. 4200, OTHERWISE KNOWN AS AN ACT TO PROHIBIT AND PENALIZE WIRETAPPING AND OTHER RELATED VIOLATIONS OF THE PRIVACY OF COMMUNICATION, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=hernandez-f" class="font-weight-normal mr-2">HERNANDEZ, FERDINAND L.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-31</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02765</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02765'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02765.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-25</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING DRUG PREVENTION AND CONTROL, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, AS AMENDED, OTHERWISE KNOWN AS THE "COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002" </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=rodriguez-r" class="font-weight-normal mr-2">RODRIGUEZ, RUFUS B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-31</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02975</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02975'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02975.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A DRUG REHABILITATION CENTER IN THE MUNICIPALITY OF AMLAN, PROVINCE OF NEGROS ORIENTAL, TO BE KNOWN AS THE NEGROS ORIENTAL REHABILITATION CENTER AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=sagarbarria-m" class="font-weight-normal mr-2">SAGARBARRIA, MANUEL T.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-05</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-05</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02995</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02995'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02995.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT EXEMPTING JOURNALISTS FROM ACTING AS ANTI-DRUG OPERATIONS WITNESSES AND AMENDING REPUBLIC ACT NO. 10640, ENTITLED "AN ACT TO FURTHER STRENGTHEN THE ANTI-DRUG CAMPAIGN OF THE GOVERNMENT," AMENDING FOR THE PURPOSE SECTION 21 OF REPUBLIC ACT NO. 9165, OTHERWISE KNOWN AS THE "COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002"</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=castro-f" class="font-weight-normal mr-2">CASTRO, FRANCE L.</a>2. <a href="../members/search.php?id=zarate-c" class="font-weight-normal mr-2">ZARATE, CARLOS ISAGANI T.</a>3. <a href="../members/search.php?id=gaite-f" class="font-weight-normal mr-2">GAITE, FERDINAND R.</a>4. <a href="../members/search.php?id=cullamat-e" class="font-weight-normal mr-2">CULLAMAT, EUFEMIA &quot;KA FEMIA&quot; C.</a>5. <a href="../members/search.php?id=brosas-a" class="font-weight-normal mr-2">BROSAS, ARLENE D.</a>6. <a href="../members/search.php?id=elago-s" class="font-weight-normal mr-2">ELAGO, SARAH JANE I.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-05</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-05</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03208</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03208'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03208.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING PUBLIC REHABILITATION AND TREATMENT CENTERS FOR SUBSTANCE ABUSE IN EVERY CITY AND MUNICIPALITY</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=olivarez-e" class="font-weight-normal mr-2">OLIVAREZ, ERIC L.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-06</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03233</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03233'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03233.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTING THE MAGNA CARTA OF BENEFITS FOR THE OFFICERS AND PERSONNEL OF THE PHILIPPINE DRUG ENFORCEMENT AGENCY</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=sarmiento-e" class="font-weight-normal mr-2">SARMIENTO, EDGAR S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-06</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03427</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03427'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03427.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-05</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A DRUG REHABILITATION CENTER IN THE ISLAND MUNICIPALITY OF PRES. C.P. GARCIA IN THE SECOND DISTRICT OF BOHOL AND IN EVERY PROVINCE IN THE COUNTRY AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=aumentado-ea" class="font-weight-normal mr-2">AUMENTADO, ERICO ARISTOTLE C.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-07</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-07</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03631</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03631'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03631.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-07</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE ESTABLISHMENT AND SUPPORT OF A DRUG ABUSE TREATMENT AND REHABILITATION CENTER IN EVERY PROVINCE THROUGHOUT THE PHILIPPINES AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=nieto-j" class="font-weight-normal mr-2">NIETO, JOHN MARVIN &quot;YUL SERVO&quot; C.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-14</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-14</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03726</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03726'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03726.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A DRUG REHABILITATION CENTER IN THE CITY OF PARAÑAQUE, METRO MANILA TO BE KNOWN AS THE PARAÑAQUE DRUG REHABILITATION CENTER AND ALLOCATING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=tambunting-j" class="font-weight-normal mr-2">TAMBUNTING, JOY MYRA S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-14</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-14</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03755</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03755'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03755.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING SECTION 36 OF REPUBLIC ACT NO. 9165 OTHERWISE KNOWN AS THE COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002 ON DRUG TESTING </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=rodriguez-r" class="font-weight-normal mr-2">RODRIGUEZ, RUFUS B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-14</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-14</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03823</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03823'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03823.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-13</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING CERTAIN SECTION OF REPUBLIC ACT NO. 4200, OTHERWISE KNOWN AS AN ACT TO PROHIBIT AND PENALIZE WIRETAPPING AND OTHER RELATED VIOLATIONS OF THE PRIVACY OF COMMUNICATION, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=rodriguez-r" class="font-weight-normal mr-2">RODRIGUEZ, RUFUS B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-20</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-08-20</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB04104</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB04104'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB04104.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-22</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT FURTHER AMENDING SECTION 21 OF REPUBLIC ACT NO. 9165, AS AMENDED BY REPUBLIC ACT 10640 OTHERWISE KNOWN AS THE "COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002", AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=rodriguez-r" class="font-weight-normal mr-2">RODRIGUEZ, RUFUS B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-09-02</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-09-02</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05068</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05068'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05068.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-10-02</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT MANDATING THE ESTABLISHMENT OF A REHABILITATION CENTER FOR ILLEGAL DRUGS USERS IN METRO MANILA AND EVERY PROVINCE OF THE PHILIPPINES, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=nieto-j" class="font-weight-normal mr-2">NIETO, JOHN MARVIN &quot;YUL SERVO&quot; C.</a>2. <a href="../members/search.php?id=maceda-e" class="font-weight-normal mr-2">MACEDA, EDWARD VERA PEREZ</a>3. <a href="../members/search.php?id=malapitan-d" class="font-weight-normal mr-2">MALAPITAN, DALE &quot;ALONG&quot; R.</a>4. <a href="../members/search.php?id=martinez-e" class="font-weight-normal mr-2">MARTINEZ, ERIC M.</a>5. <a href="../members/search.php?id=valeriano-r" class="font-weight-normal mr-2">VALERIANO, ROLANDO</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-04</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05405</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05405'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05405.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-11-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTIONALIZING ANTI-DRUG ABUSE COUNCILS IN PROVINCES, CITIES, MUNICIPALITIES AND BARANGAYS, APPROPRIATING FUNDS THEREFOR, AND FOR OTHER PURPOSES </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=baronda-j" class="font-weight-normal mr-2">BARONDA, JULIENNE &quot;JAM&quot; L.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-13</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-13</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05482</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05482'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05482.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-11-13</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR THE ESTABLISHMENT OF A DRUG REHABILITATION CENTER IN EVERY REGION AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=farinas-rr" class="font-weight-normal mr-2">FARI&Ntilde;AS, RIA CHRISTINA G.</a>2. <a href="../members/search.php?id=farinas-rc" class="font-weight-normal mr-2">FARI&Ntilde;AS, RUDYS CESAR I G.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-18</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-18</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05545</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05545'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05545.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-11-19</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT MANDATING THE ESTABLISHMENT OF A REHABILITATION CENTER FOR ILLEGAL DRUG USERS IN EVERY PROVINCE OF THE PHILIPPINES, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=rodriguez-r" class="font-weight-normal mr-2">RODRIGUEZ, RUFUS B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-25</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-25</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05627</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05627'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05627.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-11-26</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT MANDATING THE ADMINISTRATION OF REGULAR DRUG TESTS IN CORRECTIONAL PENAL INSTITUTIONS </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=cabochan-m" class="font-weight-normal mr-2">CABOCHAN, MANUEL III. D.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-12-02</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-12-02</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05719</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05719'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05719.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-12-05</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A DRUG REHABILITATION CENTER IN THE MUNICIPALITY OF IGUIG, PROVINCE OF CAGAYAN TO BE KNOWN AS THE CAGAYAN DRUG REHABILITATION CENTER AND ALLOCATING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=lara-j" class="font-weight-normal mr-2">LARA, JOSEPH &quot;JOJO&quot; L.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-12-10</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-12-10</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05761</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05761'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05761.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-12-09</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING THE DRUG ABUSE PREVENTION, TREATMENT, AND REHABILITATION, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, OTHERWISE KNOWN AS "THE COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002" AS AMENDED, AND APPROPRIATING FUNDS THEREFOR </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=belmonte-jc" class="font-weight-normal mr-2">BELMONTE, JOSE CHRISTOPHER Y.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-12-11</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-12-11</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05804</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05804'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05804.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-12-16</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING ANTI-DRUG ABUSE COUNCILS IN ALL PROVINCES, CITIES, MUNICIPALITIES, AND BARANGAYS THROUGHOUT THE COUNTRY AND PROVIDING FUNDS THEREFOR </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=belmonte-jc" class="font-weight-normal mr-2">BELMONTE, JOSE CHRISTOPHER Y.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-12-18</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-12-18</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05805</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05805'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05805.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-12-16</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTIONALIZING A COMMUNITY-BASED DRUG REHABILITATION PROGRAM IN EVERY MUNICIPALITY AND CITY IN THE PHILIPPINES </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=erice-e" class="font-weight-normal mr-2">ERICE, EDGAR R.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-12-18</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-12-18</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB05932</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB05932'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB05932.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-01-14</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING THE DRUG ABUSE PREVENTION, TREATMENT, AND REHABILITATION, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9165, OTHERWISE KNOWN AS THE "COMPREHENSIVE DANGEROUS DRUGS ACT OF 2002" AS AMENDED, AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=cabochan-m" class="font-weight-normal mr-2">CABOCHAN, MANUEL III. D.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-01-21</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2020-01-21</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06781</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06781'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06781.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-23</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING A NATIONAL ANTI-ILLEGAL DRUG CAMPAIGN AND RESEARCH
+PROGRAM, APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=tutor-k" class="font-weight-normal mr-2">TUTOR, KRISTINE ALEXIE B.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-27</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2020-05-27</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00001</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00001'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00001.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">A RESOLUTION URGING THE HOUSE OF REPRESENTATIVES TO ENSURE A DRUG-FREE WORKPLACE BY REQUIRING ALL MEMBERS THEREOF, LEGISLATIVE STAFF, CONSULTANTS, OFFICERS, EMPLOYEES AND WORKERS TO SUBMIT TO A MANDATORY DRUG TEST</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=barbers-a" class="font-weight-normal mr-2">BARBERS, ROBERT ACE S.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00196</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00196'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00196.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">RESOLUTION URGING THE HOUSE COMMITTEE ON DANGEROUS DRUGS TO CONDUCT AN INQUIRY, IN AID OF LEGISLATION, ON THE RELEASE OF AMOUNTS PERTAINING TO THE ADDITIONAL FUND SOURCES OF THE DANGEROUS DRUGS BOARD PURSUANT TO RA 9165</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=villafuerte-l" class="font-weight-normal mr-2">VILLAFUERTE, LUIS RAYMUND &quot;LRAY&quot; JR F.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-13</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-27</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00416</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00416'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00416.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-10-03</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">RESOLUTION CALLING ON THE IMMEDIATE RESIGNATION OF OFFICIALS IMPLICATED IN THE PRACTICE OF "DRUG RECYCLING," INCLUDING THE PLANTING OF EVIDENCE AND RESELLING OF DRUGS SEIZED AS EVIDENCE, BY OFFICERS OF THE PHILIPPINE DRUG ENFORCEMENT AGENCY AND THE PHILIPPINE NATIONAL POLICE, ALONG WITH PNP CHIEF POLICE GENERAL OSCAR ALBAYALDE, TO PAVE THE WAY FOR A CREDIBLE INVESTIGATION INTO THE SAME, AND URGING THE PERTINENT OFFICES INCLUDING THE OMBUDSMAN TO FILE THE APPROPRIATE CHARGES AGAINST ALL THOSE FOUND TO BE INVOLVED</span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=castro-f" class="font-weight-normal mr-2">CASTRO, FRANCE L.</a>2. <a href="../members/search.php?id=zarate-c" class="font-weight-normal mr-2">ZARATE, CARLOS ISAGANI T.</a>3. <a href="../members/search.php?id=gaite-f" class="font-weight-normal mr-2">GAITE, FERDINAND R.</a>4. <a href="../members/search.php?id=cullamat-e" class="font-weight-normal mr-2">CULLAMAT, EUFEMIA &quot;KA FEMIA&quot; C.</a>5. <a href="../members/search.php?id=brosas-a" class="font-weight-normal mr-2">BROSAS, ARLENE D.</a>6. <a href="../members/search.php?id=elago-s" class="font-weight-normal mr-2">ELAGO, SARAH JANE I.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-04</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-27</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00512</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00512'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00512.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-11-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">RESOLUTION TO A DRUG-FREE HOUSE OF REPRESENTATIVES AND STRONGLY URGING ITS MEMBERS TO VOLUNTARILY SUBMIT TO A RANDOM DRUG TEST AND SHOW ITS COMMITMENT TO THE WAR ON ILLEGAL DRUGS AND TO FULFILL ITS CONSTITUTIONAL MANDATE THAT PUBLIC OFFICE IS A PUBLIC TRUST </span></p><p class="m-0 p-0">Principal Author/s: <span class="font-weight-bold">1. <a href="../members/search.php?id=barzaga-e" class="font-weight-normal mr-2">BARZAGA, ELPIDIO JR. F.</a></span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-11-12</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DANGEROUS DRUGS since 2019-11-12</span></p></div>  </div>
+
+<!-- Modal Bill History -->
+<div class="modal fade" id="HistoryModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+            <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">HOUSE BILL/RESOLUTION HISTORY</h5>
+      </div>
+      <div class="modal-body">
+        <div class="fetched-data"></div>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-default" data-dismiss="modal">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal - Contact Form -->
+<div class="modal fade" id="myEmail" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<form>
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">E-Mail Form</h4>
+				</div>
+				<div class="modal-body">
+					<p>Some text in the modal.</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>            <div class="clearfix">&nbsp;</div>  
+        </div>
+
+        <div class="col-md-4">
+            <a name="cal"></a>
+<div class="panel panel-info">
+    <div class="panel-heading"><a href="../commsched/">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
+    <div class="panel-body" style="padding: 4px; margin-bottom: -30px;">
+        
+
+<table class="table table-responsive table-condensed" style="border-top: none;">
+<tr>
+<td align="center">
+<table class="table table-bordered table-responsive table-condensed">
+<tr align="center" class="info">
+<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="./?month=05&year=2020#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>JUNE 2020<a href="./?month=07&year=2020#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
+</tr>
+<tr class="text-warning">
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>M</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>T</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>W</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>T</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>F</strong></td>
+<td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
+</tr>
+<tr><td></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 9:00 AM
+INFORMATION AND COMMUNICATIONS TECHNOLOGY 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=1&m=6&y=2020'><strong>1</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='SUSTAINABLE DEVELOPMENT GOALS 9:00 AM
+COOPERATIVES DEVELOPMENT 10:00 AM
+POVERTY ALLEVIATION 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=2&m=6&y=2020'><strong>2</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='AQUACULTURE AND FISHERIES RESOURCES 9:00 AM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 9:30 AM
+METRO MANILA DEVELOPMENT jt. w/ BASIC EDUCATION AND CULTURE 9:30 AM
+TRADE AND INDUSTRY 9:30 AM
+WOMEN &amp; GENDER EQUALITY 10:00 AM
+GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=3&m=6&y=2020'><strong>3</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='CLIMATE CHANGE 10:00 AM
+HEALTH (Technical Working Group) 10:00 AM
+ENERGY 1:30 PM
+SUBCOMMITTEE ON LABOR STANDARDS (LABOR AND EMPLOYMENT) 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=4&m=6&y=2020'><strong>4</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='TRANSPORTATION 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=5&m=6&y=2020'><strong>5</strong></a></td><td align='center' valign='middle' height='20px' >6</td></tr><tr><td align='center' valign='middle' height='20px' >7</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=8&m=6&y=2020'><strong>8</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='WAYS AND MEANS 9:30 AM
+GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=9&m=6&y=2020'><strong>9</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='MICRO, SMALL AND MEDIUM ENTERPRISE DEVELOPMENT 10:00 AM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=10&m=6&y=2020'><strong>10</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='COOPERATIVES DEVELOPMENT 9:30 AM
+TRADE AND INDUSTRY 9:30 AM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+BASIC EDUCATION AND CULTURE (Technical Working Group) 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=11&m=6&y=2020'><strong>11</strong></a></td><td align='center' valign='middle' height='20px' class='info'>12</td><td align='center' valign='middle' height='20px' >13</td></tr><tr><td align='center' valign='middle' height='20px' >14</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='NORTH LUZON GROWTH QUADRANGLE 9:30 AM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=15&m=6&y=2020'><strong>15</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='METRO MANILA DEVELOPMENT 9:30 AM
+JOINT CONGRESSIONAL OVERSIGHT COMMITTEE ON UNIVERSAL HEALTH CARE (UHC) 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=16&m=6&y=2020'><strong>16</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='HOUSING AND URBAN DEVELOPMENT 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=17&m=6&y=2020'><strong>17</strong></a></td><td align='center' valign='middle' height='20px' >18</td><td align='center' valign='middle' height='20px' >19</td><td align='center' valign='middle' height='20px' >20</td></tr><tr><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px' >22</td><td align='center' valign='middle' height='20px' >23</td><td align='center' valign='middle' height='20px' >24</td><td align='center' valign='middle' height='20px' >25</td><td align='center' valign='middle' height='20px' >26</td><td align='center' valign='middle' height='20px' >27</td></tr><tr><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px' >29</td><td align='center' valign='middle' height='20px' >30</td></table>
+</td>
+</tr>
+</table>    </div>
+    <div class="clearfix">&nbsp;</div>
+</div><ul class="list-group">
+  <li class="list-group-item list-group-item-info">RELATED LINKS</li>
+  <a href="../members" class="list-group-item">House Members</a>
+  <a href="../committees" class="list-group-item">House Committees</a>
+  <a href="../committees/?v=reports" class="list-group-item">Committee Reports</a>
+  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
+  <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
+  <a href="../legisdocs/?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
+  <a href="../legisdocs/?v=ra" class="list-group-item">Republic Acts</a>
+  <a href="../legisdocs/?v=journals" class="list-group-item">House Journals</a>
+  <a href="../legisdocs/?v=cr" class="list-group-item">Congressional Record</a>
+  <a href="../legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="../legisdocs/?v=sb" class="list-group-item">Session Bulletin</a>
+  <a href="../legisdocs/?v=ob" class="list-group-item">Order of Business</a>
+  <li class="list-group-item list-group-item-info">MEDIA</li>
+  <a href="../press" class="list-group-item">Press Releases</a>
+  <a href="../photojournal" class="list-group-item">Photo Journals</a>
+  <a href="../streaming" class="list-group-item">Video Streaming</a>
+</ul>        </div>
+    </div>
+</div> 
+<div class="clearfix">&nbsp;</div>        
+<!-- Session Calendar Modal -->
+<!-- Modal -->
+<div id="sessionCalendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGISLATIVE CALENDAR<br /><small class="text-warning">EIGHTEENTH CONGRESS, FIRST REGULAR SESSON</small></h4>
+      </div>
+      <div class="modal-body">
+        <p>Adopted from House Concurrent Resolution No. 3</p>
+        <p>Introduced by Rep. Ferdinand Martin G. Romualdez and Rep. Bienvenido M. Abante, Jr.</p>
+        <p><strong>CONCURRENT RESOLUTION PROVIDING FOR THE LEGISLATIVE CALENDAR FOR THE FIRST REGULAR SESSION OF THE
+            EIGHTEENTH CONGRESS OF THE PHILIPPINES</strong>.</p>
+        <p>RESOLVED BY THE HOUSE OF REPRESENTATIVES, THE SENATE CONCURRING, That the Legislative Calendar for the
+          First Regular Session of the Eighteenth Congress of the Philippines shall be as follows:</p>
+
+        <div class="clearfix">&nbsp;</div>
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+              <td width="1">1.</td>
+              <td>Commencement of Session</td>
+              <td>July 22, 2019 - October 4, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">2.</td>
+              <td>Adjournment of Session</td>
+              <td>October 5, 2019 - November 3, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">3.</td>
+              <td>Resumption of Session</td>
+              <td>November 4, 2019 - December 20, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">4.</td>
+              <td>Adjournment of Session</td>
+              <td>December 21, 2019 - January 19, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">5.</td>
+              <td>Resumption of Session</td>
+              <td>January 20, 2020 - March 13, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">6.</td>
+              <td>Adjournment of Session</td>
+              <td>March 14, 2020 - May 3, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">7.</td>
+              <td>Resumption of Session</td>
+              <td>May 4, 2020 - June 5, 2020</td>
+            </tr>
+            <tr align="center">
+              <td style="font-style:italic" colspan="3">(sine die adjournment)</td>
+            </tr>
+            <tr>
+              <td width="1">8.</td>
+              <td>Adjournment of Session</td>
+              <td>June 6, 2020 - July 26, 2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div><!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>
+$(document).ready(function(){
+    $('#HistoryModal').on('show.bs.modal', function (e) {
+        var rowid = $(e.relatedTarget).data('id');
+        $.ajax({
+            type : 'POST',
+            url : 'fetch_history.php', //Here you will fetch records 
+            data :  'rowid='+ rowid, //Pass $id
+            success : function(data){
+            $('.fetched-data').html(data);//Show fetched data from database
+            }
+        });
+     });
+});
+</script>
+<script type="text/javascript">
+        // create the back to top button
+        $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+        var amountScrolled = 50;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > amountScrolled) {
+                $('a.back-to-top').fadeIn('slow');
+            } else {
+                $('a.back-to-top').fadeOut('slow');
+            }
+        });
+
+        $('a.back-to-top, a.simple-back-to-top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+    </script>
+</body>
+</html>
