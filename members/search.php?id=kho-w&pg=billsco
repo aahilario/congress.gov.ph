@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta property="og:image" content="http://www.congress.gov.ph/images/seal.png" />
+  <meta property="og:description" content="District Representatives and Party List Representatives" />
+  <meta property="og:title" content="House of Representatives House Members" />
+  <title>House of Representatives</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="../images/ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../images/ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../images/ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../images/ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../images/ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../images/ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../images/ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../images/ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../images/ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../images/ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/ico/favicon-16x16.png">
+<link rel="manifest" href="../images/ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Custom CSS -->
+	<link href="../css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Back to Top -->
+	<a href="#" class="back-to-top">Back to Top</a>
+	<div class="container-fluid">
+		<!-- Top Navigation -->
+		<nav class="navbar navbar-default navbar-sm navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
+      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
+			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
+            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
+			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#">SITE MAP</a></li> -->
+        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+		<!-- Banner -->
+		<div class="jumbotron jumbotronTransp">
+			<!-- <div class="container text-left"> -->
+			<a href="../">
+				<h2><img src="../css/images/congress.png" class="img-responsive" /></h2>
+			</a>
+			<!-- </div> -->
+		</div>
+
+		<!-- Lower Navigation -->
+		<nav class="navbar navbar-default navbar-sm">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
+            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
+            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+          </ul>
+        </li>
+        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+	<!--
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/billdraftingcontest2018">Bill Drafting Contest 2018</a></li>
+            <li><a href="http://congress.gov.ph/events/docs/onehouseinternship2018.pdf" title="One House Internship Program 2018" target="_blank">One House Internship Program 2018</a></li>          </ul>
+        </li>
+	-->
+
+        <!--
+        <li><a href="#">CONTACT US</a></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+		<!-- Footer -->
+		<nav class="navbar navbar-default navbar-sm navbar-fixed-bottom navbar-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooterBar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myFooterBar">
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+            <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
+	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
+                    <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
+		    <li><a href="http://senate.gov.ph/" target="_blank" title="Philippine Senate">Senate of the Philippines</li>
+                    <!-- <li><a href="http://hreplib.congress.gov.ph" target="_blank" title="House of Representatives Legislative Library website">Legislative Library Online Catalog</a></li> -->
+                    <li><a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><abbr title="Priority Development Assistance Fund">PDAF</abbr>, <abbr title="Department of Budget and Management">DBM</abbr> Website</a></li>
+                    <!-- <li><a href="http://www.bsp.gov.ph/bspnotes/demonetization-0.asp" target="_blank" title="BSP Demonetization of the OLD BANKNOTE SERIES"><abbr title="Bangko Sentral ng Pilipinas">BSP</abbr> Old Bank Notes Demonetization</a></li> -->
+                    <li><a href="http://www.pagasa.dost.gov.ph/#maincontents" target="_blank" title="DOST PAGASA Weather Advisory"><abbr title="The Philippine Atmospheric, Geophysical and Astronomical Services Administration">PAGASA</abbr> Weather Advisory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://mail.congress.gov.ph" target="_blank">WEBMail</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>	</div>
+
+	<!-- Page Content -->
+	<a id="content"></a>
+	<div class="container-fluid">
+		<img src="../css/images/ajax-loader.gif" id="loading-indicator" style="display:none" />
+		<div class="row section">
+			<div class="col-md-8">
+				<ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/members">House Members</a></li></ol>				<!-- <img src="../images/email_hor.gif" width="16" height="16" border="0" alt="Send email" style="float:left;" />&nbsp;<a href="#" onClick="pop_Window('../contact/popform.php?re=sendemail&to=member&id=J046')" title="contact form opens in a new window" class="sm_link_bill">Send email</a>&nbsp;  -->
+<h4>HOUSE MEMBERS</h4>
+<hr />
+<img src='images/18th/kho-w.jpg' alt='Hon. Kho, Wilton &quot;Tonton&quot; Tan' title='Hon. Kho, Wilton &quot;Tonton&quot; Tan' class='img-thumbnail img-responsive pull-left img-margin' width='145px' height='100px' /><p class="text-warning pull-right">
+	</p>
+<h4 style='margin-top: 0;'>
+	<span class='text-primary'>Hon. Kho, Wilton &quot;Tonton&quot; Tan</span>	<!-- Email button (Under Construction) -->
+	<!-- <span class="glyphicon glyphicon-envelope" data-toggle="modal" data-target="#myEmail" title="Send Email to the Office of Hon. Kho, Wilton &quot;Tonton&quot; Tan"></span> -->
+
+	<br /><small>District Representative<br />Masbate, 3rd District</small></h4>
+
+<p>House of Representatives, Quezon City<br />Rm. SW-501 <br>Phone: (632) 8931-5001, Local: 7279<br />Direct: 8931-6621<br></p><div class="clearfix">&nbsp;</div><br />
+
+<!-- Tab Pills for Committee Membership, Bills Referred  -->
+
+<a name="tab"></a>
+<!-- <ul class="nav nav-tabs">
+	<li 
+		><a href="search.php?id=kho-w&pg=commem#tab">Committee Membership</a></li>
+	<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bills Referred <span class="caret"></span></a>
+		<ul class="dropdown-menu dropdown-menu-items">
+			<li class=""><a href="search.php?id=kho-w&pg=billsmain#tab">Main Referral</a>
+			</li>
+			<li class=" active"><a href="search.php?id=kho-w&pg=billsco#tab">Co-Sponsor</a></li>
+		</ul>
+	</li>
+</ul> -->
+<ul class="nav nav-tabs">
+	<li >
+		<a href="search.php?id=kho-w&pg=billsmain#tab">PRINCIPAL AUTHORED BILLS</a>
+	</li>
+	<li class="active">
+		<a href="search.php?id=kho-w&pg=billsco#tab">CO-AUTHORED BILLS</a>
+	</li>
+	<li >
+		<a href="search.php?id=kho-w&pg=commem#tab">COMMITTEE MEMBERSHIP</a>
+	</li>
+
+
+</ul>
+
+<div class="clearfix">&nbsp;</div>
+  <h4>HOUSE MEASURES CO-AUTHORED <small class="badge bg-badge-info">47</small></h4>
+  <div class="panel panel-default">
+    <div class='panel-heading'><span class='text-muted text-muted-size'>HB00030</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00030'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00030.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING THE DEPARTMENT OF DISASTER RESILIENCE, DEFINING ITS POWERS AND FUNCTIONS, AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0516" class="font-weight-normal">GOVERNMENT REORGANIZATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB05989</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Unfinished Business (Period of Interpellation)</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00047</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00047'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00047.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT POSTPONING THE MAY 2020 BARANGAY AND SANGGUNIANG KABATAAN ELECTIONS, AMENDING FOR THE PURPOSE REPUBLIC ACT NO. 9164, AS AMENDED, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0537" class="font-weight-normal">SUFFRAGE AND ELECTORAL REFORMS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB04933</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11462 enacted on 2019-12-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00067</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00067'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00067.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT GRANTING BENEFITS AND PRIVILEGES TO JUNIOR CITIZENS</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0543" class="font-weight-normal">YOUTH AND SPORTS DEVELOPMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on YOUTH AND SPORTS DEVELOPMENT since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00075</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00075'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00075.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REQUIRING ALL BROADCAST MEDIA NETWORKS TO DEVOTE A TOTAL OF TWENTY (20) MINUTES OF REGULAR AIRTIME A DAY FOR PUBLIC SERVICE ANNOUNCEMENTS, FREE OF CHARGE, AND PROVIDING PENALTIES FOR THE VIOLATION THEREOF</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0528" class="font-weight-normal">PUBLIC INFORMATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on PUBLIC INFORMATION since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00077</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00077'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00077.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING PUBLIC-PRIVATE PARTNERSHIPS AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0530" class="font-weight-normal">PUBLIC WORKS AND HIGHWAYS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on PUBLIC WORKS AND HIGHWAYS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00080</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00080'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00080.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR COMPENSATION TO STAY-AT-HOME HOUSEWIVES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=A504" class="font-weight-normal">WOMEN AND GENDER EQUALITY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on WOMEN AND GENDER EQUALITY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00269</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00269'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00269.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT TO INSTITUTIONALIZE A STANDARD UPGRADE AND MODERNIZATION OF REGIONAL HOSPITALS TO CREATE AND ESTABLISH REGIONAL CENTER OF EXCELLENCE FOR HEALTH CARE</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0517" class="font-weight-normal">HEALTH</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on HEALTH since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00279</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00279'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00279.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING RIGHT OF ACCESS TO MEDICAL CANNABIS AS A COMPASSIONATE ALTERNATIVE MEANS OF MEDICAL TREATMENT, EXPANDING RESEARCH INTO ITS MEDICINAL PROPERTIES AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0517" class="font-weight-normal">HEALTH</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on HEALTH since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00304</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00304'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00304.pdf" target="_blank" class="mr-1">[Text As Filed]</a><a href="../legisdocs/first_18/CR00004.pdf" target="_blank" class="mr-1">[Committee Report]</a><a href="../legisdocs/third_18/HBT0304.pdf" target="_blank" class="mr-1">[Text As Engrossed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING SECTIONS 22, 24, 25, 27, 28, 29, 30, 32, 34, 37, 38, 39, 42, 51, 52, 54, 56, 57, 73, 108, 121, 122, 123, 174, 176, 179, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 194, 195, 196, 197, 198, AND 199; AND REPEALING SECTIONS 127, 175, 177, 178, 180, 192, AND 193; ALL UNDER REPUBLIC ACT NO. 8424, OTHERWISE KNOWN AS THE NATIONAL INTERNAL REVENUE CODE OF 1997,  AS AMENDED, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0542" class="font-weight-normal">WAYS AND MEANS</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2019-09-04</span></p><p class="m-0 p-0">Date Approved on Third Reading: <span class="font-weight-bold">2019-09-09</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Approved by the House on 2019-09-09, transmitted to the Senate on 2019-09-10 and received by the Senate on 2019-09-10</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00308</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00308'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00308.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTING A THIRTY-FIVE (35) HOUR WORKING WEEK SCHEME AS AN ALTERNATIVE WORK ARRANGEMENT FOR EMPLOYEES IN THE PUBLIC SECTOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0506" class="font-weight-normal">CIVIL SERVICE AND PROFESSIONAL REGULATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on CIVIL SERVICE AND PROFESSIONAL REGULATION since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00309</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00309'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00309.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INSTITUTING A THIRTY-FIVE (35) HOUR WORKING WEEK SCHEME AS AN ALTERNATIVE WORK ARRANGEMENT FOR EMPLOYEES IN THE PRIVATE SECTOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0521" class="font-weight-normal">LABOR AND EMPLOYMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LABOR AND EMPLOYMENT since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00311</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00311'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00311.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING THE PUBLIC SCHOOLS OF THE FUTURE IN TECHNOLOGY, PROVIDING FUNDS THEREFOR AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=C501" class="font-weight-normal">BASIC EDUCATION AND CULTURE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on BASIC EDUCATION AND CULTURE since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00312</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00312'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00312.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT DECLARING THE POOR INTERNET SPEED AND CONNECTIVITY IN THE COUNTRY AS A NATIONAL EMERGENCY, AND GRANTING PRESIDENT RODRIGO ROA DUTERTE EMERGENCY POWERS AND PRESCRIBING URGENT MEASURES NECESSARY AND PROPER TO EFFECTIVELY ADDRESS SUCH PREDICAMENT, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=E504" class="font-weight-normal">INFORMATION AND COMMUNICATIONS TECHNOLOGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on INFORMATION AND COMMUNICATIONS TECHNOLOGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00466</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00466'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00466.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING REPUBLIC ACT NO. 9136, OTHERWISE KNOWN AS THE 'ELECTRIC POWER INDUSTRY REFORM ACT OF 2001 OR EPIRA', AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00468</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00468'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00468.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING THE NATIONAL ELECTRIFICATION ADMINISTRATION BY CONVERTING IT INTO THE NATIONAL ELECTRIFICATION AUTHORITY, DEFINING AND ENHANCING ITS POWERS, FUNCTIONS AND OPERATIONS TO ACHIEVE THE GOVERNMENT’S POLICY FOR TOTAL RURAL ELECTRIFICATION, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00470</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00470'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00470.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING THE MINDANAO POWER CORPORATION AND PROVIDING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00471</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00471'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00471.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING THE LINEMAN TRAINING ACADEMY OF THE PHILIPPINES, PROVIDING FOR ITS POWERS, STRUCTURE, APPROPRIATING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00472</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00472'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00472.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROCLAIMING THE FIRST MONDAY OF AUGUST EVERY YEAR AS LINEMEN APPRECIATION DAY</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00473</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00473'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00473.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR A MAGNA CARTA FOR WORKERS IN THE ENERGY SECTOR OF THE PHILIPPINES, AUTHORIZING THE COLLECTION AND APPROPRIATION OF FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0521" class="font-weight-normal">LABOR AND EMPLOYMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LABOR AND EMPLOYMENT since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00500</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00500'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00500.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REGULATING ELECTRONIC CIGARETTES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0539" class="font-weight-normal">TRADE AND INDUSTRY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on TRADE AND INDUSTRY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00505</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00505'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00505.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REQUIRING BOTH NEW APPLICANTS FOR DRIVERꞌS LICENSE AS WELL AS EXISTING LICENSED DRIVERS TO UNDERGO MANDATORY ROADWORTHY DRIVING SEMINAR AND ACTUAL DRIVING TEST BEFORE THE ISSUANCE OR RENEWAL OF THEIR DRIVER’S LICENSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=E509" class="font-weight-normal">TRANSPORTATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on TRANSPORTATION since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00507</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00507'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00507.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING REPUBLIC ACT NO. 8972, OTHERWISE KNOWN AS THE SOLO PARENTSꞌ WELFARE ACT OF 2000, PROVIDING FOR ADDITIONAL BENEFITS, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0531" class="font-weight-normal">REVISION OF LAWS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on REVISION OF LAWS since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB00618</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB00618'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB00618.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-01</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REGULATING THE USE OF TREATMENT TECHNOLOGY FOR MUNICIPAL AND HAZARDOUS WASTES, REPEALING FOR THE PURPOSE SECTION 20 OF REPUBLIC ACT NO. 8749, ENTITLED 'THE PHILIPPINE CLEAN AIR ACT OF 1999'</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=A501" class="font-weight-normal">ECOLOGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ECOLOGY since 2019-07-23</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01029</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01029'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01029.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-02</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT POSTPONING THE DATE OF THE BARANGAY AND SANGGUNIANG KABATAAN ELECTIONS TO SECOND MONDAY OF MAY 2021, AMENDING FURTHER FOR THE PURPOSE REPUBLIC ACT NO. 9164, AS AMENDED BY REPUBLIC ACT NO. 9340, REPUBLIC ACT NO. 10632, REPUBLIC ACT NO. 10656, REPUBLIC ACT NO. 10923 AND REPUBLIC ACT NO. 10952</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0537" class="font-weight-normal">SUFFRAGE AND ELECTORAL REFORMS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB04933</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11462 enacted on 2019-12-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01030</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01030'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01030.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-02</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT EXTENDING THE BARANGAY OFFICIAL ELIGIBILITY (BOE) TO THE SANGGUNIANG KABATAAN (SK) OFFICIALS</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0522" class="font-weight-normal">LOCAL GOVERNMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LOCAL GOVERNMENT since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01031</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01031'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01031.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-02</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR A COMPREHENSIVE NUCLEAR REGULATION, CREATING FOR THE PURPOSE, THE PHILIPPINE NUCLEAR REGULATORY COMMISSION, AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0516" class="font-weight-normal">GOVERNMENT REORGANIZATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on GOVERNMENT REORGANIZATION since 2019-11-26</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01217</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01217'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01217.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-03</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT REGULATING THE SALE OF MOTOR VEHICLES IN METRO MANILA BY REQUIRING A PROOF-OF-PARKING SPACE OR GARAGE FACILITY FROM MOTOR VEHICLE BUYERS AS A PREREQUISITE FOR THE PURCHASE OF A MOTOR VEHICLE AND REGISTRATION WITH THE LAND TRANSPORTATION OFFICE</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=E509" class="font-weight-normal">TRANSPORTATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on TRANSPORTATION since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01220</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01220'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01220.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-03</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING THE NATIONAL COUNCIL FOR LOCAL GOVERNMENTS, AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0522" class="font-weight-normal">LOCAL GOVERNMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LOCAL GOVERNMENT since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01476</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01476'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01476.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-04</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT AMENDING REPUBLIC ACT NO. 4200, ENTITLED, ꞌAN ACT TO PROHIBIT AND PENALIZE WIRE TAPPING AND OTHER RELATED VIOLATIONS OF THE PRIVACY OF COMMUNICATIONꞌ</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0531" class="font-weight-normal">REVISION OF LAWS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on REVISION OF LAWS since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01621</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01621'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01621.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-08</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING A BODY CORPORATE TO BE KNOWN AS THE WESTERN PHILIPPINES MEDICAL CENTER AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0515" class="font-weight-normal">GOVERNMENT ENTERPRISES AND PRIVATIZATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on GOVERNMENT ENTERPRISES AND PRIVATIZATION since 2019-11-06</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB01667</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB01667'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB01667.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-09</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING COMPENSATION TO SANGGUNIANG KABATAAN (SK) OFFICIALS, FURTHER AMENDING REPUBLIC ACT NO. 10742, OTHERWISE KNOWN AS "SANGGUNIANG KABATAAN REFORM ACT OF 2015"</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0522" class="font-weight-normal">LOCAL GOVERNMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LOCAL GOVERNMENT since 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02026</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02026'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02026.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT RE-IMPOSING THE DEATH PENALTY ON CERTAIN HEINOUS CRIMES, REPEALING FOR THE PURPOSE REPUBLIC ACT NO. 9346, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0520" class="font-weight-normal">JUSTICE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on JUSTICE since 2019-07-29</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02067</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02067'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02067.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING THE DEPARTMENT OF OVERSEAS FILIPINO WORKERS, DEFINING ITS POWERS AND FUNCTIONS, APPROPRIATING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0516" class="font-weight-normal">GOVERNMENT REORGANIZATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB05832</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved by the House on 2020-03-11, transmitted to the Senate on 2020-03-16 and received by the Senate on 2020-03-16</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02309</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02309'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02309.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-17</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING MALASAKIT CENTERS TO COMPLEMENT THE IMPLEMENTATION OF REPUBLIC ACT NO. 11223 OTHERWISE KNOWN AS THE ꞌUNIVERSAL HEALTH CARE ACTꞌ BY REQUIRING PHILHEALTH TO ESTABLISH, OPERATE AND MAINTAIN MALASAKIT CENTERS IN ALL DOH, LGU, SUC AND DND HOSPITALS IN THE COUNTRY, PROVIDING FUNDS THEREFOR, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-29</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0517" class="font-weight-normal">HEALTH</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB05477</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11463 enacted on 2019-12-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB02477</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB02477'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB02477.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-23</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT INCREASING THE BASIC SALARY OF THE PUBLIC SCHOOL TEACHERS AND PROVIDING FUNDS THEREOF</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-30</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0504" class="font-weight-normal">APPROPRIATIONS</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Consolidated into HB05712</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Republic Act RA11466 enacted on 2020-01-08</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03226</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03226'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03226.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING THE PALAWAN PROVINCIAL TECHNICAL EDUCATION AND SKILLS DEVELOPMENT AUTHORITY (TESDA) TRAINING AND ASSESSMENT CENTERS IN THE CITY OF PUERTO PRINCESA AND IN THE MUNICIPALITIES OF CORON, CUYO, ROXAS, SAN VICENTE, SOFRONIO ESPAÑOLA, AND QUEZON, PROVINCE OF PALAWAN, AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=C502" class="font-weight-normal">HIGHER AND TECHNICAL EDUCATION</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB05877</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved by the House on 2020-01-27, transmitted to the Senate on 2020-01-28 and received by the Senate on 2020-01-28</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03247</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03247'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03247.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-31</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR ADDITIONAL INSURANCE COVERAGE AND BENEFITS FOR ALL LINEMEN AND OTHER POWER LINE WORKERS AND OTHER RELATED PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0510" class="font-weight-normal">ENERGY</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on ENERGY since 2019-08-06</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03543</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03543'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03543.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-06</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT PROVIDING FOR COMPENSATION FOR LOSS OR DESTRUCTION OF PROPERTIES IN MARAWI CITY DURING THE 2017 SEIGE OF MARAWI, APPROPRIATING FUNDS THEREFOR AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-13</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=I504" class="font-weight-normal">DISASTER MANAGEMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on DISASTER MANAGEMENT since 2019-08-13</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03961</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03961'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03961.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-14</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT TO ESTABLISH THE PHILIPPINE CANNABIS DEVELOPMENT AUTHORITY (PhilCADA), DEFINING ITS POWERS AND FUNCTIONS, APPROPRIATING FUNDS THEREFOR AND OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-27</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0517" class="font-weight-normal">HEALTH</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on HEALTH since 2019-08-27</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB03985</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB03985'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB03985.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-08-14</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT STRENGTHENING AND INSTITUTIONALIZING THE BARANGAY PRIMARY HEALTH CARE PROGRAM, PROVIDING SECURITY OF TENURE, BENEFITS AND INCENTIVES TO BARANGAY HEALTH WORKERS, AND PROVIDING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-08-27</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0522" class="font-weight-normal">LOCAL GOVERNMENT</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on LOCAL GOVERNMENT since 2019-08-27</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06096</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06096'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06096.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-01-29</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT CREATING THE CENTER FOR DISEASE PREVENTION AND CONTROL, PROVIDING MECHANISMS FOR EPIDEMIC CONTROL, AND FOR OTHER PURPOSES</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-02-03</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0517" class="font-weight-normal">HEALTH</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Pending with the Committee on HEALTH since 2020-02-03</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06623</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06623'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06623.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-04-27</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES AND REGULATIONS FOR THE NEW NORMAL
+FOR THE WORKPLACE AND PUBLIC SPACES AND INSTITUTING PENALTIES
+FOR VIOLATIONS THEREOF 
+</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-04</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06864</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06709</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06709'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HB06709.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING A COVID-19 UNEMPLOYMENT REDUCTION ECONOMIC STIMULUS (CURES) FUND AND INSTITUTING MECHANISMS FOR THE IMPLEMENTATION THEREOF AND APPROPRIATING FUNDS THEREFOR</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-11</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=J503" class="font-weight-normal">DEFEAT COVID-19 AD-HOC COMMITTEE</a></span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Substituted by HB06920</span></p><p class="m-0 p-0">Mother Bill Status: <span class="font-weight-bold">Approved by the House on 2020-06-05, transmitted to the Senate on 2020-06-08 and received by the Senate on 2020-06-08</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HB06864</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HB06864'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/first_18/CR00332.pdf" target="_blank" class="mr-1">[Committee Report]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">AN ACT ESTABLISHING POLICIES, REGULATIONS, AND PUBLIC HEALTH SAFEGUARDS FOR THE BETTER NORMAL IN THE WORKPLACE, PUBLIC PLACES AND COMMUNITIES TOWARD A SUSTAINABLE RECOVERY FROM COVID-19 PANDEMIC</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-05-28</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0532" class="font-weight-normal">RULES</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2020-06-04</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Approved on Second Reading on 2020-06-04</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00102</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00102'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00102.pdf" target="_blank" class="mr-1">[Text As Filed]</a><a href="../legisdocs/second_18/HR00102.pdf" target="_blank" class="mr-1">[Adapted Resolution/RBH]</a><span class='text-warning'>Journal #3</span></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">A RESOLUTION CONGRATULATING AND COMMENDING SENATOR EMMANUEL "MANNY" PACQUIAO FOR SUCCESSFULLY GAINING THE WORLD BOXING ASSOCIATION (WBA) WELTERWEIGHT CHAMPIONSHIP TITLE, TRIUMPHING OVER KEITH "ONE TIME" THURMAN ON JULY 21, 2019 AT THE MGM GRAND GARDEN ARENA IN LAS VEGAS, NEVADA</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=" class="font-weight-normal"></a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2019-07-24</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Adopted as Resolution No. HR00003 on 2019-07-24</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00655</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00655'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00655.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-01-20</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">RESOLUTION URGING THE IMMEDIATE RELEASE OF FUNDS FOR THE AID, RELIEF, RESETTLEMENT, REHABILITATION, LIVELIHOOD, DEVELOPMENT AND SOCIAL PROGRAMS AND SERVICES TO COMMUNITIES ADVERSELY AFFECTED BY THE TAAL VOLCANO ERUPTION, AND DIRECTING THE APPROPRIATE HOUSE OF REPRESENTATIVES COMMITTEE TO IMMEDIATELY CALL THE NATIONAL DISASTER RISK REDUCTION AND MANAGEMENT COUNCIL (NDRRMC) FOR A HOUSE COMMITTEE BRIEFING TO ASSESS THE SITUATION AND DETERMINE  THE NEEDS OF THE AFFECTED LOCALITIES AND THE TOTAL BUDGET REQUIREMENTS TO ADDRESS THE CALAMITY</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-01-21</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0532" class="font-weight-normal">RULES</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2020-01-22</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Adopted as Resolution No. HR00030 on 2020-01-22</span></p></div><div class='panel-heading'><span class='text-muted text-muted-size'>HR00662</span></div><div class='panel-body'><span class='pull-left m-0 p-0'><a href='#HistoryModal' data-toggle='modal' data-id='#HR00662'  aria-expanded='false' aria-controls='collapseExample'>[History]</a>&nbsp;<a href="../legisdocs/basic_18/HR00662.pdf" target="_blank" class="mr-1">[Text As Filed]</a></span><div class='clearfix'>&nbsp;</div><br /><p class="m-0 p-0">Date Filed: <span class="font-weight-bold">2020-01-21</span></p><p class="m-0 p-0">Full Title: <span class="font-weight-bold">RESOLUTION EXPRESSING THE SUPPORT AND COMMITMENT OF THE HOUSE OF REPRESENTATIVES TO WORK WITH ALL THE CONCERNED AGENCIES TO PASS THE PROPOSED SUPPLEMENTAL BUDGET TO EXPEDITE EFFECTIVE AND RESPONSIVE ASSISTANCE TO THOSE AFFECTED BY THE TAAL VOLCANO ERUPTION</span></p><p class="m-0 p-0">Date Read: <span class="font-weight-bold">2020-01-22</span></p><p class="m-0 p-0">Primary Referral: <span class="font-weight-bold"><a href="../committees/search.php?id=0532" class="font-weight-normal">RULES</a></span></p><p class="m-0 p-0">Date Approved on Second Reading: <span class="font-weight-bold">2020-01-22</span></p><p class="m-0 p-0">Bill Status: <span class="font-weight-bold">Adopted as Resolution No. HR00031 on 2020-01-22</span></p></div>  </div>
+
+<!-- Modal Bill History -->
+<div class="modal fade" id="HistoryModal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+            <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">HOUSE BILL/RESOLUTION HISTORY</h5>
+      </div>
+      <div class="modal-body">
+        <div class="fetched-data"></div>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-default" data-dismiss="modal">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal - Contact Form -->
+<div class="modal fade" id="myEmail" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">E-Mail Form</h4>
+			</div>
+			<div class="modal-body">
+				<p>Some text in the modal.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>				<div class="clearfix">&nbsp;</div>
+			</div>
+
+			<div class="col-md-4">
+				<ul class="list-group">
+  <li class="list-group-item list-group-item-info">PAGE LINKS</li>
+  <a href="../members" class="list-group-item">ALL Representatives</a>
+  <a href="../members?v=district" class="list-group-item">District Representatives</a>
+  <a href="../members?v=pl" class="list-group-item">Party List Representatives</a>
+  <a href="../members?v=region" class="list-group-item">House Members By Region</a>
+  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
+</ul><ul class="list-group">
+  <li class="list-group-item list-group-item-info">RELATED LINKS</li>
+  <a href="../members" class="list-group-item">House Members</a>
+  <a href="../committees" class="list-group-item">House Committees</a>
+  <a href="../committees/?v=reports" class="list-group-item">Committee Reports</a>
+  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
+  <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
+  <a href="../legisdocs/?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
+  <a href="../legisdocs/?v=ra" class="list-group-item">Republic Acts</a>
+  <a href="../legisdocs/?v=journals" class="list-group-item">House Journals</a>
+  <a href="../legisdocs/?v=cr" class="list-group-item">Congressional Record</a>
+  <a href="../legisdocs/?v=cdb" class="list-group-item">Committee Daily Bulletin</a>
+  <a href="../legisdocs/?v=sb" class="list-group-item">Session Bulletin</a>
+  <a href="../legisdocs/?v=ob" class="list-group-item">Order of Business</a>
+  <li class="list-group-item list-group-item-info">MEDIA</li>
+  <a href="../press" class="list-group-item">Press Releases</a>
+  <a href="../photojournal" class="list-group-item">Photo Journals</a>
+  <a href="../streaming" class="list-group-item">Video Streaming</a>
+</ul>			</div>
+		</div>
+	</div>
+	<div class="clearfix">&nbsp;</div>
+	<!-- Session Calendar Modal -->
+	<!-- Modal -->
+	<div id="sessionCalendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGISLATIVE CALENDAR<br /><small class="text-warning">EIGHTEENTH CONGRESS, FIRST REGULAR SESSON</small></h4>
+      </div>
+      <div class="modal-body">
+        <p>Adopted from House Concurrent Resolution No. 3</p>
+        <p>Introduced by Rep. Ferdinand Martin G. Romualdez and Rep. Bienvenido M. Abante, Jr.</p>
+        <p><strong>CONCURRENT RESOLUTION PROVIDING FOR THE LEGISLATIVE CALENDAR FOR THE FIRST REGULAR SESSION OF THE
+            EIGHTEENTH CONGRESS OF THE PHILIPPINES</strong>.</p>
+        <p>RESOLVED BY THE HOUSE OF REPRESENTATIVES, THE SENATE CONCURRING, That the Legislative Calendar for the
+          First Regular Session of the Eighteenth Congress of the Philippines shall be as follows:</p>
+
+        <div class="clearfix">&nbsp;</div>
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+              <td width="1">1.</td>
+              <td>Commencement of Session</td>
+              <td>July 22, 2019 - October 4, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">2.</td>
+              <td>Adjournment of Session</td>
+              <td>October 5, 2019 - November 3, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">3.</td>
+              <td>Resumption of Session</td>
+              <td>November 4, 2019 - December 20, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">4.</td>
+              <td>Adjournment of Session</td>
+              <td>December 21, 2019 - January 19, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">5.</td>
+              <td>Resumption of Session</td>
+              <td>January 20, 2020 - March 13, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">6.</td>
+              <td>Adjournment of Session</td>
+              <td>March 14, 2020 - May 3, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">7.</td>
+              <td>Resumption of Session</td>
+              <td>May 4, 2020 - June 5, 2020</td>
+            </tr>
+            <tr align="center">
+              <td style="font-style:italic" colspan="3">(sine die adjournment)</td>
+            </tr>
+            <tr>
+              <td width="1">8.</td>
+              <td>Adjournment of Session</td>
+              <td>June 6, 2020 - July 26, 2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>	<!-- jQuery -->
+	<script src="../js/jquery.min.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('#HistoryModal').on('show.bs.modal', function(e) {
+				var rowid = $(e.relatedTarget).data('id');
+				$.ajax({
+					type: 'POST',
+					url: 'fetch_history.php', //Here you will fetch records 
+					data: 'rowid=' + rowid, //Pass $id
+					success: function(data) {
+						$('.fetched-data').html(data); //Show fetched data from database
+					}
+				});
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		// create the back to top button
+		$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+		var amountScrolled = 50;
+
+		$(window).scroll(function() {
+			if ($(window).scrollTop() > amountScrolled) {
+				$('a.back-to-top').fadeIn('slow');
+			} else {
+				$('a.back-to-top').fadeOut('slow');
+			}
+		});
+
+		$('a.back-to-top, a.simple-back-to-top').click(function() {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 700);
+			return false;
+		});
+	</script>
+</body>
+
+</html>
