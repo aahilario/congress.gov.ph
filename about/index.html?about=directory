@@ -1,0 +1,321 @@
+    <!DOCTYPE html>
+    <html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>House of Representatives</title>
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="../images/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+        <!-- Bootstrap Core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- Custom CSS -->
+        <link href="../css/custom.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top">Back to Top</a>
+        <div class="container-fluid">
+            <!-- Top Navigation -->
+            <nav class="navbar navbar-default navbar-sm navbar-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>-->
+      <a class="navbar-brand visible-xs-block" href="http://congress.gov.ph/">House of Representatives</a></div>
+    <div class="collapse navbar-collapse" id="myNavbar1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">HOUSE MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/members">ALL Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=district">District Representatives</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=region">House Members by Region</a></li>
+            <li><a href="http://congress.gov.ph/members/?v=pl">Party List Representatives</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="http://congress.gov.ph/profile" title="Demographics of House Members">Congressional Profile</a></li>
+            <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
+			<li><a href="http://congress.gov.ph/roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMITTEES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/committees/?v=standing">Standing Committees</a></li>
+            <li><a href="http://congress.gov.ph/committees/?v=special">Special Committees</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/commsched">Committee Meetings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/legisdocs/?v=bills">House Bills &amp; Resolutions</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ra">Republic Acts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=journals">House Journals</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cr">Congressional Record</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=cdb">Committee Daily Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=sb">Session Bulletin</a></li>
+            <li><a href="http://congress.gov.ph/legisdocs/?v=ob">Order of Business</a></li>
+			<li><a href="http://congress.gov.ph/committees/?v=reports">Committee Reports</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#">SITE MAP</a></li> -->
+        <li><a href="http://congress.gov.ph/legis/" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="http://congress.gov.ph/search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">SITE MAP</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+                <!-- Banner -->
+                <div class="jumbotron jumbotronTransp">
+                    <!-- <div class="container text-left"> -->
+                    <a href="../">
+                        <h2><img src="../css/images/congress3rd.png" class="img-responsive" /></h2>
+                    </a>
+                    <!-- </div> -->
+                </div>
+
+                <!-- Lower Navigation -->
+                <nav class="navbar navbar-default navbar-sm">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myNavbar2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/about/?about=mandate">Constitutional Mandate</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=history" title="Brief History of the Philippine Congress">Legislative History</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=symbols" title="Symbols of Power and Authority">National Symbols</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=mission" title="Mission and Vision">Mission Statement</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/about/?about=officials" title="The Officials of the House of Representatives">House Officials</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=secgen" title="About Our Secretary General">Secretary General</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=saa" title="About Our Sergeant-At-Arms">Sergeant-At-Arms</a></li>
+            <li><a href="http://congress.gov.ph/about/?about=offices">House Secretariat</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Schedule of Session, How a Bill becomes a Law, and House Rules">LEGISLATIVE INFORMATION <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/download/docs/hrep.house.rules.pdf" target="_blank" title="House Rules, Adopted 10 December 2014, Amendments adopted on May 20, 2015 and Feb 2, 2016">House Rules</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#sessionCalendar">Calendar of Session</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=process" title="How A Bill Becomes a Law">Legislative Process</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=students" title="Information for Students">For Students</a></li>
+            <li><a href="http://congress.gov.ph/legisinfo/?v=researchers" title="Information for Researchers">For Researchers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/photojournal">Photo Journals</a></li>
+            <li><a href="http://congress.gov.ph/press">Press Releases</a></li>
+            <li><a href="http://congress.gov.ph/streaming">Video Streaming</a></li>
+          </ul>
+        </li>
+        <li><a href="http://congress.gov.ph/download/">DOWNLOADS CENTER</a></li>
+	<!--
+	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://congress.gov.ph/billdraftingcontest2018">Bill Drafting Contest 2018</a></li>
+            <li><a href="http://congress.gov.ph/events/docs/onehouseinternship2018.pdf" title="One House Internship Program 2018" target="_blank">One House Internship Program 2018</a></li>          </ul>
+        </li>
+	-->
+
+        <!--
+        <li><a href="#">CONTACT US</a></li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+                    <!-- Footer -->
+                    <nav class="navbar navbar-default navbar-sm navbar-fixed-bottom navbar-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooterBar"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <!--<a class="navbar-brand" href="#" title="Home"><span class="glyphicon glyphicon-home"></span></a>--></div>
+    <div class="collapse navbar-collapse" id="myFooterBar">
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.congress.gov.ph">&copy; HOUSE OF REPRESENTATIVES</a></li>  
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://congress.gov.ph/sitemap">SITE MAP</a></li>
+            <!-- <li><a href="http://congress.gov.ph/contact">CONTACT US</a></li> -->
+	    <li><a href="http://congress.gov.ph/bids">INVITATION TO BID</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">RELATED SITES<strong class="caret"></strong></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://dirp4.pids.gov.ph/DPRM/dprm11/" target="_blank" title="11th DPRM | Development Policy Research Month website">11th DPRM | Development Policy Research Month</a></li>
+                    <li><a href="http://cpbrd.congress.gov.ph" target="_blank" title="Congressional Policy and Budget Research Department website"><abbr title="Congressional Policy and Budget Research Department">CPBRD</abbr> Website</a></li>
+		    <li><a href="http://senate.gov.ph/" target="_blank" title="Philippine Senate">Senate of the Philippines</li>
+                    <!-- <li><a href="http://hreplib.congress.gov.ph" target="_blank" title="House of Representatives Legislative Library website">Legislative Library Online Catalog</a></li> -->
+                    <li><a href="http://pdaf.dbm.gov.ph/" target="_blank" title="The Priority Development Assistance Fund is a lump-sum appropriation in the annual General Appropriations Act to fund the priority development programs and projects of the government"><abbr title="Priority Development Assistance Fund">PDAF</abbr>, <abbr title="Department of Budget and Management">DBM</abbr> Website</a></li>
+                    <!-- <li><a href="http://www.bsp.gov.ph/bspnotes/demonetization-0.asp" target="_blank" title="BSP Demonetization of the OLD BANKNOTE SERIES"><abbr title="Bangko Sentral ng Pilipinas">BSP</abbr> Old Bank Notes Demonetization</a></li> -->
+                    <li><a href="http://www.pagasa.dost.gov.ph/#maincontents" target="_blank" title="DOST PAGASA Weather Advisory"><abbr title="The Philippine Atmospheric, Geophysical and Astronomical Services Administration">PAGASA</abbr> Weather Advisory</a></li>
+                </ul>
+            </li>
+            <li><a href="https://mail.congress.gov.ph" target="_blank">WEBMail</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>        </div>
+
+        <!-- Page Content -->
+        <a id="content"></a>
+        <div class="container-fluid">
+            <div class="row section">
+                <div class="col-md-8">
+                    <ol class='breadcrumb'><li class='breadcrumb-item'><a href="http://congress.gov.ph/">Home</a></li><li class='breadcrumb-item'><a href="http://congress.gov.ph/about">About Us</a></li></ol>                    <h4>ABOUT US</h4>
+                    <hr />
+                    
+
+
+<div class="sideBorder">
+  <h4>HOUSE SECRETARIAT DIRECTORY</h4>
+  <p class="text-warning pull-left">NOTE: Contact our trunkline @9315001</p><br />
+  <br />
+  <div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>OFFICE OF THE SPEAKER</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. BRIAN RAYMUND YAMSUAN</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7580/7604</td></tr><tr><td width='40%'>Atty. APRYLL JIN THERESE M. DUMAS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7491/7419</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>OFFICE OF THE SECRETARY GENERAL</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. JOSE LUIS G. MONTALES</td><td width='40%' nowrap>SECRETARY GENERAL</td><td width='20%'>7459/7498</td></tr><tr><td width='40%'>CORAZON B. ALANO</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7459/7498</td></tr><tr><td width='40%'>Atty. JOSE MARMOI F. SALONGA</td><td width='40%' nowrap>DEPUTY EXECUTIVE DIRECTOR (Officer-In-Charge)</td><td width='20%'>7459/7498</td></tr><tr><td width='40%'>MELISSA P. MERCADO-GASCON</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7459/7498</td></tr><tr><td width='40%'>ELIZABETH GRACE F. CRUZ</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7459/7498</td></tr><tr><td width='40%'>Atty. VANEZA U. DEFENSOR</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7487</td></tr><tr><td width='40%'>MARIA JOSEFINA R. RICAFORT</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7459/7498</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>KNOWLEDGE MANAGEMENT SYSTEMS BUREAU</strong></td></tr><tr><td width='40%'>THELMA MARIE N. INTON</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7680 /7443</td></tr><tr class='danger'><td colspan='3'><strong>PLANNING AND MANAGEMENT INFORMATION SERVICE</strong></td></tr><tr><td width='40%'>JAIME L. ENGRACIA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7465/7443</td></tr><tr class='danger'><td colspan='3'><strong>INFORMATION AND COMMUNICATION TECHNOLOGY SERVICE</strong></td></tr><tr><td width='40%'>ANGELINE M. GARCIA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7616/7444/7615</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>INTER-PARLIAMENTARY AND PUBLIC AFFAIRS DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. DARREN M. DE JESUS</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7690</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>PRESS AND PUBLIC AFFAIRS BUREAU</strong></td></tr><tr><td width='40%'>MA. BERNADETTE C. DELA CUESTA</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7651/7563</td></tr><tr class='danger'><td colspan='3'><strong>INSTITUTIONAL INFORMATION AND DESIGN SERVICE</strong></td></tr><tr><td width='40%'>FERDINAND M. BOLISLIS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7552 /7490</td></tr><tr class='danger'><td colspan='3'><strong>MEDIA AFFAIRS AND PUBLIC RELATIONS SERVICE</strong></td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>INTER-PARLIAMENTARY RELATIONS AND SPECIAL AFFAIRS BUREAU</strong></td></tr><tr><td width='40%'>EDITH J. CARDENAS</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7661</td></tr><tr class='danger'><td colspan='3'><strong>PROTOCOL SERVICE</strong></td></tr><tr class='danger'><td colspan='3'><strong>SPECIAL AFFAIRS SERVICE</strong></td></tr><tr><td width='40%'>ROSEMARIE R. SANTOS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7619/7658</td></tr><tr class='danger'><td colspan='3'><strong>TRAVEL SUPPORT SERVICE</strong></td></tr><tr><td width='40%'>MARIA ARLENE N. FIGUEROA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7661</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>OFFICE OF THE SGT-AT-ARMS</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>PDDG. RAMON C. APOLINARIO</td><td width='40%' nowrap>SERGEANT-AT-ARMS</td><td width='20%'>7511/7537</td></tr><tr><td width='40%'>Dr. CELINE MARIE F. BUENCAMINO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7887</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>LEGISLATIVE SECURITY BUREAU</strong></td></tr><tr><td width='40%'>Lt. Col. ISABELITO P. FLORES</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7544</td></tr><tr class='danger'><td colspan='3'><strong>LEGISLATIVE SECURITY SERVICE</strong></td></tr><tr><td width='40%'>BELINDA C. BELLO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7682</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>LEGAL AFFAIRS DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. ANNALOU S. NACHURA</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7525</td></tr><tr><td width='40%'>Atty. FERDINAND F. ANDRES</td><td width='40%' nowrap>DEPUTY EXECUTIVE DIRECTOR (Officer-In-Charge)</td><td width='20%'>7487</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>LEGAL AFFAIRS BUREAU</strong></td></tr><tr class='danger'><td colspan='3'><strong>LEGAL AFFAIRS SERVICE</strong></td></tr><tr><td width='40%'>Atty. MICHAEL B. MANUEL</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7487</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>ADMINISTRATIVE DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Dr. RAMON RICARDO A. ROQUE, CESO I, DIPLOMATE</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7455 /7457</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>ADMINISTRATIVE MANAGEMENT BUREAU</strong></td></tr><tr><td width='40%'>ANTONIO M. CHAN, JR.</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7618</td></tr><tr><td width='40%'>Atty. RICARDO D. BERING</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7618</td></tr><tr class='danger'><td colspan='3'><strong>HUMAN RESOURCE MANAGEMENT SERVICE</strong></td></tr><tr><td width='40%'>EVELYN G. DE JESUS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7512</td></tr><tr class='danger'><td colspan='3'><strong>MEDICAL AND DENTAL SERVICE</strong></td></tr><tr><td width='40%'>Dr. SALVADOR RICHARD M. DIZON</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7086/7087/7043/8087</td></tr><tr class='danger'><td colspan='3'><strong>RECORDS MANAGEMENT SERVICE</strong></td></tr><tr><td width='40%'>ANNABELLE C. HUFANDA</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7510/7545/7477/7637</td></tr><tr class='danger'><td colspan='3'><strong>PRINTING AND REPRODUCTION SERVICE</strong></td></tr><tr><td width='40%'>EDWIN C. AVENIDO</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7601</td></tr><tr class='danger'><td colspan='3'><strong>PROCUREMENT & SUPPLY MANAGEMENT SERVICE</strong></td></tr><tr><td width='40%'>LUZ E. SEXON</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7523/7398</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>FINANCE DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>DANTE ROBERTO P. MALING</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7516</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>FINANCE BUREAU</strong></td></tr><tr><td width='40%'>CELIA M. FONTELERA</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7605</td></tr><tr><td width='40%'>GERMILA P. TABIGNE</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7605</td></tr><tr class='danger'><td colspan='3'><strong>ACCOUNTING SERVICE</strong></td></tr><tr><td width='40%'>LOURDES A. JAYME</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7520 /7595/7541</td></tr><tr class='danger'><td colspan='3'><strong>BUDGET SERVICE</strong></td></tr><tr><td width='40%'>MARIA ISABEL P. ROJAS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7521 /7597</td></tr><tr class='danger'><td colspan='3'><strong>CASHIERING SERVICE</strong></td></tr><tr><td width='40%'>JOSEPHINE  M. CARAAN</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7522/7599</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>ENGINEERING AND PHYSICAL FACILITIES DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Engr. FLORO A. BANAYBANAY</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7456/7458</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>ENGINEERING AND PHYSICAL FACILITIES BUREAU</strong></td></tr><tr><td width='40%'>Engr. RENATO L. DELA TORRE</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7501/7478</td></tr><tr class='danger'><td colspan='3'><strong>BUILDING AND GROUNDS MAINTENANCE SERVICE</strong></td></tr><tr><td width='40%'>Arch. CESAR C. VERGARA</td><td width='40%' nowrap>DIRECTOR II </td><td width='20%'>7504/7509</td></tr><tr class='danger'><td colspan='3'><strong>ENGINEERING SERVICE</strong></td></tr><tr><td width='40%'>Engr. VICSON  C. PAINAGAN</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7500/7479</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>LEGISLATIVE OPERATIONS DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. DAVID ROBERT U. AMORIN</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7526</td></tr><tr><td width='40%'>Atty. VALERIE E. FRANCISCO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7526</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>PLENARY AFFAIRS BUREAU</strong></td></tr><tr><td width='40%'>JOSE MIGUEL G. ARNALDO</td><td width='40%' nowrap>EXECUTIVE DIRECTOR</td><td width='20%'>7775</td></tr><tr><td width='40%'>ALFREDO D. RECELLA</td><td width='40%' nowrap>DEPUTY EXECUTIVE DIRECTOR</td><td width='20%'>8475</td></tr><tr class='danger'><td colspan='3'><strong>PLENARY SUPPORT SERVICE</strong></td></tr><tr><td width='40%'>Atty. MA. CRISTINA P. ANILLO-JACINTO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7609/7610</td></tr><tr class='danger'><td colspan='3'><strong>BILLS AND INDEX SERVICE</strong></td></tr><tr><td width='40%'>ARCELI C. MARTINEZ</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7636</td></tr><tr class='danger'><td colspan='3'><strong>JOURNAL SERVICE</strong></td></tr><tr><td width='40%'>IVY F. LACAS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7549/7539</td></tr><tr class='danger'><td colspan='3'><strong>PUBLICATION AND EDITORIAL SERVICE</strong></td></tr><tr><td width='40%'>STELLA N. DOLLER</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7600/8600</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>REFERENCE AND RESEARCH BUREAU</strong></td></tr><tr><td width='40%'>Atty. ROSARIO H. AMATONG-BUENDIA</td><td width='40%' nowrap>EXECUTIVE DIRECTOR</td><td width='20%'>7105/7106</td></tr><tr class='danger'><td colspan='3'><strong>BILL DRAFTING SERVICE</strong></td></tr><tr><td width='40%'>Atty. JOSE NOEL A. GARONG</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7108/7111</td></tr><tr class='danger'><td colspan='3'><strong>LEGISLATIVE COUNSELLING SERVICE</strong></td></tr><tr><td width='40%'>Atty. JOSEPH RONALD T. ABESA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7107/7110</td></tr><tr class='danger'><td colspan='3'><strong>LEGISLATIVE RESEARCH SERVICE</strong></td></tr><tr><td width='40%'>Atty. RAUL R. BENABAYE</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7185</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>COMMITTEE AFFAIRS DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Atty. ARLENE C. DADA-ARNALDO</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7113/7114</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>COMMITTEE AFFAIRS BUREAU</strong></td></tr><tr><td width='40%'>VIOLETA T. VELOSO</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7117/7118</td></tr><tr><td width='40%'>LORELEI M. HERNANDEZ</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7119</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE ON ACCOUNTS</strong></td></tr><tr><td width='40%'>ANGELO FIDELINO B. VILLANUEVA</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7445/7240/7566</td></tr><tr><td width='40%'>NENITA M. CASEM</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7570</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE ON APPROPRIATIONS</strong></td></tr><tr><td width='40%'>YVONNE G. RAMOS</td><td width='40%' nowrap>DIRECTOR IV (Officer-In-Charge)</td><td width='20%'>7175/7176</td></tr><tr><td width='40%'>MA. SOCORRO S. MENDOZA</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7175/7176</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE ON RULES</strong></td></tr><tr><td width='40%'>JENNIFER A. BAQUIRAN</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7217</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE ON WAYS AND MEANS</strong></td></tr><tr><td width='40%'>DONALD Z. MARASIGAN</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7643/7633/7640</td></tr><tr><td width='40%'>MAURICIO R. PULHIN</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7643/7633/7640</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE MANAGEMENT SUPPORT SERVICE I</strong></td></tr><tr><td width='40%'>VIVIAN L. NACION</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7164</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE MANAGEMENT SUPPORT SERVICE II</strong></td></tr><tr><td width='40%'>CAROLINA G. CUSTODIO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7722</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE MANAGEMENT SUPPORT SERVICE III</strong></td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE I</strong></td></tr><tr><td width='40%'>LINA L. MORTEGA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7132 /7180</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE II</strong></td></tr><tr><td width='40%'>LINA Q. JONES</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7701</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE III</strong></td></tr><tr><td width='40%'>JANNALENNA S. OLLADAS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7143/7144</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE IV</strong></td></tr><tr><td width='40%'>MAY M. ARANETA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7124</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE V</strong></td></tr><tr><td width='40%'>Atty. NARCISA H. GUEVARRA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7153/7154</td></tr><tr class='danger'><td colspan='3'><strong>COMMITTEE TECHNICAL SUPPORT SERVICE VI</strong></td></tr><tr><td width='40%'>Atty. PETRA S. MARCOS</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7116/7165</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>LEGISLATIVE INFORMATION RESOURCES MANAGEMENT DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>EDGARDO H. PANGILINAN</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7656/7603/8656</td></tr><tr><td width='40%'>LOURDES RAJINI N. RYE</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7656/7603/8656</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>CONGRESSIONAL LIBRARY BUREAU</strong></td></tr><tr><td width='40%'>HERMINIA B. CALLEJO</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7069/7100</td></tr><tr class='danger'><td colspan='3'><strong>LEGISLATIVE LIBRARY SERVICE</strong></td></tr><tr><td width='40%'>JOSE V. ENCISO</td><td width='40%' nowrap>DIRECTOR II (Officer-In-Charge)</td><td width='20%'>7102/7104</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>ARCHIVES AND MUSEUM MANAGEMENT BUREAU</strong></td></tr><tr><td width='40%'>DIVINA N. SAWIT-MEDINA</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7686</td></tr><tr class='danger'><td colspan='3'><strong>ARCHIVES AND MUSEUM MANAGEMENT SERVICE</strong></td></tr><tr><td width='40%'>MARIVIC M. PAREJA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7686</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>INTERNAL AUDIT DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>JOSE MA. ANTONIO B. TUA&Ntilde;O, CESO II</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7617</td></tr><tr><td width='40%'>Atty. GRACELDA N. ANDRES</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7525</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>INTERNAL AUDIT BUREAU</strong></td></tr><tr><td width='40%'>LILIA C. CONSUL</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7551</td></tr><tr class='danger'><td colspan='3'><strong>MANAGEMENT AUDIT SERVICE</strong></td></tr><tr><td width='40%'>MARIA LIZA N. PASCUAL</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7485</td></tr><tr class='danger'><td colspan='3'><strong>FISCAL CONTROL SERVICE</strong></td></tr><tr><td width='40%'>GLORIA M. ALDEGUER</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7485/7486</td></tr></table></div><div class='panel panel-info'><div class='panel-heading text-uppercase text-center'><h3 class='panel-title' style='font-size: 14px !important;'><strong>CONGRESSIONAL POLICY AND BUDGET RESEARCH DEPARTMENT</strong></h3></div><table class='table table-condensed table-bordered table-responsive'><tr class='warning'><th width='40%'>OFFICIAL NAME</th><th width='40%'>POSITION</th><th width='20%'>LOCAL</th></tr><tr><td width='40%'>Dr. ROMULO EMMANUEL M. MIRAL, JR.</td><td width='40%' nowrap>DEPUTY SECRETARY GENERAL</td><td width='20%'>7503 /7594</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>SOCIO-ECONOMIC RESEARCH BUREAU</strong></td></tr><tr><td width='40%'>MANUEL P. AQUINO</td><td width='40%' nowrap>DIRECTOR V</td><td width='20%'>7503</td></tr><tr><td width='40%'>Atty. ROENTGEN F. BRONCE</td><td width='40%' nowrap>DIRECTOR IV</td><td width='20%'>7886</td></tr><tr class='danger'><td colspan='3'><strong>ECONOMIC POLICY RESEARCH SERVICE</strong></td></tr><tr><td width='40%'>ELSIE C. GUTIERREZ</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7596</td></tr><tr class='danger'><td colspan='3'><strong>SOCIAL POLICY RESEARCH SERVICE</strong></td></tr><tr><td width='40%'>DOMINADOR M. GAMBOA</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7592</td></tr></table><table class='table table-condensed table-bordered table-responsive'><tr class='success'><td colspan='3'><strong>BUDGET AND TAX RESEARCH BUREAU</strong></td></tr><tr><td width='40%'>NOVEL V. BANGSAL</td><td width='40%' nowrap>DIRECTOR V (Officer-In-Charge)</td><td width='20%'>7592</td></tr><tr class='danger'><td colspan='3'><strong>BUDGET POLICY RESEARCH SERVICE</strong></td></tr><tr><td width='40%'>DINA D. PASAGUI</td><td width='40%' nowrap>DIRECTOR II </td><td width='20%'>7493</td></tr><tr class='danger'><td colspan='3'><strong>TAX POLICY RESEARCH SERVICE</strong></td></tr><tr><td width='40%'>PAMELA D. MANALO</td><td width='40%' nowrap>DIRECTOR II</td><td width='20%'>7493/7697</td></tr></table></div></div>
+
+                    <div class="clearfix">&nbsp;</div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-group">
+    <li class="list-group-item list-group-item-info">PAGE LINKS</li>
+    <a href="../about/?about=mandate" class="list-group-item">Constitutional Mandate</a>
+    <a href="../about/?about=history" title="Brief History of the Philippine Congress" class="list-group-item">Legislative History</a>
+    <a href="../about/?about=symbols" title="Symbols of Power and Authority" class="list-group-item">National Symbols</a>
+    <a href="../about/?about=officials" title="The Officials of the House of Representatives" class="list-group-item">House Officials</a>
+    <a href="../about/?about=offices" class="list-group-item">House Secretariat</a>
+    <a href="../about/?about=directory" class="list-group-item">House Secretariat Directory</a>
+    <a href="../about/?about=mission" title="Mission and Vision" class="list-group-item">Mission Statement</a>    
+</ul>
+                                       </div>
+            </div>
+        </div>
+        <div class="clearfix">&nbsp;</div>
+        <!-- Session Calendar Modal -->
+        <!-- Modal -->
+        <div id="sessionCalendar" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">LEGISLATIVE CALENDAR<br /><small class="text-warning">EIGHTEENTH CONGRESS, FIRST REGULAR SESSON</small></h4>
+      </div>
+      <div class="modal-body">
+        <p>Adopted from House Concurrent Resolution No. 3</p>
+        <p>Introduced by Rep. Ferdinand Martin G. Romualdez and Rep. Bienvenido M. Abante, Jr.</p>
+        <p><strong>CONCURRENT RESOLUTION PROVIDING FOR THE LEGISLATIVE CALENDAR FOR THE FIRST REGULAR SESSION OF THE
+            EIGHTEENTH CONGRESS OF THE PHILIPPINES</strong>.</p>
+        <p>RESOLVED BY THE HOUSE OF REPRESENTATIVES, THE SENATE CONCURRING, That the Legislative Calendar for the
+          First Regular Session of the Eighteenth Congress of the Philippines shall be as follows:</p>
+
+        <div class="clearfix">&nbsp;</div>
+        <table class="table table-bordered table-striped">
+          <tbody>
+            <tr>
+              <td width="1">1.</td>
+              <td>Commencement of Session</td>
+              <td>July 22, 2019 - October 4, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">2.</td>
+              <td>Adjournment of Session</td>
+              <td>October 5, 2019 - November 3, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">3.</td>
+              <td>Resumption of Session</td>
+              <td>November 4, 2019 - December 20, 2019</td>
+            </tr>
+            <tr>
+              <td width="1">4.</td>
+              <td>Adjournment of Session</td>
+              <td>December 21, 2019 - January 19, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">5.</td>
+              <td>Resumption of Session</td>
+              <td>January 20, 2020 - March 13, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">6.</td>
+              <td>Adjournment of Session</td>
+              <td>March 14, 2020 - May 3, 2020</td>
+            </tr>
+            <tr>
+              <td width="1">7.</td>
+              <td>Resumption of Session</td>
+              <td>May 4, 2020 - June 5, 2020</td>
+            </tr>
+            <tr align="center">
+              <td style="font-style:italic" colspan="3">(sine die adjournment)</td>
+            </tr>
+            <tr>
+              <td width="1">8.</td>
+              <td>Adjournment of Session</td>
+              <td>June 6, 2020 - July 26, 2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>        <!-- jQuery -->
+        <script src="../js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        <script type="text/javascript">
+            // create the back to top button
+            $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+            var amountScrolled = 50;
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > amountScrolled) {
+                    $('a.back-to-top').fadeIn('slow');
+                } else {
+                    $('a.back-to-top').fadeOut('slow');
+                }
+            });
+
+            $('a.back-to-top, a.simple-back-to-top').click(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+            });
+        </script>
+    </body>
+
+    </html>
