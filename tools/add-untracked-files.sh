@@ -51,11 +51,11 @@ case "$1" in
     ;;
   untarxz)
     clear 
-    SIZELIMIT=20000000
+    SIZELIMIT=50000000
     SUM=0
     PREVSUM=0
     L=1 
-    while [ $L -lt 30 ]; do
+    while [ $L -lt 100 ]; do
       SUMPART=""
       PACKSIZE=$(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L | tr '\n' '\0' | du -c --files0-from=- | tail -n1 | tr '\t' ' ' | tr -s ' ' | sed -r -e 's@^([0-9]{1,}) .*$@\1@g')
       for F in $(git status | grep -A10000 'Untracked files:' | sed -r -e 's@\t@#@g' | grep '\.tar\.xz' | sed -r -e 's@^##@@g' | head -n$L); do
