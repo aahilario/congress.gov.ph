@@ -132,10 +132,10 @@ EOF
       echo
       cat lisdata.pack
       echo "Size: ${SIZE}"
-      if [ -z $DEBUG ]; then
-        mv -f lisdata.pack{,.sh}
-        ./lisdata.pack.sh
-        echo
+      mv -f lisdata.pack{,.sh}
+      ./lisdata.pack.sh
+      echo
+      if [ ! -z $DEBUG ]; then
         echo "Sleeping for 3..."
         sleep 3
         echo "Done sleeping."
