@@ -40,12 +40,12 @@
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=0528#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../members">ALL Representatives</a></li>
+            <li><a href="../members.1">ALL Representatives</a></li>
             <li><a href="../members?v=district">District Representatives</a></li>
             <li><a href="../members?v=region">House Members by Region</a></li>
             <li><a href="../members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="../leaders.1" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
             <li><a href="../profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
 			<li><a href="../roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
@@ -56,7 +56,7 @@
             <li><a href="index.html?v=standing">Standing Committees</a></li>
             <li><a href="index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../commsched">Committee Meetings</a></li>
+            <li><a href="../commsched.1">Committee Meetings</a></li>
           </ul>
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=0528#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
@@ -73,8 +73,8 @@
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="../legis.1" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="../search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="../legis.2" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="../search.1" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -126,12 +126,12 @@
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=0528#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../photojournal">Photo Journals</a></li>
-            <li><a href="../press">Press Releases</a></li>
-            <li><a href="../streaming">Video Streaming</a></li>
+            <li><a href="../photojournal.1">Photo Journals</a></li>
+            <li><a href="../press.1">Press Releases</a></li>
+            <li><a href="../streaming.1">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="../download.1">DOWNLOADS CENTER</a></li>
+        <li><a href="../download.2">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -184,28 +184,28 @@
 <div class="container-fluid">
     <div class="row section">
         <div class="col-md-8">
-            <ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../committees.1">House Committees</a></li></ol>            
+            <ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../committees.2">House Committees</a></li></ol>            
 <h4>HOUSE COMMITTEES</h4>
 <hr />
 <h4><span class="text-primary">PUBLIC INFORMATION</span></h4>
 <div class="clearfix">&nbsp;</div>
 
-<p><strong>JURISDICTION: </strong>All matters directly and principally relating to the production and dissemination of information to the public through all forms of mass communications and media such as print and broadcast media, movie and television, video, advertising, cable television and the internet, including the regulation thereof, and the rights and responsibilities of persons and entities engaged therein.</p><p><strong>CHAIRPERSON :</strong></p><img src='../members/images/18th/lara-j.jpg' alt='Hon. Lara, Joseph &quot;Jojo&quot; L.' title='Hon. Lara, Joseph &quot;Jojo&quot; L.' 
+<p><strong>JURISDICTION: </strong>All matters directly and principally relating to the production and dissemination of information to the public through all forms of mass communications and media such as print and broadcast media, movie and television, video, advertising, cable television and the internet, including the regulation thereof, and the rights and responsibilities of persons and entities engaged therein.</p><p><strong>CHAIRPERSON :</strong></p><img src='http://congress.gov.ph/members/images/18th/lara-j.jpg' alt='Hon. Lara, Joseph &quot;Jojo&quot; L.' title='Hon. Lara, Joseph &quot;Jojo&quot; L.' 
         class='img-thumbnail img-responsive pull-left img-margin' width='145px' height='100px' /><h5><a href='../members/search.php?id=lara-j' title='More info about our CHAIRPERSON'>Lara, Joseph &quot;Jojo&quot; L.</a></h5><p>District Representative<br />Cagayan, 3rd District<br /></p><div class='clearfix'>&nbsp;</div><p><strong>MEMBERS : </strong>35 Members</p><p><strong>COMMITTEE OFFICE : </strong></p><blockquote class='block-ital-sm'><p>3/F Annex Building, House of Representatives, Quezon City<br />Telephone no. 931-5001 local 7179, Telefax no. 951-8681<br />Committee Secretary: Mr. Romualdo T. Sta. Clara<br /></p></blockquote><p class="text-warning">SOURCE: Committee on Rules (Committee Membership) : BIS (Bills Referred) : Committee Affairs Department (Schedule of Meetings) : Engineering Division (Committees' Location/Telephone) : <abbr title="Information and Communication Technology Service">ICTS</abbr> (Website Maintenance)</p>
 <hr />
 <!-- Tab Pills for Roster, Bills Referred, Schedule of Meetings, Related Articles  -->
 <a name="tab"></a>
 <ul class="nav nav-tabs">
-    <li  class='active'><a href="search.php?id=0528&amp;pg=roster#tab">Committee Members</a></li>
+    <li  class='active'><a href="http://congress.gov.ph/committees/search.php?id=0528&amp;pg=roster#tab">Committee Members</a></li>
     <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="search.php?id=0528#">Bills Referred <span class="caret"></span></a>
     <ul class="dropdown-menu dropdown-menu-items">
-      <li class=""><a href="search.php?id=0528&amp;pg=primary#tab">Primay Referral</a>
+      <li class=""><a href="http://congress.gov.ph/committees/search.php?id=0528&amp;pg=primary#tab">Primay Referral</a>
       </li>
-      <li class=""><a href="search.php?id=0528&amp;pg=secondary#tab">Secondary Referral</a></li>
+      <li class=""><a href="http://congress.gov.ph/committees/search.php?id=0528&amp;pg=secondary#tab">Secondary Referral</a></li>
     </ul>
   </li>
-  <li ><a href="search.php?id=0528&amp;pg=sched#tab">Schedule of Meetings</a></li>
+  <li ><a href="http://congress.gov.ph/committees/search.php?id=0528&amp;pg=sched#tab">Schedule of Meetings</a></li>
   <!-- <li ><a href="search.php?id=0528&pg=related">Related Articles and Documents</a></li> -->
 </ul>
 
@@ -240,7 +240,7 @@
         <div class="col-md-4">
             <a name="cal"></a>
 <div class="panel panel-info">
-    <div class="panel-heading"><a href="../commsched">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
+    <div class="panel-heading"><a href="../commsched.1">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
     <div class="panel-body" style="padding: 4px; margin-bottom: -30px;">
         
 
@@ -280,26 +280,53 @@ SUBCOMMITTEE ON LABOR STANDARDS (LABOR AND EMPLOYMENT) 1:30 PM
 '><a href='http://www.congress.gov.ph/commsched/schedule.php?d=8&m=6&y=2020'><strong>8</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='WAYS AND MEANS 9:30 AM
 GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
 '><a href='http://www.congress.gov.ph/commsched/schedule.php?d=9&m=6&y=2020'><strong>9</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='MICRO, SMALL AND MEDIUM ENTERPRISE DEVELOPMENT 10:00 AM
-'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=10&m=6&y=2020'><strong>10</strong></a></td><td align='center' valign='middle' height='20px' class='info' bgcolor='#eaedea' title='COOPERATIVES DEVELOPMENT 9:30 AM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=10&m=6&y=2020'><strong>10</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='COOPERATIVES DEVELOPMENT 9:30 AM
 TRADE AND INDUSTRY 9:30 AM
 LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
 BASIC EDUCATION AND CULTURE (Technical Working Group) 1:30 PM
 '><a href='http://www.congress.gov.ph/commsched/schedule.php?d=11&m=6&y=2020'><strong>11</strong></a></td><td align='center' valign='middle' height='20px' >12</td><td align='center' valign='middle' height='20px' >13</td></tr><tr><td align='center' valign='middle' height='20px' >14</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='NORTH LUZON GROWTH QUADRANGLE 9:30 AM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
 '><a href='http://www.congress.gov.ph/commsched/schedule.php?d=15&m=6&y=2020'><strong>15</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='METRO MANILA DEVELOPMENT 9:30 AM
 JOINT CONGRESSIONAL OVERSIGHT COMMITTEE ON UNIVERSAL HEALTH CARE (UHC) 1:00 PM
-'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=16&m=6&y=2020'><strong>16</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='HOUSING AND URBAN DEVELOPMENT 1:00 PM
-'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=17&m=6&y=2020'><strong>17</strong></a></td><td align='center' valign='middle' height='20px' >18</td><td align='center' valign='middle' height='20px' >19</td><td align='center' valign='middle' height='20px' >20</td></tr><tr><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px' >22</td><td align='center' valign='middle' height='20px' >23</td><td align='center' valign='middle' height='20px' >24</td><td align='center' valign='middle' height='20px' >25</td><td align='center' valign='middle' height='20px' >26</td><td align='center' valign='middle' height='20px' >27</td></tr><tr><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px' >29</td><td align='center' valign='middle' height='20px' >30</td></table>
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=16&m=6&y=2020'><strong>16</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='AGRICULTURE AND FOOD jt. w/ FOOD SECURITY 9:00 AM
+ẢGRICULTURE AND FOOD (This meeting will follow immediately after the joint meeting of the Committees on Agriculture and Food and Food Security) 9:00 AM
+NEW NORMAL CLUSTER OF THE DEFEAT COVID-19 AD-HOC COMMITTEE (DCC) 9:30 AM
+HOUSING AND URBAN DEVELOPMENT 1:00 PM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=17&m=6&y=2020'><strong>17</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='TRADE AND INDUSTRY 9:30 AM
+INFORMATION AND COMMUNICATIONS TECHNOLOGY (Technical Working Group) 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=18&m=6&y=2020'><strong>18</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='WAYS AND MEANS 9:30 AM
+BANKS AND FINANCIAL INTERMEDIARIES 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=19&m=6&y=2020'><strong>19</strong></a></td><td align='center' valign='middle' height='20px' >20</td></tr><tr><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='NORTH LUZON GROWTH QUADRANGLE 9:30 AM
+GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY jt. w/ PUBLIC ACCOUNTS 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=22&m=6&y=2020'><strong>22</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+SENIOR CITIZENS 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=23&m=6&y=2020'><strong>23</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='INFORMATION AND  COMMUNICATIONS TECHNOLOGY 1:00 PM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+POPULATION AND FAMILY RELATIONS 1:00 PM
+ENERGY 1:30 PM
+WAYS AND MEANS (Technical Working Group) 2:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=24&m=6&y=2020'><strong>24</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='TRADE AND INDUSTRY 9:30 AM
+CIVIL SERVICE AND PROFESSIONAL REGULATION 10:00 AM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=25&m=6&y=2020'><strong>25</strong></a></td><td align='center' valign='middle' height='20px' class='info' bgcolor='#eaedea' title='WAYS AND MEANS (Technical Working Group) 9:30 AM
+INFORMATION AND COMMUNICATIONS TECHNOLOGY 1:00 PM
+PUBLIC ACCOUNTS 1:00 PM
+SUBCOMMITTEE ON LABOR RELATIONS (LABOR AND EMPLOYMENT) 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=26&m=6&y=2020'><strong>26</strong></a></td><td align='center' valign='middle' height='20px' >27</td></tr><tr><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='NORTH LUZON GROWTH QUADRANGLE 9:30 AM
+LEGISLATIVE FRANCHISES jt. w/ GOOD GOVERNMENT AND PUBLIC ACCOUNTABILITY 1:00 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=29&m=6&y=2020'><strong>29</strong></a></td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='SUBCOMMITTEE ON WORKERS WITH SPECIAL CONCERNS (LABOR AND EMPLOYMENT) 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=30&m=6&y=2020'><strong>30</strong></a></td></table>
 </td>
 </tr>
 </table>    </div>
     <div class="clearfix">&nbsp;</div>
 </div><ul class="list-group">
   <li class="list-group-item list-group-item-info">RELATED LINKS</li>
-  <a href="../members" class="list-group-item">House Members</a>
-  <a href="../committees.1" class="list-group-item">House Committees</a>
+  <a href="../members.1" class="list-group-item">House Members</a>
+  <a href="../committees.2" class="list-group-item">House Committees</a>
   <a href="index.html?v=reports" class="list-group-item">Committee Reports</a>
-  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
-  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <a href="../commsched.1" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders.1" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
   <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
   <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
   <a href="../legisdocs/index.html?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
@@ -310,9 +337,9 @@ JOINT CONGRESSIONAL OVERSIGHT COMMITTEE ON UNIVERSAL HEALTH CARE (UHC) 1:00 PM
   <a href="../legisdocs/index.html?v=sb" class="list-group-item">Session Bulletin</a>
   <a href="../legisdocs/index.html?v=ob" class="list-group-item">Order of Business</a>
   <li class="list-group-item list-group-item-info">MEDIA</li>
-  <a href="../press" class="list-group-item">Press Releases</a>
-  <a href="../photojournal" class="list-group-item">Photo Journals</a>
-  <a href="../streaming" class="list-group-item">Video Streaming</a>
+  <a href="../press.1" class="list-group-item">Press Releases</a>
+  <a href="../photojournal.1" class="list-group-item">Photo Journals</a>
+  <a href="../streaming.1" class="list-group-item">Video Streaming</a>
 </ul>        </div>
     </div>
 </div> 

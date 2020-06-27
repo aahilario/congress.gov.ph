@@ -43,12 +43,12 @@
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=directory#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../members">ALL Representatives</a></li>
+            <li><a href="../members.1">ALL Representatives</a></li>
             <li><a href="../members?v=district">District Representatives</a></li>
             <li><a href="../members?v=region">House Members by Region</a></li>
             <li><a href="../members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="../leaders.1" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
             <li><a href="../profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
 			<li><a href="../roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
@@ -59,7 +59,7 @@
             <li><a href="../committees/index.html?v=standing">Standing Committees</a></li>
             <li><a href="../committees/index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../commsched">Committee Meetings</a></li>
+            <li><a href="../commsched.1">Committee Meetings</a></li>
           </ul>
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=directory#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
@@ -76,8 +76,8 @@
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="../legis.1" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="../search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="../legis.2" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="../search.1" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -128,12 +128,12 @@
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?about=directory#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../photojournal">Photo Journals</a></li>
-            <li><a href="../press">Press Releases</a></li>
-            <li><a href="../streaming">Video Streaming</a></li>
+            <li><a href="../photojournal.1">Photo Journals</a></li>
+            <li><a href="../press.1">Press Releases</a></li>
+            <li><a href="../streaming.1">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="../download.1">DOWNLOADS CENTER</a></li>
+        <li><a href="../download.2">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -186,7 +186,7 @@
         <div class="container-fluid">
             <div class="row section">
                 <div class="col-md-8">
-                    <ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../about.1">About Us</a></li></ol>                    <h4>ABOUT US</h4>
+                    <ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../about.2">About Us</a></li></ol>                    <h4>ABOUT US</h4>
                     <hr />
                     
 

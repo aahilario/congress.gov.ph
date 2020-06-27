@@ -1,101 +1,81 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title>HRMS ONLINE REQUEST</title>
-  <!-- <link href="file:///C|/wamp/www/default.css" rel="stylesheet" type="text/css" /> -->
-  <style type="text/css">
-    .style1 {
-      font-size: 40px;
-      color: #006666;
-    }
+  <title>HRMS Online Request</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:image" content="http://www.congress.gov.ph/images/seal.png" />
+<meta property="og:description" content="House of Representatives Online Request />
+<meta property=" og:title" content="House of Representatives Online Request" />
+<meta property="og:url" content="http://www.congress.gov.ph/online" />
 
-    input.check_box {
-      border: 2px;
-      width: 2.0em;
-      height: 2.0em;
-    }
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="57x57" href="../images/ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../images/ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../images/ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../images/ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../images/ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../images/ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../images/ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../images/ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../images/ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../images/ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/ico/favicon-16x16.png">
+<link rel="manifest" href="../images/ico/manifest.json">
 
-    input.check_box2 {
-      border: 2px dotted #00f;
-      width: 2em;
-      height: 2em;
-    }
+<!-- Stylesheets -->
+<link rel="stylesheet" href="assets/styles/login.css"><link rel="stylesheet" href="assets/styles/styles.css">
 
-    input.radio {
-      width: 3em;
-      height: 3em;
-      color: #00f;
-      background-color: #ddd
-    }
-
-    .style2 {
-      font-size: 26px
-    }
-
-    .style4 {
-      font-size: 18px
-    }
-  </style>
-
-  <script language="JavaScript">
-    /* var counter = 0; */
-
-    function sendAway() {
-      document.index.code.focus();
-      /* document.myForm.counter.value = counter++; */
-    }
-  </script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body onLoad="sendAway()">
+<body>
+  <div class="container">
+  <div class="row">
 
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-5">
+        <div class="card-body">
+          <p class="text-center"><img src="assets/images/logo.jpg" width="100" height="100" alt=""></p>
+          <h5 class="card-title text-center font-weight-bold">HRMS ONLINE REQUEST</h5>
+          <form class="form-signin" method="post" action="http://congress.gov.ph/online/view_login_validate.php">
+                        <div class="form-label-group">
+              <input type="text" id="empCode" name="empCode" class="form-control" placeholder="Employee Number" required autofocus autocomplete="off">
+              <label for="empCode">Employee Number</label>
+            </div>
 
-  <form name="index" method="post" action="http://congress.gov.ph/online/request_form3.php">
-    <!--<form name="index" method="post" action="request_form1.php">-->
-    <input type="hidden" name="action" value="">
+            <div class="form-label-group">
+              <input type="text" id="bDate" name="bDate" class="form-control" placeholder="YYYY-MM-DD" required autocomplete="off">
+              <label for="bDate">BIrthdate (YYYY-MM-DD)</label>
+            </div>
+            <hr />
+            <input class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" value="Sign In" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <!-- <script src="assets/js/jquery-migrate-3.0.1.min.js"></script> -->
 
-    <table border="1" cellspacing="2" cellpadding="5" width="95%" bgcolor="#6699FF">
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+  <!-- <script src="assets/js/moment.min.js"></script> -->
 
-      <tr>
-        <!--<td width="95%" height="175" colspan=2 align='center'> <img src="images/logo.jpg" height="133" width="147" style="float:left; "/> <span class="style1">HRMS ONLINE REQUEST</span></td> -->
-        <td width="95%" height="175" colspan=2 align='center'> <input class="button1" type="image" src="images/logo.jpg" height="133" width="147" style="float:left;" name="submit" value="Submit_image"> <span class="style1">HRMS ONLINE REQUEST</span></td>
-      </tr>
-
-
-      <!-- <tr bgcolor="#6699FF">
-        <td width="95%" height="60" colspan=2 align='left'></td>
-      </tr> -->
-
-      <tr bgcolor="#CCCCCC">
-        <td width="25%" height="50">Employee ID No.</td>
-        <td width="75%">
-          <input class="textbox1" type="text" size=5 name="code" value="" autocomplete="off" />
-
-        </td>
-      </tr>
-      <tr>
-        <td width="25%" height="50" bgcolor="#CCCCCC">Birth Date</td>
-        <td width="75%" bgcolor="#CCCCCC">
-          <input class="textbox2" type="text" size=10 name="birth1" value="" autocomplete="off">&nbsp&nbsp&nbsp&nbsp&nbsp (mm-dd-yyyy)
-      </tr>
-
-      <tr bgcolor="#6699FF">
-        <td colspan="2" bgcolor="#999999">
-          <div align="center">
-            <input class="button1" type="submit" name="submit" value="Submit">
-            &nbsp;
-            <input class="button1" type="submit" name="submit" value="Cancel">
-          </div>
-        </td>
-      </tr>
-    </table>
-  </form>
-
-
+  <!-- Optional JavaScript -->
+  <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>

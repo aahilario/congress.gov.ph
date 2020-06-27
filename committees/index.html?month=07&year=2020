@@ -58,12 +58,12 @@
         <!-- <li><a href="#content" accesskey="2" title="Goes directly to the Main Content">Skip to Content</a></li> -->
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=07&amp;year=2020#">HOUSE MEMBERS <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../members">ALL Representatives</a></li>
+            <li><a href="../members.1">ALL Representatives</a></li>
             <li><a href="../members?v=district">District Representatives</a></li>
             <li><a href="../members?v=region">House Members by Region</a></li>
             <li><a href="../members?v=pl">Party List Representatives</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../leaders" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
+            <li><a href="../leaders.1" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a></li>
             <li><a href="../profile" title="Demographics of House Members">Congressional Profile</a></li>
             <!-- <li><a href="http://congress.gov.ph/legislators" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li> -->
 			<li><a href="../roster/roster-legislators.pdf" target="_blank" title="House Members from the 1st Philippine Legislature (1907) to the present">Philippine Legislators</a></li>
@@ -74,7 +74,7 @@
             <li><a href="index.html?v=standing">Standing Committees</a></li>
             <li><a href="index.html?v=special">Special Committees</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="../commsched">Committee Meetings</a></li>
+            <li><a href="../commsched.1">Committee Meetings</a></li>
           </ul>
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=07&amp;year=2020#">LEGISLATIVE DOCUMENTS <span class="caret"></span></a>
@@ -91,8 +91,8 @@
           </ul>
         </li>
         <!--<li><a href="#">SITE MAP</a></li> -->
-        <li><a href="../legis.1" title="Legislative Information System">LEGIS</a></li>
-        <li><a href="../search" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
+        <li><a href="../legis.2" title="Legislative Information System">LEGIS</a></li>
+        <li><a href="../search.1" title="more options to search through our site"><span class="glyphicon glyphicon-search"></span> SITE SEARCH</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#">SITE MAP</a></li>
@@ -143,12 +143,12 @@
         </li>
         <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="index.html?month=07&amp;year=2020#">MEDIA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="../photojournal">Photo Journals</a></li>
-            <li><a href="../press">Press Releases</a></li>
-            <li><a href="../streaming">Video Streaming</a></li>
+            <li><a href="../photojournal.1">Photo Journals</a></li>
+            <li><a href="../press.1">Press Releases</a></li>
+            <li><a href="../streaming.1">Video Streaming</a></li>
           </ul>
         </li>
-        <li><a href="../download.1">DOWNLOADS CENTER</a></li>
+        <li><a href="../download.2">DOWNLOADS CENTER</a></li>
 	<!--
 	<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">EVENTS <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -201,7 +201,7 @@
 	<div class="container-fluid">
 		<div class="row section">
 			<div class="col-md-8">
-				<ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../committees.1">House Committees</a></li></ol>				
+				<ol class='breadcrumb'><li class='breadcrumb-item'><a href="../index.html">Home</a></li><li class='breadcrumb-item'><a href="../committees.2">House Committees</a></li></ol>				
 <h4>HOUSE COMMITTEES</h4>
 <p class="text-warning">
 	 
@@ -224,7 +224,7 @@
 			<div class="col-md-4">
 				<a name="cal"></a>
 <div class="panel panel-info">
-    <div class="panel-heading"><a href="../commsched">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
+    <div class="panel-heading"><a href="../commsched.1">CALENDAR OF COMMITTEE MEETINGS</a> &raquo;</div>
     <div class="panel-body" style="padding: 4px; margin-bottom: -30px;">
         
 
@@ -233,7 +233,7 @@
 <td align="center">
 <table class="table table-bordered table-responsive table-condensed">
 <tr align="center" class="info">
-<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="index.html?month=06&amp;year=2020#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>JULY 2020<a href="index.html?month=08&amp;year=2020#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
+<td colspan="7" bgcolor="#999999" style="color:#333;"><a href="http://congress.gov.ph/committees/?month=06&amp;year=2020#cal" class="pull-left"><span class="glyphicon glyphicon-triangle-left"></span></a>JULY 2020<a href="http://congress.gov.ph/committees/?month=08&amp;year=2020#cal" class="pull-right"><span class="glyphicon glyphicon-triangle-right"></span></a></td>
 </tr>
 <tr class="text-warning">
 <td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
@@ -244,18 +244,20 @@
 <td align="center" bgcolor="#eaedea" style="color:#666"><strong>F</strong></td>
 <td align="center" bgcolor="#eaedea" style="color:#666"><strong>S</strong></td>
 </tr>
-<tr><td></td><td></td><td></td><td align='center' valign='middle' height='20px' >1</td><td align='center' valign='middle' height='20px' >2</td><td align='center' valign='middle' height='20px' >3</td><td align='center' valign='middle' height='20px' >4</td></tr><tr><td align='center' valign='middle' height='20px' >5</td><td align='center' valign='middle' height='20px' >6</td><td align='center' valign='middle' height='20px' >7</td><td align='center' valign='middle' height='20px' >8</td><td align='center' valign='middle' height='20px' >9</td><td align='center' valign='middle' height='20px' >10</td><td align='center' valign='middle' height='20px' >11</td></tr><tr><td align='center' valign='middle' height='20px' >12</td><td align='center' valign='middle' height='20px' >13</td><td align='center' valign='middle' height='20px' >14</td><td align='center' valign='middle' height='20px' >15</td><td align='center' valign='middle' height='20px' >16</td><td align='center' valign='middle' height='20px' >17</td><td align='center' valign='middle' height='20px' >18</td></tr><tr><td align='center' valign='middle' height='20px' >19</td><td align='center' valign='middle' height='20px' >20</td><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px' >22</td><td align='center' valign='middle' height='20px' >23</td><td align='center' valign='middle' height='20px' >24</td><td align='center' valign='middle' height='20px' >25</td></tr><tr><td align='center' valign='middle' height='20px' >26</td><td align='center' valign='middle' height='20px' >27</td><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px' >29</td><td align='center' valign='middle' height='20px' >30</td><td align='center' valign='middle' height='20px' >31</td></table>
+<tr><td></td><td></td><td></td><td align='center' valign='middle' height='20px' >1</td><td align='center' valign='middle' height='20px'  bgcolor='#eaedea' title='COOPERATIVES DEVELOPMENT 9:00 AM
+ENERGY 1:30 PM
+'><a href='http://www.congress.gov.ph/commsched/schedule.php?d=2&m=7&y=2020'><strong>2</strong></a></td><td align='center' valign='middle' height='20px' >3</td><td align='center' valign='middle' height='20px' >4</td></tr><tr><td align='center' valign='middle' height='20px' >5</td><td align='center' valign='middle' height='20px' >6</td><td align='center' valign='middle' height='20px' >7</td><td align='center' valign='middle' height='20px' >8</td><td align='center' valign='middle' height='20px' >9</td><td align='center' valign='middle' height='20px' >10</td><td align='center' valign='middle' height='20px' >11</td></tr><tr><td align='center' valign='middle' height='20px' >12</td><td align='center' valign='middle' height='20px' >13</td><td align='center' valign='middle' height='20px' >14</td><td align='center' valign='middle' height='20px' >15</td><td align='center' valign='middle' height='20px' >16</td><td align='center' valign='middle' height='20px' >17</td><td align='center' valign='middle' height='20px' >18</td></tr><tr><td align='center' valign='middle' height='20px' >19</td><td align='center' valign='middle' height='20px' >20</td><td align='center' valign='middle' height='20px' >21</td><td align='center' valign='middle' height='20px' >22</td><td align='center' valign='middle' height='20px' >23</td><td align='center' valign='middle' height='20px' >24</td><td align='center' valign='middle' height='20px' >25</td></tr><tr><td align='center' valign='middle' height='20px' >26</td><td align='center' valign='middle' height='20px' >27</td><td align='center' valign='middle' height='20px' >28</td><td align='center' valign='middle' height='20px' >29</td><td align='center' valign='middle' height='20px' >30</td><td align='center' valign='middle' height='20px' >31</td></table>
 </td>
 </tr>
 </table>    </div>
     <div class="clearfix">&nbsp;</div>
 </div><ul class="list-group">
   <li class="list-group-item list-group-item-info">RELATED LINKS</li>
-  <a href="../members" class="list-group-item">House Members</a>
-  <a href="../committees.1" class="list-group-item">House Committees</a>
+  <a href="../members.1" class="list-group-item">House Members</a>
+  <a href="../committees.2" class="list-group-item">House Committees</a>
   <a href="index.html?v=reports" class="list-group-item">Committee Reports</a>
-  <a href="../commsched" class="list-group-item">Calendar of Committee Meetings</a>
-  <a href="../leaders" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
+  <a href="../commsched.1" class="list-group-item">Calendar of Committee Meetings</a>
+  <a href="../leaders.1" class="list-group-item" title="Information regarding the House Speaker, Deputy Speakers, Majority and Minority Leader">House Leaders</a>
   <!-- <a href="../legislators" class="list-group-item" title="House Members from the 1st Philippine Legislature (1907) to the 15th Congress of the Republic of the Philippines">Roster of Philippine Legislators</a> -->
   <li class="list-group-item list-group-item-info">LEGISLATIVE DOCUMENTS</li>
   <a href="../legisdocs/index.html?v=bills" class="list-group-item">House Bills &amp; Resolutions</a>
@@ -266,9 +268,9 @@
   <a href="../legisdocs/index.html?v=sb" class="list-group-item">Session Bulletin</a>
   <a href="../legisdocs/index.html?v=ob" class="list-group-item">Order of Business</a>
   <li class="list-group-item list-group-item-info">MEDIA</li>
-  <a href="../press" class="list-group-item">Press Releases</a>
-  <a href="../photojournal" class="list-group-item">Photo Journals</a>
-  <a href="../streaming" class="list-group-item">Video Streaming</a>
+  <a href="../press.1" class="list-group-item">Press Releases</a>
+  <a href="../photojournal.1" class="list-group-item">Photo Journals</a>
+  <a href="../streaming.1" class="list-group-item">Video Streaming</a>
 </ul>			</div>
 		</div>
 	</div>

@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<title>House of Representatives</title>
-	<link rel="shortcut icon" href="../images/favicon.ico" />
+	<link rel="shortcut icon" href="http://congress.gov.ph/images/favicon.ico" />
 	<!-- Bootstrap Core CSS -->
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
