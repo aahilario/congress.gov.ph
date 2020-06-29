@@ -3,3 +3,4 @@ lisdata.exclude
 lisdata.keep
 lisdata.pack.sh
 *.tmp
+*.swp
