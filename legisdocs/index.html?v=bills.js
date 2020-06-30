@@ -2,7 +2,7 @@ jQuery(function(){
 
   var batch = [];
   var panel = {};
-  var conversion_limit = 11;
+  var conversion_limit = 0;
   var conversions = 0;
   var batch_size = 10;
 
@@ -39,6 +39,7 @@ jQuery(function(){
 
   function send_bill_summary() {
     var current = $('span#mainpane_title').data('current');
+    var file = $('span#mainpane_title').data('file');
     if ( panel.heading )
       batch[batch.length] = panel;
     if ( ( batch_size == 0 ) || ( batch.length >= batch_size ) ) {
@@ -51,6 +52,7 @@ jQuery(function(){
         }, 
         data     : { 
           a       : "record",
+          file    : file,
           current : current,
           data    : batch 
         },
