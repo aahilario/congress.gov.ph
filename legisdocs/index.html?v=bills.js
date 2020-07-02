@@ -2,9 +2,9 @@ jQuery(function(){
 
   var batch = [];
   var panel = {};
-  var conversion_limit = 0;
+  var conversion_limit = 12;
   var conversions = 0;
-  var batch_size = 10;
+  var batch_size = 20;
 
   function send_unscanned() {
     $('div[class~=panel]').find('div[class*=unscanned]').first().each(function(){
@@ -16,7 +16,7 @@ jQuery(function(){
     var inter_conversion_delay = 20;
     panel = {};
     conversions++;
-    if ( conversion_limit > 0 ) {
+    if ( conversion_limit > 1 ) {
       if ( conversions >= conversion_limit ) { 
         batch_size = 0;
         if ( batch.length > 0 ) {
